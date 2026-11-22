@@ -1,0 +1,21 @@
+{
+  "mode": "quiz",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "Here is a 5-question multiple-choice quiz based on the text provided:\n\n### **TCP vs. UDP Quiz**\n\n**1. Which protocol uses a three-way handshake (SYN, SYN-ACK, ACK) to set up a connection?**\n* A) UDP\n* B) TCP\n* C) Both TCP and UDP\n* D) Neither TCP nor UDP\n\n**2. Which protocol is best described as connectionless with no guarantee of delivery or order?**\n* A) TCP\n* B) HTTP\n* C) UDP\n* D) FTP\n\n**3. Why is UDP faster and lower in latency than TCP?**\n* A) It uses a larger header size.\n* B) It requires a handshake before sending data.\n* C) It has no handshake and a smaller 8-byte header.\n* D) It includes built-in congestion control.\n\n**4. Which of the following applications would most likely use TCP?**\n* A) Online gaming\n* B) Video streaming\n* C) DNS queries\n* D) File transfer (FTP)\n\n**5. What is the minimum header size for a TCP packet compared to a UDP packet?**\n* A) TCP is 8 bytes; UDP is 20 bytes.\n* B) TCP is 20 bytes; UDP is 8 bytes.\n* C) Both have a header size of 20 bytes.\n* D) Both have a header size of 8 bytes.\n\n---\n\n### **Answer Key:**\n1. **B** (TCP)\n2. **C** (UDP)\n3. **C** (It has no handshake and a smaller 8-byte header.)\n4. **D** (File transfer (FTP))\n5. **B** (TCP is 20 bytes; UDP is 8 bytes.)",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 7.13,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 242,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

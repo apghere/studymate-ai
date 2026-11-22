@@ -1,0 +1,6 @@
+Normalization is the process of organising a relational database to reduce redundancy and avoid update, insert and delete anomalies.
+1NF: every attribute holds atomic (indivisible) values and there are no repeating groups.
+2NF: the table is in 1NF and every non-key attribute is fully functionally dependent on the whole primary key, so there are no partial dependencies. This matters only when the key is composite.
+3NF: the table is in 2NF and there are no transitive dependencies, i.e. a non-key attribute must not depend on another non-key attribute.
+BCNF: a stronger form of 3NF; for every functional dependency X -> Y, X must be a super key.
+Denormalization is sometimes done on purpose to speed up read-heavy queries, at the cost of extra storage and redundancy.

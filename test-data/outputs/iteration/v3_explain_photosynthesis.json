@@ -1,0 +1,45 @@
+{
+  "mode": "explain",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "{\n  \"explanation\": \"Photosynthesis is how green plants make food using light. This happens inside the chloroplasts of leaf cells. These cells have a green pigment called chlorophyll. The process takes in carbon dioxide, water, and light energy, and turns them into glucose and oxygen. It happens in two stages. First, the light-dependent reactions happen in the thylakoid membranes. Here, light splits water, releases oxygen, and makes ATP and NADPH. Second, the light-independent reactions, or Calvin cycle, happen in the stroma. Here, carbon dioxide is fixed by the enzyme RuBisCO and changed into glucose with help from ATP and NADPH. The speed of photosynthesis depends on light intensity, carbon dioxide concentration, and temperature.\",\n  \"analogy\": \"Photosynthesis is like a kitchen where the chef (chloroplast) uses solar power (light energy) to turn raw groceries (carbon dioxide and water) into a finished meal (glucose) while venting steam (oxygen).\",\n  \"key_terms\": [\n    {\n      \"term\": \"Chloroplasts\",\n      \"meaning\": \"Parts of leaf cells where photosynthesis takes place.\"\n    },\n    {\n      \"term\": \"Chlorophyll\",\n      \"meaning\": \"The green pigment found in chloroplasts.\"\n    },\n    {\n      \"term\": \"Photolysis\",\n      \"meaning\": \"The splitting of water by light during the light-dependent reactions.\"\n    },\n    {\n      \"term\": \"Calvin cycle\",\n      \"meaning\": \"The light-independent reactions that happen in the stroma.\"\n    },\n    {\n      \"term\": \"RuBisCO\",\n      \"meaning\": \"The enzyme that fixes carbon dioxide during the Calvin cycle.\"\n    }\n  ],\n  \"warnings\": []\n}",
+  "parsed": {
+    "explanation": "Photosynthesis is how green plants make food using light. This happens inside the chloroplasts of leaf cells. These cells have a green pigment called chlorophyll. The process takes in carbon dioxide, water, and light energy, and turns them into glucose and oxygen. It happens in two stages. First, the light-dependent reactions happen in the thylakoid membranes. Here, light splits water, releases oxygen, and makes ATP and NADPH. Second, the light-independent reactions, or Calvin cycle, happen in the stroma. Here, carbon dioxide is fixed by the enzyme RuBisCO and changed into glucose with help from ATP and NADPH. The speed of photosynthesis depends on light intensity, carbon dioxide concentration, and temperature.",
+    "analogy": "Photosynthesis is like a kitchen where the chef (chloroplast) uses solar power (light energy) to turn raw groceries (carbon dioxide and water) into a finished meal (glucose) while venting steam (oxygen).",
+    "key_terms": [
+      {
+        "term": "Chloroplasts",
+        "meaning": "Parts of leaf cells where photosynthesis takes place."
+      },
+      {
+        "term": "Chlorophyll",
+        "meaning": "The green pigment found in chloroplasts."
+      },
+      {
+        "term": "Photolysis",
+        "meaning": "The splitting of water by light during the light-dependent reactions."
+      },
+      {
+        "term": "Calvin cycle",
+        "meaning": "The light-independent reactions that happen in the stroma."
+      },
+      {
+        "term": "RuBisCO",
+        "meaning": "The enzyme that fixes carbon dioxide during the Calvin cycle."
+      }
+    ],
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 2.52,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 218,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

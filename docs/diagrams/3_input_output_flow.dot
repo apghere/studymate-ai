@@ -1,0 +1,13 @@
+digraph G { rankdir=LR; graph [fontname="Helvetica", fontsize=11, bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.4];
+node [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", fillcolor="#EEF2FF", color="#4F46E5"];
+edge [fontname="Helvetica", fontsize=9, color="#475569"];
+
+  subgraph cluster_in { label="Input"; style=dashed; color="#94A3B8";
+    i1 [label="{notes}\nstudy text"]; i2 [label="{level}\nschool / UG / PG"]; i3 [label="{count}\n3-10 (P3, P4)"]; i4 [label="mode\nP1-P4"]; }
+  tmpl [label="Prompt template\n(system + user)\nvariables filled", fillcolor="#E0E7FF"];
+  llm [label="Gemini API", fillcolor="#DCFCE7", color="#16A34A"];
+  subgraph cluster_out { label="Output (JSON)"; style=dashed; color="#94A3B8";
+    o1 [label="P1: explanation,\nanalogy, key_terms"]; o2 [label="P2: title, summary_points,\none_line"]; o3 [label="P3: flashcards[front, back]"]; o4 [label="P4: questions[question,\noptions A-D, answer, explanation]"];
+    o5 [label="all: warnings[]  |  or {error}", fillcolor="#FEF3C7", color="#D97706"]; }
+  i1 -> tmpl; i2 -> tmpl; i3 -> tmpl; i4 -> tmpl; tmpl -> llm; llm -> o1; llm -> o2; llm -> o3; llm -> o4; llm -> o5;
+}

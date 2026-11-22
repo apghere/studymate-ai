@@ -1,0 +1,21 @@
+{
+  "mode": "explain",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "This text provides a clear, side-by-side comparison of the two primary protocols used for sending data over the internet: **TCP** and **UDP**. \n\nHere is a breakdown of what the text means, explained in simpler terms:\n\n---\n\n### 1. TCP (Transmission Control Protocol): The \"Reliable Mail\"\nThink of TCP like sending a **certified letter with a return receipt**. You want to make sure the receiver gets every single page, in the exact right order, and you need proof that they got it.\n\n*   **Connection-oriented & Three-way Handshake:** Before sending any actual data, TCP and the receiving computer \"talk\" to establish a connection. \n    *   *SYN*: \"Can I connect?\"\n    *   *SYN-ACK*: \"Yes, can I connect too?\"\n    *   *ACK*: \"Great, connection established!\"\n*   **Guaranteed & In-Order Delivery:** Every piece of data is numbered. If a piece goes missing in transit, TCP notices and asks for it to be resent. It also puts the pieces back in the correct order if they arrive out of sequence.\n*   **Flow & Congestion Control:** TCP manages the speed of the data. If the receiving computer is getting overwhelmed, TCP slows down. If the network is congested, it backs off to prevent a traffic jam.\n*   **Common Uses:** **Web browsing (HTTP/HTTPS), email (SMTP), and file downloads (FTP).** These are things where missing even a single letter of a file or a line of code will break the whole thing.\n\n---\n\n### 2. UDP (User Datagram Protocol): The \"Live Broadcast\"\nThink of UDP like **shouting across a room or a live TV broadcast**. You just keep talking. If someone misses a word because of a loud noise, you don't repeat yourself—you just keep going. \n\n*   **Connectionless:** There is no handshake. The sender just fires data packets (datagrams) at the receiver without checking if they are ready or even listening.\n*   **No Guarantees:** UDP doesn't care if data arrives, and it doesn't care about the order. Packets can get lost or arrive scrambled.\n*   **Lightweight & Fast:** Because it doesn't have to track deliveries, wait for acknowledgements, or do handshakes, UDP uses a tiny header (only 8 bytes compared to TCP's minimum 20 bytes). Less overhead means **faster speed and lower latency**.\n*   **Common Uses:** **DNS queries, video streaming, online gaming, and VoIP (voice calls like Zoom or Discord).** In these cases, a split-second delay or a single dropped video frame doesn't matter; what matters is that the action happens *right now* in real time.\n\n---\n\n### Summary Analogy\n*   **TCP** is like a **phone call**: You say hello, wait for a reply, make sure you can hear each other, and if the connection drops, you call back and catch up on what was missed.\n*   **UDP** is like a **radio station**: The station broadcasts music into the air. If you drive through a tunnel and miss three seconds of the song, the radio doesn't pause and rewind for you—the music just keeps playing.",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 9.76,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 483,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

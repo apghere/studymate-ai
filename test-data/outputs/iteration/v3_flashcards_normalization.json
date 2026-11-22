@@ -1,0 +1,43 @@
+{
+  "mode": "flashcards",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "{\n  \"flashcards\": [\n    {\n      \"front\": \"What is the main goal of database normalization?\",\n      \"back\": \"To reduce redundancy and avoid update, insert, and delete anomalies in a relational database.\"\n    },\n    {\n      \"front\": \"What does First Normal Form (1NF) require?\",\n      \"back\": \"Every attribute must hold atomic, indivisible values, and there must be no repeating groups.\"\n    },\n    {\n      \"front\": \"When does Second Normal Form (2NF) matter most?\",\n      \"back\": \"It matters only when the primary key is composite, ensuring no partial dependencies exist.\"\n    },\n    {\n      \"front\": \"What condition must be met to satisfy Third Normal Form (3NF)?\",\n      \"back\": \"The table must be in 2NF with no transitive dependencies between non-key attributes.\"\n    },\n    {\n      \"front\": \"Why might someone deliberately use denormalization?\",\n      \"back\": \"To speed up read-heavy queries, accepting the cost of extra storage and data redundancy.\"\n    }\n  ],\n  \"warnings\": []\n}",
+  "parsed": {
+    "flashcards": [
+      {
+        "front": "What is the main goal of database normalization?",
+        "back": "To reduce redundancy and avoid update, insert, and delete anomalies in a relational database."
+      },
+      {
+        "front": "What does First Normal Form (1NF) require?",
+        "back": "Every attribute must hold atomic, indivisible values, and there must be no repeating groups."
+      },
+      {
+        "front": "When does Second Normal Form (2NF) matter most?",
+        "back": "It matters only when the primary key is composite, ensuring no partial dependencies exist."
+      },
+      {
+        "front": "What condition must be met to satisfy Third Normal Form (3NF)?",
+        "back": "The table must be in 2NF with no transitive dependencies between non-key attributes."
+      },
+      {
+        "front": "Why might someone deliberately use denormalization?",
+        "back": "To speed up read-heavy queries, accepting the cost of extra storage and data redundancy."
+      }
+    ],
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 3.11,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 136,
+  "note": "normalization",
+  "kind": "normal"
+}

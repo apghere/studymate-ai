@@ -1,0 +1,73 @@
+{
+  "id": "T07",
+  "type": "Normal",
+  "mode": "flashcards",
+  "notes": "supply_demand",
+  "count": 8,
+  "short": "Flashcards (8): supply and demand (economics)",
+  "expected": "Exactly 8 unique cards",
+  "checks": {
+    "expect": "valid",
+    "keywords_any": [
+      "demand",
+      "supply",
+      "equilibrium"
+    ]
+  },
+  "result": {
+    "mode": "flashcards",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 8,
+    "input_words": 141,
+    "mock": false,
+    "raw": "{\"flashcards\": [{\"front\": \"What happens to quantity demanded when the price of a good rises?\", \"back\": \"The quantity demanded falls, assuming other things remain equal.\"}, {\"front\": \"Why does the demand curve slope downward?\", \"back\": \"Because when price rises, quantity demanded falls, and when price falls, quantity demanded rises.\"}, {\"front\": \"What direction does the supply curve slope?\", \"back\": \"It slopes upward because when price rises, the quantity supplied also rises.\"}, {\"front\": \"What occurs when the price of a good is above equilibrium?\", \"back\": \"A surplus or excess supply occurs because quantity supplied exceeds quantity demanded.\"}, {\"front\": \"What occurs when the price of a good is below equilibrium?\", \"back\": \"A shortage or excess demand occurs because quantity demanded exceeds quantity supplied.\"}, {\"front\": \"What causes a movement along the existing demand curve?\", \"back\": \"A change in the price of the good itself causes movement along the curve.\"}, {\"front\": \"What happens to the demand for a substitute good if its alternative's price rises?\", \"back\": \"The demand for the substitute good increases.\"}, {\"front\": \"What does the price elasticity of demand measure?\", \"back\": \"It measures how much the quantity demanded responds to a change in price.\"}], \"warnings\": []}",
+    "parsed": {
+      "flashcards": [
+        {
+          "front": "What happens to quantity demanded when the price of a good rises?",
+          "back": "The quantity demanded falls, assuming other things remain equal."
+        },
+        {
+          "front": "Why does the demand curve slope downward?",
+          "back": "Because when price rises, quantity demanded falls, and when price falls, quantity demanded rises."
+        },
+        {
+          "front": "What direction does the supply curve slope?",
+          "back": "It slopes upward because when price rises, the quantity supplied also rises."
+        },
+        {
+          "front": "What occurs when the price of a good is above equilibrium?",
+          "back": "A surplus or excess supply occurs because quantity supplied exceeds quantity demanded."
+        },
+        {
+          "front": "What occurs when the price of a good is below equilibrium?",
+          "back": "A shortage or excess demand occurs because quantity demanded exceeds quantity supplied."
+        },
+        {
+          "front": "What causes a movement along the existing demand curve?",
+          "back": "A change in the price of the good itself causes movement along the curve."
+        },
+        {
+          "front": "What happens to the demand for a substitute good if its alternative's price rises?",
+          "back": "The demand for the substitute good increases."
+        },
+        {
+          "front": "What does the price elasticity of demand measure?",
+          "back": "It measures how much the quantity demanded responds to a change in price."
+        }
+      ],
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 1.95,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 191
+  },
+  "actual": "8 cards",
+  "pass": true,
+  "fail_reasons": []
+}

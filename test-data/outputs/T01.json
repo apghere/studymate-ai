@@ -1,0 +1,60 @@
+{
+  "id": "T01",
+  "type": "Normal",
+  "mode": "explain",
+  "notes": "photosynthesis",
+  "count": 5,
+  "short": "Explain: photosynthesis notes (biology)",
+  "expected": "Valid explanation under 200 words, analogy, 3-6 key terms incl. chlorophyll/Calvin cycle",
+  "checks": {
+    "expect": "valid",
+    "keywords_any": [
+      "chlorophyll",
+      "calvin",
+      "thylakoid",
+      "stroma"
+    ]
+  },
+  "result": {
+    "mode": "explain",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 111,
+    "mock": false,
+    "raw": "{\n  \"explanation\": \"Photosynthesis is how green plants make their own food using light energy. This process happens mostly in the chloroplasts of leaf cells. These cells contain chlorophyll, which is a green pigment. Photosynthesis has two stages. First, light-dependent reactions happen in the thylakoid membranes. Here, light splits water and releases oxygen while making ATP and NADPH. Second, light-independent reactions, also called the Calvin cycle, happen in the stroma. The enzyme RuBisCO fixes carbon dioxide. Using the ATP and NADPH from the first stage, this carbon dioxide becomes glucose. The speed of photosynthesis depends on light intensity, carbon dioxide concentration, and temperature.\",\n  \"analogy\": \"Photosynthesis is like a kitchen where a chef uses sunlight as electricity, water, and carbon dioxide ingredients to bake glucose food in an oven.\",\n  \"key_terms\": [\n    {\n      \"term\": \"Chloroplasts\",\n      \"meaning\": \"The part of leaf cells where photosynthesis takes place.\"\n    },\n    {\n      \"term\": \"Chlorophyll\",\n      \"meaning\": \"The green pigment found inside chloroplasts.\"\n    },\n    {\n      \"term\": \"Calvin cycle\",\n      \"meaning\": \"The light-independent reactions that happen in the stroma.\"\n    },\n    {\n      \"term\": \"RuBisCO\",\n      \"meaning\": \"An enzyme that fixes carbon dioxide during the Calvin cycle.\"\n    }\n  ],\n  \"warnings\": []\n}",
+    "parsed": {
+      "explanation": "Photosynthesis is how green plants make their own food using light energy. This process happens mostly in the chloroplasts of leaf cells. These cells contain chlorophyll, which is a green pigment. Photosynthesis has two stages. First, light-dependent reactions happen in the thylakoid membranes. Here, light splits water and releases oxygen while making ATP and NADPH. Second, light-independent reactions, also called the Calvin cycle, happen in the stroma. The enzyme RuBisCO fixes carbon dioxide. Using the ATP and NADPH from the first stage, this carbon dioxide becomes glucose. The speed of photosynthesis depends on light intensity, carbon dioxide concentration, and temperature.",
+      "analogy": "Photosynthesis is like a kitchen where a chef uses sunlight as electricity, water, and carbon dioxide ingredients to bake glucose food in an oven.",
+      "key_terms": [
+        {
+          "term": "Chloroplasts",
+          "meaning": "The part of leaf cells where photosynthesis takes place."
+        },
+        {
+          "term": "Chlorophyll",
+          "meaning": "The green pigment found inside chloroplasts."
+        },
+        {
+          "term": "Calvin cycle",
+          "meaning": "The light-independent reactions that happen in the stroma."
+        },
+        {
+          "term": "RuBisCO",
+          "meaning": "An enzyme that fixes carbon dioxide during the Calvin cycle."
+        }
+      ],
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 1.98,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 187
+  },
+  "actual": "100-word explanation, 4 key terms",
+  "pass": true,
+  "fail_reasons": []
+}

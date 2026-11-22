@@ -1,0 +1,21 @@
+{
+  "mode": "flashcards",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "Here are the flashcards based on the provided text, formatted as **Front / Back**:\n\n**Flashcard 1**\n* **Front:** What is normalization?\n* **Back:** The process of organising a relational database to reduce redundancy and avoid update, insert, and delete anomalies.\n\n**Flashcard 2**\n* **Front:** What are the two main conditions for First Normal Form (1NF)?\n* **Back:** \n1. Every attribute holds atomic (indivisible) values.\n2. There are no repeating groups.\n\n**Flashcard 3**\n* **Front:** What defines Second Normal Form (2NF)?\n* **Back:** The table is in 1NF and every non-key attribute is fully functionally dependent on the whole primary key (no partial dependencies). \n*(Note: This matters only when the key is composite.)*\n\n**Flashcard 4**\n* **Front:** What defines Third Normal Form (3NF)?\n* **Back:** The table is in 2NF and there are no transitive dependencies (i.e., a non-key attribute must not depend on another non-key attribute).\n\n**Flashcard 5**\n* **Front:** What is Boyce-Codd Normal Form (BCNF)?\n* **Back:** A stronger form of 3NF where for every functional dependency X -> Y, X must be a super key.\n\n**Flashcard 6**\n* **Front:** What is denormalization and why is it done?\n* **Back:** It is the intentional introduction of redundancy to speed up read-heavy queries, at the cost of extra storage.",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 6.99,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 209,
+  "note": "normalization",
+  "kind": "normal"
+}

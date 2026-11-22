@@ -1,0 +1,21 @@
+{
+  "mode": "quiz",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "Here is a 5-question multiple-choice quiz based on the text provided:\n\n### Database Normalization Quiz\n\n**1. What is the primary purpose of normalization?**\nA) To speed up read-heavy queries  \nB) To reduce redundancy and avoid update, insert, and delete anomalies  \nC) To make the database use as much storage as possible  \nD) To create composite primary keys  \n\n**2. Which Normal Form requires that every attribute holds atomic (indivisible) values with no repeating groups?**\nA) 1NF  \nB) 2NF  \nC) 3NF  \nD) BCNF  \n\n**3. When does 2NF specifically matter most for a table?**\nA) When there are no primary keys  \nB) When there are transitive dependencies  \nC) When the key is composite  \nD) When the table is being denormalized  \n\n**4. A table is in 3NF if it is in 2NF and has NO:**\nA) Atomic values  \nB) Primary keys  \nC) Super keys  \nD) Transitive dependencies  \n\n**5. Why might someone choose to *denormalize* a database?**\nA) To eliminate all data redundancy  \nB) To fix insertion and deletion anomalies  \nC) To speed up read-heavy queries  \nD) To ensure every non-key attribute is fully functionally dependent  \n\n---\n\n### Answer Key:\n1. **B** (To reduce redundancy and avoid update, insert, and delete anomalies)\n2. **A** (1NF)\n3. **C** (When the key is composite)\n4. **D** (Transitive dependencies)\n5. **C** (To speed up read-heavy queries)",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 2.19,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 218,
+  "note": "normalization",
+  "kind": "normal"
+}

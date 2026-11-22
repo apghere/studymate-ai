@@ -1,0 +1,97 @@
+{
+  "id": "T04",
+  "type": "Normal",
+  "mode": "quiz",
+  "notes": "newton",
+  "count": 5,
+  "short": "Quiz (5): Newton's laws (physics)",
+  "expected": "Exactly 5 MCQs, options A-D, valid answer key",
+  "checks": {
+    "expect": "valid",
+    "keywords_any": [
+      "inertia",
+      "momentum",
+      "f = ma",
+      "reaction"
+    ]
+  },
+  "result": {
+    "mode": "quiz",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 118,
+    "mock": false,
+    "raw": "{\"questions\": [{\"question\": \"According to Newton's first law, what keeps a body at rest or in uniform motion?\", \"options\": {\"A\": \"An external unbalanced force acting on it\", \"B\": \"The absence of an external unbalanced force\", \"C\": \"Internal balanced forces within the body\", \"D\": \"Constant acceleration and mass\"}, \"answer\": \"B\", \"explanation\": \"A body continues in its state unless acted upon by an external unbalanced force.\"}, {\"question\": \"What is the correct formula for Newton's second law?\", \"options\": {\"A\": \"F = mv\", \"B\": \"F = m/a\", \"C\": \"F = ma\", \"D\": \"F = p/t\"}, \"answer\": \"C\", \"explanation\": \"Newton's second law states that force equals mass times acceleration (F = ma).\"}, {\"question\": \"Which of the following describes Newton's third law forces?\", \"options\": {\"A\": \"They act on the same body and cancel each other out\", \"B\": \"They act on different bodies and are equal and opposite\", \"C\": \"They are unequal forces acting in the same direction\", \"D\": \"They only apply when objects are at rest\"}, \"answer\": \"B\", \"explanation\": \"For every action there is an equal and opposite reaction acting on different bodies.\"}, {\"question\": \"What is impulse equal to?\", \"options\": {\"A\": \"Force multiplied by time\", \"B\": \"Mass multiplied by velocity\", \"C\": \"Force divided by acceleration\", \"D\": \"Momentum divided by time\"}, \"answer\": \"A\", \"explanation\": \"Impulse is defined as force multiplied by time, which equals the change in momentum.\"}, {\"question\": \"Which example illustrates the law of conservation of momentum?\", \"options\": {\"A\": \"A ball falling freely in a vacuum\", \"B\": \"A car accelerating on a smooth road\", \"C\": \"The recoil of a gun when a bullet is fired\", \"D\": \"A stationary box resting on a table\"}, \"answer\": \"C\", \"explanation\": \"The recoil of a gun when a bullet is fired shows total momentum staying constant in an isolated system.\"}], \"warnings\": []}",
+    "parsed": {
+      "questions": [
+        {
+          "question": "According to Newton's first law, what keeps a body at rest or in uniform motion?",
+          "options": {
+            "A": "An external unbalanced force acting on it",
+            "B": "The absence of an external unbalanced force",
+            "C": "Internal balanced forces within the body",
+            "D": "Constant acceleration and mass"
+          },
+          "answer": "B",
+          "explanation": "A body continues in its state unless acted upon by an external unbalanced force."
+        },
+        {
+          "question": "What is the correct formula for Newton's second law?",
+          "options": {
+            "A": "F = mv",
+            "B": "F = m/a",
+            "C": "F = ma",
+            "D": "F = p/t"
+          },
+          "answer": "C",
+          "explanation": "Newton's second law states that force equals mass times acceleration (F = ma)."
+        },
+        {
+          "question": "Which of the following describes Newton's third law forces?",
+          "options": {
+            "A": "They act on the same body and cancel each other out",
+            "B": "They act on different bodies and are equal and opposite",
+            "C": "They are unequal forces acting in the same direction",
+            "D": "They only apply when objects are at rest"
+          },
+          "answer": "B",
+          "explanation": "For every action there is an equal and opposite reaction acting on different bodies."
+        },
+        {
+          "question": "What is impulse equal to?",
+          "options": {
+            "A": "Force multiplied by time",
+            "B": "Mass multiplied by velocity",
+            "C": "Force divided by acceleration",
+            "D": "Momentum divided by time"
+          },
+          "answer": "A",
+          "explanation": "Impulse is defined as force multiplied by time, which equals the change in momentum."
+        },
+        {
+          "question": "Which example illustrates the law of conservation of momentum?",
+          "options": {
+            "A": "A ball falling freely in a vacuum",
+            "B": "A car accelerating on a smooth road",
+            "C": "The recoil of a gun when a bullet is fired",
+            "D": "A stationary box resting on a table"
+          },
+          "answer": "C",
+          "explanation": "The recoil of a gun when a bullet is fired shows total momentum staying constant in an isolated system."
+        }
+      ],
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 2.53,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 290
+  },
+  "actual": "5 MCQs, answer key BCBAC",
+  "pass": true,
+  "fail_reasons": []
+}

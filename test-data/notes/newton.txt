@@ -1,0 +1,4 @@
+Newton's first law (law of inertia): a body stays at rest or in uniform motion in a straight line unless an external unbalanced force acts on it.
+Newton's second law: the rate of change of momentum is proportional to the applied force, F = ma, where force is in newtons, mass in kg and acceleration in m/s^2.
+Newton's third law: for every action there is an equal and opposite reaction; the two forces act on different bodies.
+Momentum p = mv. Impulse = force x time = change in momentum. The law of conservation of momentum says the total momentum of an isolated system stays constant, for example the recoil of a gun when a bullet is fired.

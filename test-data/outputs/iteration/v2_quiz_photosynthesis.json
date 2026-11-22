@@ -1,0 +1,77 @@
+{
+  "mode": "quiz",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "{\"questions\": [{\"question\": \"Where do the light-independent reactions of photosynthesis take place?\", \"options\": {\"A\": \"Thylakoid membranes\", \"B\": \"Stroma\", \"C\": \"Chlorophyll\", \"D\": \"Cell wall\"}, \"answer\": \"B\", \"explanation\": \"The light-independent reactions, or Calvin cycle, occur in the stroma.\"}, {\"question\": \"What is the primary function of chlorophyll in photosynthesis?\", \"options\": {\"A\": \"Fix carbon dioxide\", \"B\": \"Produce glucose directly\", \"C\": \"Act as a green pigment in chloroplasts\", \"D\": \"Split water molecules\"}, \"answer\": \"C\", \"explanation\": \"Chlorophyll is the green pigment contained within the chloroplasts of leaf cells.\"}, {\"question\": \"Which enzyme is responsible for fixing carbon dioxide during the Calvin cycle?\", \"options\": {\"A\": \"ATP synthase\", \"B\": \"RuBisCO\", \"C\": \"Chlorophyllase\", \"D\": \"NADPH reductase\"}, \"answer\": \"B\", \"explanation\": \"Carbon dioxide is fixed by the enzyme RuBisCO during the light-independent reactions.\"}, {\"question\": \"What is produced alongside oxygen during the light-dependent reactions?\", \"options\": {\"A\": \"Glucose and water\", \"B\": \"Carbon dioxide and ATP\", \"C\": \"ATP and NADPH\", \"D\": \"RuBisCO and glucose\"}, \"answer\": \"C\", \"explanation\": \"The light-dependent reactions produce oxygen, ATP, and NADPH.\"}, {\"question\": \"Which of the following is NOT listed as a factor that affects the rate of photosynthesis?\", \"options\": {\"A\": \"Light intensity\", \"B\": \"Carbon dioxide concentration\", \"C\": \"Oxygen concentration\", \"D\": \"Temperature\"}, \"answer\": \"C\", \"explanation\": \"The listed factors are light intensity, carbon dioxide concentration, and temperature.\"}]}",
+  "parsed": {
+    "questions": [
+      {
+        "question": "Where do the light-independent reactions of photosynthesis take place?",
+        "options": {
+          "A": "Thylakoid membranes",
+          "B": "Stroma",
+          "C": "Chlorophyll",
+          "D": "Cell wall"
+        },
+        "answer": "B",
+        "explanation": "The light-independent reactions, or Calvin cycle, occur in the stroma."
+      },
+      {
+        "question": "What is the primary function of chlorophyll in photosynthesis?",
+        "options": {
+          "A": "Fix carbon dioxide",
+          "B": "Produce glucose directly",
+          "C": "Act as a green pigment in chloroplasts",
+          "D": "Split water molecules"
+        },
+        "answer": "C",
+        "explanation": "Chlorophyll is the green pigment contained within the chloroplasts of leaf cells."
+      },
+      {
+        "question": "Which enzyme is responsible for fixing carbon dioxide during the Calvin cycle?",
+        "options": {
+          "A": "ATP synthase",
+          "B": "RuBisCO",
+          "C": "Chlorophyllase",
+          "D": "NADPH reductase"
+        },
+        "answer": "B",
+        "explanation": "Carbon dioxide is fixed by the enzyme RuBisCO during the light-independent reactions."
+      },
+      {
+        "question": "What is produced alongside oxygen during the light-dependent reactions?",
+        "options": {
+          "A": "Glucose and water",
+          "B": "Carbon dioxide and ATP",
+          "C": "ATP and NADPH",
+          "D": "RuBisCO and glucose"
+        },
+        "answer": "C",
+        "explanation": "The light-dependent reactions produce oxygen, ATP, and NADPH."
+      },
+      {
+        "question": "Which of the following is NOT listed as a factor that affects the rate of photosynthesis?",
+        "options": {
+          "A": "Light intensity",
+          "B": "Carbon dioxide concentration",
+          "C": "Oxygen concentration",
+          "D": "Temperature"
+        },
+        "answer": "C",
+        "explanation": "The listed factors are light intensity, carbon dioxide concentration, and temperature."
+      }
+    ]
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 8.69,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 203,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

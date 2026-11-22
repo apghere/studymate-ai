@@ -1,0 +1,23 @@
+{
+  "mode": "quiz",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 25,
+  "mock": false,
+  "raw": "{\"error\": \"Please paste valid study material instead of a shopping list.\"}",
+  "parsed": {
+    "error": "Please paste valid study material instead of a shopping list."
+  },
+  "json_how": "clean",
+  "issues": [
+    "error_returned"
+  ],
+  "error_msg": "Please paste valid study material instead of a shopping list.",
+  "latency": 0.93,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 11,
+  "note": "grocery",
+  "kind": "invalid"
+}

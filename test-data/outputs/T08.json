@@ -1,0 +1,41 @@
+{
+  "id": "T08",
+  "type": "Edge",
+  "mode": "summarize",
+  "notes": "short_one_line",
+  "count": 5,
+  "short": "Summarize: a single sentence on osmosis",
+  "expected": "1-2 points only, no padding or invented facts",
+  "checks": {
+    "expect": "valid",
+    "max_points": 2
+  },
+  "result": {
+    "mode": "summarize",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 22,
+    "mock": false,
+    "raw": "{\n  \"title\": \"Osmosis\",\n  \"summary_points\": [\n    \"Osmosis is the movement of water molecules across a semi-permeable membrane.\",\n    \"Water moves from a region of lower solute concentration to higher solute concentration.\"\n  ],\n  \"one_line\": \"Osmosis is water movement across a membrane toward higher solute concentration.\",\n  \"warnings\": []\n}",
+    "parsed": {
+      "title": "Osmosis",
+      "summary_points": [
+        "Osmosis is the movement of water molecules across a semi-permeable membrane.",
+        "Water moves from a region of lower solute concentration to higher solute concentration."
+      ],
+      "one_line": "Osmosis is water movement across a membrane toward higher solute concentration.",
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 1.54,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 45
+  },
+  "actual": "2 points (longest 13 words)",
+  "pass": true,
+  "fail_reasons": []
+}

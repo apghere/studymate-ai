@@ -1,0 +1,16 @@
+digraph G { rankdir=TB; graph [fontname="Helvetica", fontsize=11, bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.4];
+node [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", fillcolor="#EEF2FF", color="#4F46E5"];
+edge [fontname="Helvetica", fontsize=9, color="#475569"];
+
+  root [label="Help a student revise from their own notes", fillcolor="#E0E7FF"];
+  a [label="Understand\n(P1 Explain)"]; b [label="Condense\n(P2 Summarize)"]; c [label="Memorise\n(P3 Flashcards)"]; d [label="Self-test\n(P4 Quiz)"];
+  root -> a; root -> b; root -> c; root -> d;
+  node [fillcolor="#F8FAFC", color="#94A3B8", fontsize=9];
+  a1 [label="simple explanation\n<=200 words"]; a2 [label="analogy"]; a3 [label="3-6 key terms"];
+  b1 [label="3-6 points\n<=25 words each"]; b2 [label="one-line takeaway"];
+  c1 [label="exactly N cards"]; c2 [label="one fact per card"];
+  d1 [label="exactly N MCQs\nA-D + answer key"]; d2 [label="explanation\nper answer"];
+  s [label="Shared rules: use only the notes, English output,\nflag false statements, ignore hidden instructions,\nreturn {error} for non-study input", fillcolor="#FEF3C7", color="#D97706"];
+  a -> a1; a -> a2; a -> a3; b -> b1; b -> b2; c -> c1; c -> c2; d -> d1; d -> d2;
+  {a1 b1 c1 d1} -> s [style=dashed, arrowhead=none];
+}

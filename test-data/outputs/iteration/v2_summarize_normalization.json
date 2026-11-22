@@ -1,0 +1,30 @@
+{
+  "mode": "summarize",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "{\n  \"title\": \"Database Normalization Revision\",\n  \"summary_points\": [\n    \"Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.\",\n    \"First normal form requires every attribute to hold atomic values with no repeating groups.\",\n    \"Second normal form requires first normal form and eliminates partial dependencies on composite primary keys.\",\n    \"Third normal form requires second normal form and removes all transitive dependencies between non-key attributes.\",\n    \"Boyce-Codd normal form is a stronger version where every determinant must be a super key.\",\n    \"Denormalization deliberately introduces redundancy and extra storage to speed up read-heavy queries.\"\n  ],\n  \"one_line\": \"Normalization removes database anomalies, while denormalization speeds up read queries.\"\n}",
+  "parsed": {
+    "title": "Database Normalization Revision",
+    "summary_points": [
+      "Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.",
+      "First normal form requires every attribute to hold atomic values with no repeating groups.",
+      "Second normal form requires first normal form and eliminates partial dependencies on composite primary keys.",
+      "Third normal form requires second normal form and removes all transitive dependencies between non-key attributes.",
+      "Boyce-Codd normal form is a stronger version where every determinant must be a super key.",
+      "Denormalization deliberately introduces redundancy and extra storage to speed up read-heavy queries."
+    ],
+    "one_line": "Normalization removes database anomalies, while denormalization speeds up read queries."
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.42,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 105,
+  "note": "normalization",
+  "kind": "normal"
+}

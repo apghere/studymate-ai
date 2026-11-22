@@ -1,0 +1,17 @@
+digraph G { rankdir=LR; graph [fontname="Helvetica", fontsize=11, bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.4];
+node [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", fillcolor="#EEF2FF", color="#4F46E5"];
+edge [fontname="Helvetica", fontsize=9, color="#475569"];
+
+  user [label="Student\n(browser)", shape=ellipse, fillcolor="#F1F5F9", color="#64748B"];
+  subgraph cluster_app { label="Streamlit app (Streamlit Community Cloud)"; style=rounded; color="#4F46E5";
+    ui [label="app.py\nStudy tab | Prompt Lab | How it works"];
+    up [label="pypdf\ntext extraction"];
+    eng [label="engine.py\nload prompt file, fill variables"];
+    pr [label="prompts/final/\nP1-P4 .md + settings.json", shape=folder, fillcolor="#FFFFFF"];
+    llmc [label="llm.py\nGemini client, retry,\nmodel fallback"];
+    par [label="parse.py\nJSON extract + schema check"];
+    exp [label="exports\nMarkdown / JSON / Anki CSV"]; }
+  sec [label="Streamlit secrets\nGEMINI_API_KEY", shape=cylinder, fillcolor="#FEE2E2", color="#DC2626"];
+  api [label="Google Gemini API", fillcolor="#DCFCE7", color="#16A34A"];
+  user -> ui; ui -> up; ui -> eng; pr -> eng; eng -> llmc; sec -> llmc [style=dashed]; llmc -> api; api -> llmc; llmc -> par; par -> ui; ui -> exp; exp -> user [style=dashed];
+}

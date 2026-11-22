@@ -1,0 +1,21 @@
+{
+  "mode": "quiz",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 25,
+  "mock": false,
+  "raw": "Here is a 5-question quiz based on your shopping and to-do list:\n\n**1. How much milk needs to be bought?**\n* A) 1 litre\n* B) 2 litres\n* C) 5 litres\n* D) 12 litres\n\n**2. Which of the following items has a specific weight mentioned on the list?**\n* A) Bread\n* B) Tomatoes\n* C) Onions\n* D) Eggs\n\n**3. How many packs of Maggi are on the list?**\n* A) 2\n* B) 4\n* C) 12\n* D) Not specified\n\n**4. What time is the plumber scheduled to be called?**\n* A) 2:00\n* B) 4:00\n* C) 5:00\n* D) 12:00\n\n**5. Besides buying groceries and household items, what bill needs to be paid?**\n* A) Water bill\n* B) Gas bill\n* C) Electricity bill\n* D) Internet bill\n\n---\n*(Scroll down for answers)*\n\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n**Answer Key:**\n1. **B** (2 litres)\n2. **C** (1 kg onions)\n3. **B** (Maggi x4)\n4. **C** (at 5)\n5. **C** (Electricity bill)",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 6.88,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 174,
+  "note": "grocery",
+  "kind": "invalid"
+}

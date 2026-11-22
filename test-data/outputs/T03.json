@@ -1,0 +1,62 @@
+{
+  "id": "T03",
+  "type": "Normal",
+  "mode": "flashcards",
+  "notes": "normalization",
+  "count": 5,
+  "short": "Flashcards (5): DBMS normalization",
+  "expected": "Exactly 5 unique cards covering 1NF-BCNF",
+  "checks": {
+    "expect": "valid",
+    "keywords_any": [
+      "1nf",
+      "2nf",
+      "3nf",
+      "bcnf"
+    ]
+  },
+  "result": {
+    "mode": "flashcards",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 126,
+    "mock": false,
+    "raw": "{\"flashcards\": [{\"front\": \"What is the main goal of database normalization?\", \"back\": \"To reduce redundancy and avoid update, insert, and delete anomalies.\"}, {\"front\": \"What condition must be met in 1NF?\", \"back\": \"Every attribute must hold atomic, indivisible values with no repeating groups.\"}, {\"front\": \"What does 2NF eliminate from a 1NF table?\", \"back\": \"Partial dependencies, meaning non-key attributes must depend on the whole primary key.\"}, {\"front\": \"What does 3NF eliminate to ensure proper structure?\", \"back\": \"Transitive dependencies, so non-key attributes do not depend on other non-key attributes.\"}, {\"front\": \"Why is denormalization sometimes performed on purpose?\", \"back\": \"To speed up read-heavy queries at the cost of extra storage and redundancy.\"}], \"warnings\": []}",
+    "parsed": {
+      "flashcards": [
+        {
+          "front": "What is the main goal of database normalization?",
+          "back": "To reduce redundancy and avoid update, insert, and delete anomalies."
+        },
+        {
+          "front": "What condition must be met in 1NF?",
+          "back": "Every attribute must hold atomic, indivisible values with no repeating groups."
+        },
+        {
+          "front": "What does 2NF eliminate from a 1NF table?",
+          "back": "Partial dependencies, meaning non-key attributes must depend on the whole primary key."
+        },
+        {
+          "front": "What does 3NF eliminate to ensure proper structure?",
+          "back": "Transitive dependencies, so non-key attributes do not depend on other non-key attributes."
+        },
+        {
+          "front": "Why is denormalization sometimes performed on purpose?",
+          "back": "To speed up read-heavy queries at the cost of extra storage and redundancy."
+        }
+      ],
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 1.5,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 109
+  },
+  "actual": "5 cards",
+  "pass": true,
+  "fail_reasons": []
+}

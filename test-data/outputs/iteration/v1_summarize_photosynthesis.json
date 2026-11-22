@@ -1,0 +1,21 @@
+{
+  "mode": "summarize",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "**Summary:**\n\nPhotosynthesis is how green plants use light energy, water, and carbon dioxide to produce glucose and oxygen. Occurring mainly in the chloroplasts of leaves, the process has two main stages:\n1. **Light-dependent reactions:** Happen in the thylakoid membranes, where light splits water to release oxygen and generate ATP and NADPH.\n2. **Light-independent reactions (Calvin cycle):** Happen in the stroma, where ATP and NADPH are used to convert carbon dioxide into glucose. \n\nThe overall rate of photosynthesis is influenced by light intensity, carbon dioxide concentration, and temperature.",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 9.27,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 87,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

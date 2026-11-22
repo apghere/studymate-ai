@@ -1,0 +1,29 @@
+{
+  "mode": "summarize",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "{\"title\": \"Photosynthesis Revision\", \"summary_points\": [\"Green plants make food using light energy mainly within chloroplasts containing chlorophyll.\", \"The overall chemical equation is 6CO2 plus 6H2O plus light energy producing glucose and oxygen.\", \"Light-dependent reactions in thylakoid membranes split water, release oxygen, and create ATP and NADPH.\", \"The Calvin cycle in the stroma fixes carbon dioxide into glucose using ATP and NADPH.\", \"Light intensity, carbon dioxide concentration, and temperature affect the rate of photosynthesis.\"], \"one_line\": \"Photosynthesis converts light energy into glucose through light-dependent reactions and the Calvin cycle.\"}",
+  "parsed": {
+    "title": "Photosynthesis Revision",
+    "summary_points": [
+      "Green plants make food using light energy mainly within chloroplasts containing chlorophyll.",
+      "The overall chemical equation is 6CO2 plus 6H2O plus light energy producing glucose and oxygen.",
+      "Light-dependent reactions in thylakoid membranes split water, release oxygen, and create ATP and NADPH.",
+      "The Calvin cycle in the stroma fixes carbon dioxide into glucose using ATP and NADPH.",
+      "Light intensity, carbon dioxide concentration, and temperature affect the rate of photosynthesis."
+    ],
+    "one_line": "Photosynthesis converts light energy into glucose through light-dependent reactions and the Calvin cycle."
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 7.48,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 86,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

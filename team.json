@@ -1,0 +1,27 @@
+{
+  "team_id": "PE-B13-31",
+  "team_name": "ContextForge",
+  "project_title": "StudyMate AI",
+  "batch": "B13",
+  "faculty": "Dr. Indrajeet Gupta",
+  "course": "SCSE4041 Prompt Engineering",
+  "leader_enrollment": "S24CSEU0198",
+  "members": [
+    {"name": "Abhimanyu Puri Goswami", "enrollment": "S24CSEU0198", "role": "Team lead, prompt design and app development",
+     "tasks": "Designed prompts P1-P4 and iterated v1-v3; built the Streamlit app and Gemini client (schema-enforced JSON, retries, model fallback); deployed the prototype",
+     "evidence": "prompts/v1-v3, prompts/final/, code/app.py, code/studymate/, live prototype", "percent": 50},
+    {"name": "Manushree Khandelwal", "enrollment": "S24CSEU1907", "role": "Testing and evaluation",
+     "tasks": "Wrote the 14 test cases (normal, edge, invalid) with expected outputs and pass/fail rules; ran the v1-v3 experiments; maintained the iteration log",
+     "evidence": "test-data/tests.json, test-data/notes/, results/, Sections 3 and 4", "percent": 25},
+    {"name": "Yatishi Agarwal", "enrollment": "S24CSEU1289", "role": "Documentation, BMC and reel",
+     "tasks": "Drew the design diagrams; prepared the Business Model Canvas; compiled the Milestone 2 PDF; produced the reel",
+     "evidence": "docs/diagrams/, ContextForge_BMC.pdf, Sections 2, 5 and 6, reel", "percent": 25}
+  ],
+  "links": {
+    "prototype": "TODO https://<your-app>.streamlit.app",
+    "repository": "TODO Google Drive folder link",
+    "reel": "TODO Google Drive reel link"
+  },
+  "reel_seconds": 0,
+  "project_type": "App with code"
+}

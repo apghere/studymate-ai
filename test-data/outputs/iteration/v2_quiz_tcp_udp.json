@@ -1,0 +1,77 @@
+{
+  "mode": "quiz",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "{\"questions\": [{\"question\": \"Which protocol uses a three-way handshake involving SYN, SYN-ACK, and ACK?\", \"options\": {\"A\": \"UDP\", \"B\": \"IP\", \"C\": \"TCP\", \"D\": \"FTP\"}, \"answer\": \"C\", \"explanation\": \"TCP is connection-oriented and sets up a connection using a three-way handshake.\"}, {\"question\": \"What is the minimum header size of a TCP segment?\", \"options\": {\"A\": \"8 bytes\", \"B\": \"20 bytes\", \"C\": \"32 bytes\", \"D\": \"64 bytes\"}, \"answer\": \"B\", \"explanation\": \"TCP has a minimum 20-byte header, compared to UDP's small 8-byte header.\"}, {\"question\": \"Which of the following applications uses UDP instead of TCP according to the notes?\", \"options\": {\"A\": \"HTTP\", \"B\": \"Email (SMTP)\", \"C\": \"File transfer (FTP)\", \"D\": \"DNS queries\"}, \"answer\": \"D\", \"explanation\": \"DNS queries use UDP because speed matters more than perfect reliability.\"}, {\"question\": \"How does TCP guarantee reliable, in-order delivery?\", \"options\": {\"A\": \"Using sequence numbers, acknowledgements and retransmission\", \"B\": \"Using a connectionless handshake and flow control\", \"C\": \"Using an 8-byte header and low latency\", \"D\": \"Using congestion control and no acknowledgements\"}, \"answer\": \"A\", \"explanation\": \"TCP guarantees reliable, in-order delivery using sequence numbers, acknowledgements, and retransmission.\"}, {\"question\": \"Why is UDP faster and lower in latency than TCP?\", \"options\": {\"A\": \"It uses a three-way handshake\", \"B\": \"It is connectionless with no handshake and a smaller header\", \"C\": \"It guarantees delivery and order using a sliding window\", \"D\": \"It uses congestion control for email and file transfers\"}, \"answer\": \"B\", \"explanation\": \"UDP is connectionless, lacks a handshake, has no delivery guarantees, and features a smaller 8-byte header.\"}]}",
+  "parsed": {
+    "questions": [
+      {
+        "question": "Which protocol uses a three-way handshake involving SYN, SYN-ACK, and ACK?",
+        "options": {
+          "A": "UDP",
+          "B": "IP",
+          "C": "TCP",
+          "D": "FTP"
+        },
+        "answer": "C",
+        "explanation": "TCP is connection-oriented and sets up a connection using a three-way handshake."
+      },
+      {
+        "question": "What is the minimum header size of a TCP segment?",
+        "options": {
+          "A": "8 bytes",
+          "B": "20 bytes",
+          "C": "32 bytes",
+          "D": "64 bytes"
+        },
+        "answer": "B",
+        "explanation": "TCP has a minimum 20-byte header, compared to UDP's small 8-byte header."
+      },
+      {
+        "question": "Which of the following applications uses UDP instead of TCP according to the notes?",
+        "options": {
+          "A": "HTTP",
+          "B": "Email (SMTP)",
+          "C": "File transfer (FTP)",
+          "D": "DNS queries"
+        },
+        "answer": "D",
+        "explanation": "DNS queries use UDP because speed matters more than perfect reliability."
+      },
+      {
+        "question": "How does TCP guarantee reliable, in-order delivery?",
+        "options": {
+          "A": "Using sequence numbers, acknowledgements and retransmission",
+          "B": "Using a connectionless handshake and flow control",
+          "C": "Using an 8-byte header and low latency",
+          "D": "Using congestion control and no acknowledgements"
+        },
+        "answer": "A",
+        "explanation": "TCP guarantees reliable, in-order delivery using sequence numbers, acknowledgements, and retransmission."
+      },
+      {
+        "question": "Why is UDP faster and lower in latency than TCP?",
+        "options": {
+          "A": "It uses a three-way handshake",
+          "B": "It is connectionless with no handshake and a smaller header",
+          "C": "It guarantees delivery and order using a sliding window",
+          "D": "It uses congestion control for email and file transfers"
+        },
+        "answer": "B",
+        "explanation": "UDP is connectionless, lacks a handshake, has no delivery guarantees, and features a smaller 8-byte header."
+      }
+    ]
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 5.78,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 239,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

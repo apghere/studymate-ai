@@ -1,0 +1,43 @@
+{
+  "mode": "flashcards",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "{\"flashcards\": [{\"front\": \"What type of connection is used by TCP?\", \"back\": \"TCP is connection-oriented and sets up a connection using a three-way handshake.\"}, {\"front\": \"How does TCP guarantee reliable and in-order delivery?\", \"back\": \"It uses sequence numbers, acknowledgements, and retransmission.\"}, {\"front\": \"Which protocols use TCP according to the notes?\", \"back\": \"HTTP/HTTPS, email (SMTP), and file transfer (FTP) use TCP.\"}, {\"front\": \"Why is UDP faster and lower in latency than TCP?\", \"back\": \"UDP is connectionless, has no handshake, and uses a small 8-byte header.\"}, {\"front\": \"What types of applications use UDP?\", \"back\": \"Applications where speed matters more than reliability, such as DNS, video streaming, gaming, and VoIP.\"}], \"warnings\": []}",
+  "parsed": {
+    "flashcards": [
+      {
+        "front": "What type of connection is used by TCP?",
+        "back": "TCP is connection-oriented and sets up a connection using a three-way handshake."
+      },
+      {
+        "front": "How does TCP guarantee reliable and in-order delivery?",
+        "back": "It uses sequence numbers, acknowledgements, and retransmission."
+      },
+      {
+        "front": "Which protocols use TCP according to the notes?",
+        "back": "HTTP/HTTPS, email (SMTP), and file transfer (FTP) use TCP."
+      },
+      {
+        "front": "Why is UDP faster and lower in latency than TCP?",
+        "back": "UDP is connectionless, has no handshake, and uses a small 8-byte header."
+      },
+      {
+        "front": "What types of applications use UDP?",
+        "back": "Applications where speed matters more than reliability, such as DNS, video streaming, gaming, and VoIP."
+      }
+    ],
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.36,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 108,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

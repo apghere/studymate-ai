@@ -1,0 +1,5 @@
+Law of demand: other things being equal, when the price of a good rises, the quantity demanded falls, and when price falls, quantity demanded rises. So the demand curve slopes downward.
+Law of supply: when price rises, quantity supplied rises, so the supply curve slopes upward.
+Equilibrium price is where quantity demanded equals quantity supplied. If price is above equilibrium there is a surplus (excess supply); if below, a shortage (excess demand).
+A change in price causes movement along the curve. A change in other factors, such as income, tastes or prices of related goods, shifts the whole demand curve. Substitutes (tea and coffee): price of one rises, demand for the other rises. Complements (car and petrol): price of one rises, demand for the other falls.
+Price elasticity of demand measures how much quantity demanded responds to a change in price.

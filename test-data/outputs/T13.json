@@ -1,0 +1,36 @@
+{
+  "id": "T13",
+  "type": "Invalid",
+  "mode": "flashcards",
+  "notes": "gibberish",
+  "count": 5,
+  "short": "Flashcards: random characters",
+  "expected": "Error message asking for real notes; no cards",
+  "checks": {
+    "expect": "error"
+  },
+  "result": {
+    "mode": "flashcards",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 11,
+    "mock": false,
+    "raw": "{\"error\": \"Please paste valid undergraduate study notes instead of random characters.\"}",
+    "parsed": {
+      "error": "Please paste valid undergraduate study notes instead of random characters."
+    },
+    "json_how": "clean",
+    "issues": [
+      "error_returned"
+    ],
+    "error_msg": "Please paste valid undergraduate study notes instead of random characters.",
+    "latency": 1.0,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 11
+  },
+  "actual": "Error: \"Please paste valid undergraduate study notes instead of random charact\"",
+  "pass": true,
+  "fail_reasons": []
+}

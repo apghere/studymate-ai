@@ -1,0 +1,44 @@
+{
+  "mode": "explain",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "{\"explanation\": \"Photosynthesis is how green plants make food using light. This happens inside leaf cell chloroplasts, which have a green pigment called chlorophyll. The process has two main parts. First, light-dependent reactions happen in the thylakoid membranes. Here, light splits water to release oxygen, making ATP and NADPH. Second, light-independent reactions, also called the Calvin cycle, happen in the stroma. The enzyme RuBisCO fixes carbon dioxide. Then, using ATP and NADPH, it turns into glucose. Three things affect how fast this process happens: light intensity, carbon dioxide concentration, and temperature.\", \"analogy\": \"Photosynthesis is like baking a cake in a kitchen. The kitchen is the chloroplast, the ingredients are water, carbon dioxide, and light energy, and the final cake is glucose.\", \"key_terms\": [{\"term\": \"Chloroplasts\", \"meaning\": \"Parts of leaf cells where photosynthesis takes place.\"}, {\"term\": \"Chlorophyll\", \"meaning\": \"A green pigment found inside chloroplasts.\"}, {\"term\": \"Thylakoid membranes\", \"meaning\": \"Where the light-dependent reactions occur.\"}, {\"term\": \"Stroma\", \"meaning\": \"Where the light-independent reactions or Calvin cycle occur.\"}, {\"term\": \"RuBisCO\", \"meaning\": \"An enzyme that fixes carbon dioxide.\"}]}",
+  "parsed": {
+    "explanation": "Photosynthesis is how green plants make food using light. This happens inside leaf cell chloroplasts, which have a green pigment called chlorophyll. The process has two main parts. First, light-dependent reactions happen in the thylakoid membranes. Here, light splits water to release oxygen, making ATP and NADPH. Second, light-independent reactions, also called the Calvin cycle, happen in the stroma. The enzyme RuBisCO fixes carbon dioxide. Then, using ATP and NADPH, it turns into glucose. Three things affect how fast this process happens: light intensity, carbon dioxide concentration, and temperature.",
+    "analogy": "Photosynthesis is like baking a cake in a kitchen. The kitchen is the chloroplast, the ingredients are water, carbon dioxide, and light energy, and the final cake is glucose.",
+    "key_terms": [
+      {
+        "term": "Chloroplasts",
+        "meaning": "Parts of leaf cells where photosynthesis takes place."
+      },
+      {
+        "term": "Chlorophyll",
+        "meaning": "A green pigment found inside chloroplasts."
+      },
+      {
+        "term": "Thylakoid membranes",
+        "meaning": "Where the light-dependent reactions occur."
+      },
+      {
+        "term": "Stroma",
+        "meaning": "Where the light-independent reactions or Calvin cycle occur."
+      },
+      {
+        "term": "RuBisCO",
+        "meaning": "An enzyme that fixes carbon dioxide."
+      }
+    ]
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.51,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 170,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

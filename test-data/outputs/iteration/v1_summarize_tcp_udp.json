@@ -1,0 +1,21 @@
+{
+  "mode": "summarize",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "Here is a summary of the differences between TCP and UDP:\n\n*   **TCP (Transmission Control Protocol):** Connection-oriented (uses a three-way handshake) and prioritizes reliability. It guarantees in-order delivery, uses error recovery, and manages flow/congestion control. It is best for applications where data accuracy is critical (e.g., web browsing, email, file transfers).\n*   **UDP (User Datagram Protocol):** Connectionless and prioritizes speed. It has no handshake, does not guarantee delivery or order, and uses a smaller header. It is best for real-time applications where low latency matters more than perfect reliability (e.g., video streaming, gaming, VoIP, DNS).",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 7.31,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 95,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

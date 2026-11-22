@@ -1,0 +1,29 @@
+{
+  "mode": "summarize",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "{\"title\": \"TCP and UDP\", \"summary_points\": [\"TCP is connection-oriented, uses a three-way handshake, and guarantees reliable, in-order delivery.\", \"TCP provides flow control, congestion control, and is used for HTTP, email, and FTP.\", \"UDP is connectionless with no handshake, no delivery guarantees, and a small 8-byte header.\", \"UDP is faster and has lower latency, making it ideal for DNS, streaming, gaming, and VoIP.\"], \"one_line\": \"TCP offers reliable and ordered delivery, while UDP prioritizes speed and low latency.\", \"warnings\": []}",
+  "parsed": {
+    "title": "TCP and UDP",
+    "summary_points": [
+      "TCP is connection-oriented, uses a three-way handshake, and guarantees reliable, in-order delivery.",
+      "TCP provides flow control, congestion control, and is used for HTTP, email, and FTP.",
+      "UDP is connectionless with no handshake, no delivery guarantees, and a small 8-byte header.",
+      "UDP is faster and has lower latency, making it ideal for DNS, streaming, gaming, and VoIP."
+    ],
+    "one_line": "TCP offers reliable and ordered delivery, while UDP prioritizes speed and low latency.",
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 3.66,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 77,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

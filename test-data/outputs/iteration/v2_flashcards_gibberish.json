@@ -1,0 +1,21 @@
+{
+  "mode": "flashcards",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 11,
+  "mock": false,
+  "raw": "{\"flashcards\": [{\"front\": \"What letters follow asdkjh?\", \"back\": \"The letters that follow are qweoiu.\"}, \"front\": \"What follows the sequence qweoiu?\", \"back\": \"The sequence that follows is zxmcnb.\"}, \"front\": \"What comes after zxmcnb in the notes?\", \"back\": \"What comes after is lkjhg.\"}, \"front\": \"What follows lkjhg in the text?\", \"back\": \"The letters that follow are poiuy.\"}, \"front\": \"What sequence follows poiuy?\", \"back\": \"The sequence that follows is mnbvc.\"}]}",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 7.53,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 66,
+  "note": "gibberish",
+  "kind": "invalid"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "T10",
+  "type": "Edge",
+  "mode": "explain",
+  "notes": "factual_error",
+  "count": 5,
+  "short": "Explain: notes containing a false claim (Sun revolves around Earth)",
+  "expected": "Valid explanation; false claim flagged in warnings",
+  "checks": {
+    "expect": "valid",
+    "warnings_nonempty": true
+  },
+  "result": {
+    "mode": "explain",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 66,
+    "mock": false,
+    "raw": "{\"explanation\": \"The solar system has the Sun at the centre. The Earth travels around the Sun once every 365 days. Mercury is the planet closest to the Sun. Jupiter is the largest planet. Mars is known as the Red Planet because it has iron oxide on its surface.\", \"analogy\": \"A merry-go-round where riders go around a central pillar.\", \"key_terms\": [{\"term\": \"Sun\", \"meaning\": \"A star located at the centre of our solar system.\"}, {\"term\": \"Mercury\", \"meaning\": \"The planet closest to the Sun.\"}, {\"term\": \"Jupiter\", \"meaning\": \"The largest planet in the solar system.\"}, {\"term\": \"Mars\", \"meaning\": \"A planet known as the Red Planet due to iron oxide.\"}], \"warnings\": [\"The notes state that the Sun revolves around the Earth once every 24 hours to cause day and night, but actually the Earth rotates on its axis to cause day and night.\"]}",
+    "parsed": {
+      "explanation": "The solar system has the Sun at the centre. The Earth travels around the Sun once every 365 days. Mercury is the planet closest to the Sun. Jupiter is the largest planet. Mars is known as the Red Planet because it has iron oxide on its surface.",
+      "analogy": "A merry-go-round where riders go around a central pillar.",
+      "key_terms": [
+        {
+          "term": "Sun",
+          "meaning": "A star located at the centre of our solar system."
+        },
+        {
+          "term": "Mercury",
+          "meaning": "The planet closest to the Sun."
+        },
+        {
+          "term": "Jupiter",
+          "meaning": "The largest planet in the solar system."
+        },
+        {
+          "term": "Mars",
+          "meaning": "A planet known as the Red Planet due to iron oxide."
+        }
+      ],
+      "warnings": [
+        "The notes state that the Sun revolves around the Earth once every 24 hours to cause day and night, but actually the Earth rotates on its axis to cause day and night."
+      ]
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 6.66,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 138
+  },
+  "actual": "47-word explanation, 4 key terms, 1 warning(s)",
+  "pass": true,
+  "fail_reasons": []
+}

@@ -1,0 +1,21 @@
+{
+  "mode": "explain",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "This text is a concise summary of **database normalization**, a core concept in relational database design. \n\nHere is a plain-English breakdown of what it all means:\n\n---\n\n### The Big Picture\nImagine keeping all your data in a single, massive spreadsheet. If you update a customer’s address in one row, you might forget to update it in another, leading to errors. **Normalization** is the process of breaking data down into smaller, logically connected tables to eliminate duplicate data and prevent these errors (called *anomalies*).\n\nThe text outlines the progressive rules—called **Normal Forms (NF)**—used to achieve this. Each step builds on the previous one.\n\n---\n\n### The Normal Forms\n\n#### 1. First Normal Form (1NF): \"Keep it atomic\"\n* **Rule:** Every cell in the table must contain a single, indivisible value, and there can be no repeating groups or lists inside a single column.\n* **Example:** If you have a column called `Phone Numbers`, you shouldn't put two phone numbers separated by a comma in the same box. Each row should represent just one piece of data per column.\n\n#### 2. Second Normal Form (2NF): \"Depend on the whole key\"\n* **Rule:** The table must be in 1NF, and any column that isn't part of the primary key must rely on the *entire* primary key, not just part of it. (This only applies when your primary key is made of two or more columns combined).\n* **Example:** Imagine an `Order_Details` table where the primary key is a combination of `Order_ID` and `Product_ID`. The `Product_Name` only depends on the `Product_ID`, not the `Order_ID`. To satisfy 2NF, `Product_Name` should be moved to a separate `Products` table.\n\n#### 3. Third Normal Form (3NF): \"No chains of dependence\"\n* **Rule:** The table must be in 2NF, and non-key columns must depend *only* on the primary key—not on other non-key columns.\n* **Example:** Suppose you have a table with `Employee_ID` (Primary Key), `Department_ID`, and `Department_Name`. Even though `Department_Name` describes the employee, it actually depends on `Department_ID`. To fix this, department details should be moved into their own table.\n\n#### 4. Boyce-Codd Normal Form (BCNF): \"Strict 3NF\"\n* **Rule:** A stricter version of 3NF. It states that whenever there is a dependency (X leads to Y), **X must be a super key** (a unique identifier for a row). \n* **Why it matters:** 3NF allows for rare edge cases where a non-key attribute might partly determine another attribute. BCNF eliminates even those loopholes.\n\n---\n\n### The Exception: Denormalization\nWhile normalization is great for keeping data clean and saving space, highly normalized databases require the computer to \"join\" many tables together to get an answer, which can slow things down.\n\n* **Denormalization** is the deliberate act of breaking the rules (adding redundancy back in) specifically to **speed up read operations** (like searches and reports), accepting that it will use more storage space and require extra care during updates.",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 9.89,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 479,
+  "note": "normalization",
+  "kind": "normal"
+}

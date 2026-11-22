@@ -1,0 +1,21 @@
+{
+  "mode": "summarize",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "Here is a summary of database normalization and denormalization:\n\n*   **Normalization:** The process of organizing a relational database to minimize redundancy and prevent data anomalies (during inserts, updates, and deletes). It progresses through progressive stages:\n    *   **1NF:** Values must be atomic (indivisible) with no repeating groups.\n    *   **2NF:** Must be in 1NF with no partial dependencies (non-key attributes must depend on the *entire* primary key).\n    *   **3NF:** Must be in 2NF with no transitive dependencies (non-key attributes cannot depend on other non-key attributes).\n    *   **BCNF:** A stricter version of 3NF where every determinant (X) in a functional dependency (X -> Y) must be a super key.\n*   **Denormalization:** The intentional introduction of redundancy and extra storage to improve the speed of read-heavy queries.",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 1.96,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 123,
+  "note": "normalization",
+  "kind": "normal"
+}

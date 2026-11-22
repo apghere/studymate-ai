@@ -1,0 +1,78 @@
+{
+  "mode": "quiz",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "{\"questions\": [{\"question\": \"Which protocol establishes a connection using a three-way handshake?\", \"options\": {\"A\": \"UDP\", \"B\": \"TCP\", \"C\": \"FTP\", \"D\": \"HTTP\"}, \"answer\": \"B\", \"explanation\": \"TCP is connection-oriented and uses a three-way handshake (SYN, SYN-ACK, ACK) to set up a connection.\"}, {\"question\": \"Why is UDP faster and lower in latency than TCP?\", \"options\": {\"A\": \"It has no handshake, no delivery guarantees, and a smaller 8-byte header.\", \"B\": \"It uses a sliding window mechanism for flow control.\", \"C\": \"It guarantees reliable and in-order delivery of data.\", \"D\": \"It requires sequence numbers and acknowledgements for every packet.\"}, \"answer\": \"A\", \"explanation\": \"UDP is connectionless with no handshake, lacks delivery guarantees, and has a smaller header size.\"}, {\"question\": \"Which application layer service typically uses UDP because speed matters more than reliability?\", \"options\": {\"A\": \"File transfer (FTP)\", \"B\": \"Email (SMTP)\", \"C\": \"Video streaming\", \"D\": \"HTTPS browsing\"}, \"answer\": \"C\", \"explanation\": \"Video streaming uses UDP because speed and lower latency are prioritized over perfect reliability.\"}, {\"question\": \"How does TCP ensure reliable, in-order delivery of data?\", \"options\": {\"A\": \"By using an 8-byte header and avoiding handshakes\", \"B\": \"By utilizing sequence numbers, acknowledgements, and retransmission\", \"C\": \"By dropping packets when congestion occurs without notifying the sender\", \"D\": \"By treating every packet as independent and connectionless\"}, \"answer\": \"B\", \"explanation\": \"TCP guarantees delivery and order using sequence numbers, acknowledgements, and retransmission.\"}, {\"question\": \"What is the minimum header size of TCP compared to UDP?\", \"options\": {\"A\": \"TCP has a minimum 20-byte header, while UDP has an 8-byte header.\", \"B\": \"TCP has an 8-byte header, while UDP has a 20-byte header.\", \"C\": \"Both protocols share the exact same header size of 20 bytes.\", \"D\": \"Both protocols have a fixed 8-byte header.\"}, \"answer\": \"A\", \"explanation\": \"TCP has a minimum 20-byte header, whereas UDP has a small 8-byte header.\"}], \"warnings\": []}",
+  "parsed": {
+    "questions": [
+      {
+        "question": "Which protocol establishes a connection using a three-way handshake?",
+        "options": {
+          "A": "UDP",
+          "B": "TCP",
+          "C": "FTP",
+          "D": "HTTP"
+        },
+        "answer": "B",
+        "explanation": "TCP is connection-oriented and uses a three-way handshake (SYN, SYN-ACK, ACK) to set up a connection."
+      },
+      {
+        "question": "Why is UDP faster and lower in latency than TCP?",
+        "options": {
+          "A": "It has no handshake, no delivery guarantees, and a smaller 8-byte header.",
+          "B": "It uses a sliding window mechanism for flow control.",
+          "C": "It guarantees reliable and in-order delivery of data.",
+          "D": "It requires sequence numbers and acknowledgements for every packet."
+        },
+        "answer": "A",
+        "explanation": "UDP is connectionless with no handshake, lacks delivery guarantees, and has a smaller header size."
+      },
+      {
+        "question": "Which application layer service typically uses UDP because speed matters more than reliability?",
+        "options": {
+          "A": "File transfer (FTP)",
+          "B": "Email (SMTP)",
+          "C": "Video streaming",
+          "D": "HTTPS browsing"
+        },
+        "answer": "C",
+        "explanation": "Video streaming uses UDP because speed and lower latency are prioritized over perfect reliability."
+      },
+      {
+        "question": "How does TCP ensure reliable, in-order delivery of data?",
+        "options": {
+          "A": "By using an 8-byte header and avoiding handshakes",
+          "B": "By utilizing sequence numbers, acknowledgements, and retransmission",
+          "C": "By dropping packets when congestion occurs without notifying the sender",
+          "D": "By treating every packet as independent and connectionless"
+        },
+        "answer": "B",
+        "explanation": "TCP guarantees delivery and order using sequence numbers, acknowledgements, and retransmission."
+      },
+      {
+        "question": "What is the minimum header size of TCP compared to UDP?",
+        "options": {
+          "A": "TCP has a minimum 20-byte header, while UDP has an 8-byte header.",
+          "B": "TCP has an 8-byte header, while UDP has a 20-byte header.",
+          "C": "Both protocols share the exact same header size of 20 bytes.",
+          "D": "Both protocols have a fixed 8-byte header."
+        },
+        "answer": "A",
+        "explanation": "TCP has a minimum 20-byte header, whereas UDP has a small 8-byte header."
+      }
+    ],
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 4.81,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 294,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

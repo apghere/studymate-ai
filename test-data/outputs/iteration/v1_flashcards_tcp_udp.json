@@ -1,0 +1,21 @@
+{
+  "mode": "flashcards",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "Here are the flashcards based on the text provided. \n\n### **Card 1: TCP vs. UDP - Connection Type**\n* **Front:** Is TCP connection-oriented or connectionless? What about UDP?\n* **Back:** \n  * **TCP:** Connection-oriented\n  * **UDP:** Connectionless\n\n---\n\n### **Card 2: TCP Handshake**\n* **Front:** How does TCP set up a connection? Name the three steps.\n* **Back:** Through a **three-way handshake**:\n  1. SYN\n  2. SYN-ACK\n  3. ACK\n\n---\n\n### **Card 3: TCP Reliability & Features**\n* **Front:** How does TCP ensure reliable, in-order delivery, and what are its key control mechanisms?\n* **Back:** \n  * **Reliability:** Uses sequence numbers, acknowledgements, and retransmission.\n  * **Control:** Provides flow control (sliding window) and congestion control.\n\n---\n\n### **Card 4: TCP Use Cases**\n* **Front:** What are common use cases for TCP?\n* **Back:** \n  * HTTP/HTTPS (Web browsing)\n  * Email (SMTP)\n  * File transfer (FTP)\n\n---\n\n### **Card 5: UDP Characteristics**\n* **Front:** What are the main characteristics of UDP regarding delivery, order, and handshakes?\n* **Back:** \n  * Connectionless (no handshake)\n  * No guarantee of delivery\n  * No guarantee of order\n  * Faster with lower latency\n\n---\n\n### **Card 6: TCP vs. UDP - Header Size**\n* **Front:** How do the header sizes of TCP and UDP compare?\n* **Back:** \n  * **UDP:** Small 8-byte header\n  * **TCP:** Minimum 20-byte header\n\n---\n\n### **Card 7: UDP Use Cases**\n* **Front:** Why is UDP used, and what are its common applications?\n* **Back:** \n  * **Why:** Used where speed and low latency matter more than perfect reliability.\n  * **Applications:** DNS queries, video streaming, online gaming, and VoIP.",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 1.93,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 259,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

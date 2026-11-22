@@ -1,0 +1,48 @@
+{
+  "id": "T12",
+  "type": "Edge",
+  "mode": "summarize",
+  "notes": "long_memory",
+  "count": 5,
+  "short": "Summarize: long notes (~700 words, memory management)",
+  "expected": "At most 6 points, each <=25 words",
+  "checks": {
+    "expect": "valid",
+    "min_points": 3,
+    "keywords_any": [
+      "paging",
+      "page"
+    ]
+  },
+  "result": {
+    "mode": "summarize",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 716,
+    "mock": false,
+    "raw": "{\n  \"title\": \"Memory Management in Operating Systems\",\n  \"summary_points\": [\n    \"The MMU translates logical addresses into physical addresses at run time.\",\n    \"Fixed partitioning causes internal fragmentation, while variable partitioning causes external fragmentation.\",\n    \"Paging divides physical memory into frames and logical memory into pages to remove external fragmentation.\",\n    \"Virtual memory uses demand paging and page replacement algorithms like FIFO, Optimal, and LRU when frames are full.\",\n    \"Thrashing occurs when a process lacks enough frames, causing constant page faults and low CPU utilization.\"\n  ],\n  \"one_line\": \"Memory management uses paging, segmentation, and virtual memory to allocate and protect process address spaces efficiently.\",\n  \"warnings\": []\n}",
+    "parsed": {
+      "title": "Memory Management in Operating Systems",
+      "summary_points": [
+        "The MMU translates logical addresses into physical addresses at run time.",
+        "Fixed partitioning causes internal fragmentation, while variable partitioning causes external fragmentation.",
+        "Paging divides physical memory into frames and logical memory into pages to remove external fragmentation.",
+        "Virtual memory uses demand paging and page replacement algorithms like FIFO, Optimal, and LRU when frames are full.",
+        "Thrashing occurs when a process lacks enough frames, causing constant page faults and low CPU utilization."
+      ],
+      "one_line": "Memory management uses paging, segmentation, and virtual memory to allocate and protect process address spaces efficiently.",
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 5.04,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 101
+  },
+  "actual": "5 points (longest 18 words)",
+  "pass": true,
+  "fail_reasons": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "T14",
+  "type": "Invalid",
+  "mode": "quiz",
+  "notes": "grocery",
+  "count": 5,
+  "short": "Quiz: a shopping list (not study material)",
+  "expected": "Error message asking for study notes; no quiz",
+  "checks": {
+    "expect": "error"
+  },
+  "result": {
+    "mode": "quiz",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 25,
+    "mock": false,
+    "raw": "{\"error\": \"Please paste actual study material instead of a shopping list so I can generate valid practice questions for you.\"}",
+    "parsed": {
+      "error": "Please paste actual study material instead of a shopping list so I can generate valid practice questions for you."
+    },
+    "json_how": "clean",
+    "issues": [
+      "error_returned"
+    ],
+    "error_msg": "Please paste actual study material instead of a shopping list so I can generate valid practice questions for you.",
+    "latency": 5.37,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 20
+  },
+  "actual": "Error: \"Please paste actual study material instead of a shopping list so I can\"",
+  "pass": true,
+  "fail_reasons": []
+}

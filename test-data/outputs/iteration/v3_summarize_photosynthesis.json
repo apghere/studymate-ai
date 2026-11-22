@@ -1,0 +1,29 @@
+{
+  "mode": "summarize",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "{\"title\": \"Photosynthesis\", \"summary_points\": [\"Photosynthesis is how green plants make food using light energy in chloroplasts.\", \"Light-dependent reactions occur in thylakoid membranes, releasing oxygen and making ATP and NADPH.\", \"The Calvin cycle occurs in the stroma and converts carbon dioxide into glucose.\", \"Light intensity, carbon dioxide concentration and temperature affect the rate of photosynthesis.\"], \"one_line\": \"Plants use light, water and carbon dioxide to produce glucose and oxygen.\", \"warnings\": []}",
+  "parsed": {
+    "title": "Photosynthesis",
+    "summary_points": [
+      "Photosynthesis is how green plants make food using light energy in chloroplasts.",
+      "Light-dependent reactions occur in thylakoid membranes, releasing oxygen and making ATP and NADPH.",
+      "The Calvin cycle occurs in the stroma and converts carbon dioxide into glucose.",
+      "Light intensity, carbon dioxide concentration and temperature affect the rate of photosynthesis."
+    ],
+    "one_line": "Plants use light, water and carbon dioxide to produce glucose and oxygen.",
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.13,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 68,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

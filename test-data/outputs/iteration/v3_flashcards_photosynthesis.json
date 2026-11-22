@@ -1,0 +1,43 @@
+{
+  "mode": "flashcards",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "{\n  \"flashcards\": [\n    {\n      \"front\": \"Where does photosynthesis mainly take place in leaf cells?\",\n      \"back\": \"In the chloroplasts, which contain the green pigment chlorophyll.\"\n    },\n    {\n      \"front\": \"What is the overall chemical equation for photosynthesis?\",\n      \"back\": \"6CO2 + 6H2O + light energy -> C6H12O6 + 6O2.\"\n    },\n    {\n      \"front\": \"Where do the light-dependent reactions occur?\",\n      \"back\": \"In the thylakoid membranes, where light splits water and produces ATP and NADPH.\"\n    },\n    {\n      \"front\": \"Where does the Calvin cycle take place?\",\n      \"back\": \"In the stroma, where carbon dioxide is fixed by RuBisCO and converted into glucose.\"\n    },\n    {\n      \"front\": \"What three factors affect the rate of photosynthesis?\",\n      \"back\": \"Light intensity, carbon dioxide concentration, and temperature.\"\n    }\n  ],\n  \"warnings\": []\n}",
+  "parsed": {
+    "flashcards": [
+      {
+        "front": "Where does photosynthesis mainly take place in leaf cells?",
+        "back": "In the chloroplasts, which contain the green pigment chlorophyll."
+      },
+      {
+        "front": "What is the overall chemical equation for photosynthesis?",
+        "back": "6CO2 + 6H2O + light energy -> C6H12O6 + 6O2."
+      },
+      {
+        "front": "Where do the light-dependent reactions occur?",
+        "back": "In the thylakoid membranes, where light splits water and produces ATP and NADPH."
+      },
+      {
+        "front": "Where does the Calvin cycle take place?",
+        "back": "In the stroma, where carbon dioxide is fixed by RuBisCO and converted into glucose."
+      },
+      {
+        "front": "What three factors affect the rate of photosynthesis?",
+        "back": "Light intensity, carbon dioxide concentration, and temperature."
+      }
+    ],
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.39,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 118,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

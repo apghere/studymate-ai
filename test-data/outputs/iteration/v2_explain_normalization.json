@@ -1,0 +1,48 @@
+{
+  "mode": "explain",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "{\"explanation\": \"Normalization is how we organize a database to cut down on repeating data and prevent errors when adding, changing, or deleting information. It has steps called normal forms. First, 1NF means values cannot be split further and there are no repeating groups. Next, 2NF requires 1NF plus having every non-key attribute depend on the whole primary key, which matters for composite keys. Then, 3NF requires 2NF and removes transitive dependencies, meaning non-key attributes cannot depend on other non-key attributes. After that, BCNF is a stronger 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some redundancy and uses more storage, but it makes read-heavy queries faster.\", \"analogy\": \"Normalization is like organizing a messy filing cabinet into tidy folders so you never accidentally write the same address in three different places.\", \"key_terms\": [{\"term\": \"Normalization\", \"meaning\": \"Organizing a relational database to reduce redundancy and avoid anomalies.\"}, {\"term\": \"1NF\", \"meaning\": \"Ensures every attribute holds atomic values and has no repeating groups.\"}, {\"term\": \"2NF\", \"meaning\": \"In 1NF with no partial dependencies, meaning non-key attributes depend on the whole primary key.\"}, {\"term\": \"3NF\", \"meaning\": \"In 2NF with no transitive dependencies between non-key attributes.\"}, {\"term\": \"BCNF\", \"meaning\": \"A stronger form of 3NF where X must be a super key for every functional dependency X to Y.\"}, {\"term\": \"Denormalization\", \"meaning\": \"Adding redundancy on purpose to speed up read-heavy queries at the cost of extra storage.\"}]}",
+  "parsed": {
+    "explanation": "Normalization is how we organize a database to cut down on repeating data and prevent errors when adding, changing, or deleting information. It has steps called normal forms. First, 1NF means values cannot be split further and there are no repeating groups. Next, 2NF requires 1NF plus having every non-key attribute depend on the whole primary key, which matters for composite keys. Then, 3NF requires 2NF and removes transitive dependencies, meaning non-key attributes cannot depend on other non-key attributes. After that, BCNF is a stronger 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some redundancy and uses more storage, but it makes read-heavy queries faster.",
+    "analogy": "Normalization is like organizing a messy filing cabinet into tidy folders so you never accidentally write the same address in three different places.",
+    "key_terms": [
+      {
+        "term": "Normalization",
+        "meaning": "Organizing a relational database to reduce redundancy and avoid anomalies."
+      },
+      {
+        "term": "1NF",
+        "meaning": "Ensures every attribute holds atomic values and has no repeating groups."
+      },
+      {
+        "term": "2NF",
+        "meaning": "In 1NF with no partial dependencies, meaning non-key attributes depend on the whole primary key."
+      },
+      {
+        "term": "3NF",
+        "meaning": "In 2NF with no transitive dependencies between non-key attributes."
+      },
+      {
+        "term": "BCNF",
+        "meaning": "A stronger form of 3NF where X must be a super key for every functional dependency X to Y."
+      },
+      {
+        "term": "Denormalization",
+        "meaning": "Adding redundancy on purpose to speed up read-heavy queries at the cost of extra storage."
+      }
+    ]
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.97,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 238,
+  "note": "normalization",
+  "kind": "normal"
+}

@@ -1,0 +1,1617 @@
+{
+  "run_at": "2026-11-22T17:59:14",
+  "mock": false,
+  "versions": {
+    "v1": {
+      "metrics": {
+        "n_normal": 12,
+        "json_ok": 0,
+        "json_clean": 0,
+        "schema_ok": 0,
+        "n_counted": 6,
+        "count_ok": 0,
+        "n_invalid": 2,
+        "invalid_refused": 0,
+        "words_min": 87,
+        "words_max": 483,
+        "words_avg": 252,
+        "latency_avg": 7.58,
+        "models": [
+          "gemini-3.5-flash-lite"
+        ]
+      },
+      "runs": [
+        {
+          "mode": "explain",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "This text provides a concise, high-level summary of **photosynthesis**—the biological process that plants use to convert sunlight into chemical energy. \n\nHere is a breakdown of what the text is explaining, section by section:\n\n### 1. The Basic Definition & Location\n* **What it is:** How plants make their own food (glucose/sugar) using light.\n* **Where it happens:** Primarily in the **leaves**, specifically inside plant cell structures called **chloroplasts**. \n* **The key ingredient:** A green pigment called **chlorophyll**, which absorbs sunlight and gives plants their green color.\n\n### 2. The Chemical Equation\n$$\\text{6CO}_2 + \\text{6H}_2\\text{O} + \\text{light energy} \\rightarrow \\text{C}_6\\text{H}_{12}\\text{O}_6 + \\text{6O}_2$$\nIn plain English, this means:\n* **Inputs (what goes in):** Six molecules of carbon dioxide ($\\text{CO}_2$), six molecules of water ($\\text{H}_2\\text{O}$), and light energy.\n* **Outputs (what comes out):** One molecule of glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$, the plant's food) and six molecules of oxygen ($\\text{O}_2$, which is released into the air for us to breathe).\n\n### 3. The Two Stages of Photosynthesis\nPhotosynthesis doesn't happen all at once; it occurs in two connected stages:\n\n* **Stage 1: Light-Dependent Reactions**\n  * *Where:* In the **thylakoid membranes** (stacks inside the chloroplast).\n  * *What happens:* Sunlight hits the plant and splits water molecules apart (a process called *photolysis*). \n  * *The results:* Oxygen is released as a waste product, and two energy-carrying molecules (**ATP** and **NADPH**) are created to power the next stage.\n\n* **Stage 2: Light-Independent Reactions (The Calvin Cycle)**\n  * *Where:* In the **stroma** (the fluid-filled space inside the chloroplast).\n  * *What happens:* An enzyme called **RuBisCO** captures carbon dioxide from the air. Using the ATP and NADPH made in Stage 1, the plant converts that carbon dioxide into **glucose**. (Note: This stage doesn't *need* direct light, hence \"light-independent,\" but it relies on the products of the first stage).\n\n### 4. Limiting Factors\nThe final sentence lists the three main environmental factors that speed up or slow down how fast a plant can photosynthesize:\n1. **Light intensity:** More light generally means a faster rate, up to a certain point.\n2. **Carbon dioxide ($\\text{CO}_2$) concentration:** More $\\text{CO}_2$ provides more material to build glucose.\n3. **Temperature:** Photosynthesis relies on enzymes. If it's too cold, they work too slowly; if it's too hot, they get damaged (denatured).\n\n***\n\n**In short:** The text explains that plants act like solar-powered factories, using sunlight, water, and air to manufacture sugar for energy while releasing fresh oxygen into the atmosphere.",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 11.89,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 400,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "**Summary:**\n\nPhotosynthesis is how green plants use light energy, water, and carbon dioxide to produce glucose and oxygen. Occurring mainly in the chloroplasts of leaves, the process has two main stages:\n1. **Light-dependent reactions:** Happen in the thylakoid membranes, where light splits water to release oxygen and generate ATP and NADPH.\n2. **Light-independent reactions (Calvin cycle):** Happen in the stroma, where ATP and NADPH are used to convert carbon dioxide into glucose. \n\nThe overall rate of photosynthesis is influenced by light intensity, carbon dioxide concentration, and temperature.",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 9.27,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 87,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "Here are the flashcards based on the text provided, formatted as **Front / Back**:\n\n**Flashcard 1**\n* **Front:** What is photosynthesis?\n* **Back:** The process by which green plants make their own food using light energy.\n\n**Flashcard 2**\n* **Front:** Where does photosynthesis mainly take place?\n* **Back:** In the chloroplasts of leaf cells.\n\n**Flashcard 3**\n* **Front:** What is the green pigment found in chloroplasts called?\n* **Back:** Chlorophyll\n\n**Flashcard 4**\n* **Front:** What is the overall chemical equation for photosynthesis?\n* **Back:** $6CO_2 + 6H_2O + \\text{light energy} \\rightarrow C_6H_{12}O_6 + 6O_2$\n\n**Flashcard 5**\n* **Front:** What are the two main stages of photosynthesis?\n* **Back:** \n1. Light-dependent reactions\n2. Light-independent reactions (Calvin cycle)\n\n**Flashcard 6**\n* **Front:** Where do the light-dependent reactions occur?\n* **Back:** In the thylakoid membranes\n\n**Flashcard 7**\n* **Front:** What happens during the light-dependent reactions?\n* **Back:** Light splits water (photolysis), oxygen is released, and ATP and NADPH are produced.\n\n**Flashcard 8**\n* **Front:** What is photolysis?\n* **Back:** The splitting of water using light energy (which occurs during the light-dependent reactions).\n\n**Flashcard 9**\n* **Front:** Where do the light-independent reactions (Calvin cycle) occur?\n* **Back:** In the stroma\n\n**Flashcard 10**\n* **Front:** What happens during the light-independent reactions (Calvin cycle)?\n* **Back:** Carbon dioxide is fixed by the enzyme RuBisCO and, using ATP and NADPH, converted into glucose.\n\n**Flashcard 11**\n* **Front:** Which enzyme is responsible for fixing carbon dioxide in the Calvin cycle?\n* **Back:** RuBisCO\n\n**Flashcard 12**\n* **Front:** What are the three main factors that affect the rate of photosynthesis?\n* **Back:** \n1. Light intensity\n2. Carbon dioxide concentration\n3. Temperature",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 10.99,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 272,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "Here is a 5-question multiple-choice quiz based on the text provided:\n\n**1. Where does photosynthesis mainly take place within plant cells?**\nA) Mitochondria\nB) Chloroplasts\nC) Nucleus\nD) Cell wall\n\n**2. What is the green pigment found in chloroplasts called?**\nA) Carotenoid\nB) Anthocyanin\nC) Chlorophyll\nD) Hemoglobin\n\n**3. In which part of the chloroplast do the light-dependent reactions occur?**\nA) Stroma\nB) Thylakoid membranes\nC) Outer membrane\nD) Nucleolus\n\n**4. What enzyme is responsible for fixing carbon dioxide during the light-independent reactions (Calvin cycle)?**\nA) Amylase\nB) ATP synthase\nC) RuBisCO\nD) Pepsin\n\n**5. Which of the following is NOT listed as a factor that affects the rate of photosynthesis?**\nA) Light intensity\nB) Oxygen concentration\nC) Carbon dioxide concentration\nD) Temperature\n\n---\n\n### **Answer Key:**\n1. **B** (Chloroplasts)\n2. **C** (Chlorophyll)\n3. **B** (Thylakoid membranes)\n4. **C** (RuBisCO)\n5. **B** (Oxygen concentration - *Note: The text lists light intensity, carbon dioxide concentration, and temperature*)",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 11.25,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 156,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "explain",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "This text provides a clear, side-by-side comparison of the two primary protocols used for sending data over the internet: **TCP** and **UDP**. \n\nHere is a breakdown of what the text means, explained in simpler terms:\n\n---\n\n### 1. TCP (Transmission Control Protocol): The \"Reliable Mail\"\nThink of TCP like sending a **certified letter with a return receipt**. You want to make sure the receiver gets every single page, in the exact right order, and you need proof that they got it.\n\n*   **Connection-oriented & Three-way Handshake:** Before sending any actual data, TCP and the receiving computer \"talk\" to establish a connection. \n    *   *SYN*: \"Can I connect?\"\n    *   *SYN-ACK*: \"Yes, can I connect too?\"\n    *   *ACK*: \"Great, connection established!\"\n*   **Guaranteed & In-Order Delivery:** Every piece of data is numbered. If a piece goes missing in transit, TCP notices and asks for it to be resent. It also puts the pieces back in the correct order if they arrive out of sequence.\n*   **Flow & Congestion Control:** TCP manages the speed of the data. If the receiving computer is getting overwhelmed, TCP slows down. If the network is congested, it backs off to prevent a traffic jam.\n*   **Common Uses:** **Web browsing (HTTP/HTTPS), email (SMTP), and file downloads (FTP).** These are things where missing even a single letter of a file or a line of code will break the whole thing.\n\n---\n\n### 2. UDP (User Datagram Protocol): The \"Live Broadcast\"\nThink of UDP like **shouting across a room or a live TV broadcast**. You just keep talking. If someone misses a word because of a loud noise, you don't repeat yourself—you just keep going. \n\n*   **Connectionless:** There is no handshake. The sender just fires data packets (datagrams) at the receiver without checking if they are ready or even listening.\n*   **No Guarantees:** UDP doesn't care if data arrives, and it doesn't care about the order. Packets can get lost or arrive scrambled.\n*   **Lightweight & Fast:** Because it doesn't have to track deliveries, wait for acknowledgements, or do handshakes, UDP uses a tiny header (only 8 bytes compared to TCP's minimum 20 bytes). Less overhead means **faster speed and lower latency**.\n*   **Common Uses:** **DNS queries, video streaming, online gaming, and VoIP (voice calls like Zoom or Discord).** In these cases, a split-second delay or a single dropped video frame doesn't matter; what matters is that the action happens *right now* in real time.\n\n---\n\n### Summary Analogy\n*   **TCP** is like a **phone call**: You say hello, wait for a reply, make sure you can hear each other, and if the connection drops, you call back and catch up on what was missed.\n*   **UDP** is like a **radio station**: The station broadcasts music into the air. If you drive through a tunnel and miss three seconds of the song, the radio doesn't pause and rewind for you—the music just keeps playing.",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 9.76,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 483,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "Here is a summary of the differences between TCP and UDP:\n\n*   **TCP (Transmission Control Protocol):** Connection-oriented (uses a three-way handshake) and prioritizes reliability. It guarantees in-order delivery, uses error recovery, and manages flow/congestion control. It is best for applications where data accuracy is critical (e.g., web browsing, email, file transfers).\n*   **UDP (User Datagram Protocol):** Connectionless and prioritizes speed. It has no handshake, does not guarantee delivery or order, and uses a smaller header. It is best for real-time applications where low latency matters more than perfect reliability (e.g., video streaming, gaming, VoIP, DNS).",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 7.31,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 95,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "Here are the flashcards based on the text provided. \n\n### **Card 1: TCP vs. UDP - Connection Type**\n* **Front:** Is TCP connection-oriented or connectionless? What about UDP?\n* **Back:** \n  * **TCP:** Connection-oriented\n  * **UDP:** Connectionless\n\n---\n\n### **Card 2: TCP Handshake**\n* **Front:** How does TCP set up a connection? Name the three steps.\n* **Back:** Through a **three-way handshake**:\n  1. SYN\n  2. SYN-ACK\n  3. ACK\n\n---\n\n### **Card 3: TCP Reliability & Features**\n* **Front:** How does TCP ensure reliable, in-order delivery, and what are its key control mechanisms?\n* **Back:** \n  * **Reliability:** Uses sequence numbers, acknowledgements, and retransmission.\n  * **Control:** Provides flow control (sliding window) and congestion control.\n\n---\n\n### **Card 4: TCP Use Cases**\n* **Front:** What are common use cases for TCP?\n* **Back:** \n  * HTTP/HTTPS (Web browsing)\n  * Email (SMTP)\n  * File transfer (FTP)\n\n---\n\n### **Card 5: UDP Characteristics**\n* **Front:** What are the main characteristics of UDP regarding delivery, order, and handshakes?\n* **Back:** \n  * Connectionless (no handshake)\n  * No guarantee of delivery\n  * No guarantee of order\n  * Faster with lower latency\n\n---\n\n### **Card 6: TCP vs. UDP - Header Size**\n* **Front:** How do the header sizes of TCP and UDP compare?\n* **Back:** \n  * **UDP:** Small 8-byte header\n  * **TCP:** Minimum 20-byte header\n\n---\n\n### **Card 7: UDP Use Cases**\n* **Front:** Why is UDP used, and what are its common applications?\n* **Back:** \n  * **Why:** Used where speed and low latency matter more than perfect reliability.\n  * **Applications:** DNS queries, video streaming, online gaming, and VoIP.",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 1.93,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 259,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "Here is a 5-question multiple-choice quiz based on the text provided:\n\n### **TCP vs. UDP Quiz**\n\n**1. Which protocol uses a three-way handshake (SYN, SYN-ACK, ACK) to set up a connection?**\n* A) UDP\n* B) TCP\n* C) Both TCP and UDP\n* D) Neither TCP nor UDP\n\n**2. Which protocol is best described as connectionless with no guarantee of delivery or order?**\n* A) TCP\n* B) HTTP\n* C) UDP\n* D) FTP\n\n**3. Why is UDP faster and lower in latency than TCP?**\n* A) It uses a larger header size.\n* B) It requires a handshake before sending data.\n* C) It has no handshake and a smaller 8-byte header.\n* D) It includes built-in congestion control.\n\n**4. Which of the following applications would most likely use TCP?**\n* A) Online gaming\n* B) Video streaming\n* C) DNS queries\n* D) File transfer (FTP)\n\n**5. What is the minimum header size for a TCP packet compared to a UDP packet?**\n* A) TCP is 8 bytes; UDP is 20 bytes.\n* B) TCP is 20 bytes; UDP is 8 bytes.\n* C) Both have a header size of 20 bytes.\n* D) Both have a header size of 8 bytes.\n\n---\n\n### **Answer Key:**\n1. **B** (TCP)\n2. **C** (UDP)\n3. **C** (It has no handshake and a smaller 8-byte header.)\n4. **D** (File transfer (FTP))\n5. **B** (TCP is 20 bytes; UDP is 8 bytes.)",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 7.13,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 242,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "explain",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "This text is a concise summary of **database normalization**, a core concept in relational database design. \n\nHere is a plain-English breakdown of what it all means:\n\n---\n\n### The Big Picture\nImagine keeping all your data in a single, massive spreadsheet. If you update a customer’s address in one row, you might forget to update it in another, leading to errors. **Normalization** is the process of breaking data down into smaller, logically connected tables to eliminate duplicate data and prevent these errors (called *anomalies*).\n\nThe text outlines the progressive rules—called **Normal Forms (NF)**—used to achieve this. Each step builds on the previous one.\n\n---\n\n### The Normal Forms\n\n#### 1. First Normal Form (1NF): \"Keep it atomic\"\n* **Rule:** Every cell in the table must contain a single, indivisible value, and there can be no repeating groups or lists inside a single column.\n* **Example:** If you have a column called `Phone Numbers`, you shouldn't put two phone numbers separated by a comma in the same box. Each row should represent just one piece of data per column.\n\n#### 2. Second Normal Form (2NF): \"Depend on the whole key\"\n* **Rule:** The table must be in 1NF, and any column that isn't part of the primary key must rely on the *entire* primary key, not just part of it. (This only applies when your primary key is made of two or more columns combined).\n* **Example:** Imagine an `Order_Details` table where the primary key is a combination of `Order_ID` and `Product_ID`. The `Product_Name` only depends on the `Product_ID`, not the `Order_ID`. To satisfy 2NF, `Product_Name` should be moved to a separate `Products` table.\n\n#### 3. Third Normal Form (3NF): \"No chains of dependence\"\n* **Rule:** The table must be in 2NF, and non-key columns must depend *only* on the primary key—not on other non-key columns.\n* **Example:** Suppose you have a table with `Employee_ID` (Primary Key), `Department_ID`, and `Department_Name`. Even though `Department_Name` describes the employee, it actually depends on `Department_ID`. To fix this, department details should be moved into their own table.\n\n#### 4. Boyce-Codd Normal Form (BCNF): \"Strict 3NF\"\n* **Rule:** A stricter version of 3NF. It states that whenever there is a dependency (X leads to Y), **X must be a super key** (a unique identifier for a row). \n* **Why it matters:** 3NF allows for rare edge cases where a non-key attribute might partly determine another attribute. BCNF eliminates even those loopholes.\n\n---\n\n### The Exception: Denormalization\nWhile normalization is great for keeping data clean and saving space, highly normalized databases require the computer to \"join\" many tables together to get an answer, which can slow things down.\n\n* **Denormalization** is the deliberate act of breaking the rules (adding redundancy back in) specifically to **speed up read operations** (like searches and reports), accepting that it will use more storage space and require extra care during updates.",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 9.89,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 479,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "Here is a summary of database normalization and denormalization:\n\n*   **Normalization:** The process of organizing a relational database to minimize redundancy and prevent data anomalies (during inserts, updates, and deletes). It progresses through progressive stages:\n    *   **1NF:** Values must be atomic (indivisible) with no repeating groups.\n    *   **2NF:** Must be in 1NF with no partial dependencies (non-key attributes must depend on the *entire* primary key).\n    *   **3NF:** Must be in 2NF with no transitive dependencies (non-key attributes cannot depend on other non-key attributes).\n    *   **BCNF:** A stricter version of 3NF where every determinant (X) in a functional dependency (X -> Y) must be a super key.\n*   **Denormalization:** The intentional introduction of redundancy and extra storage to improve the speed of read-heavy queries.",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 1.96,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 123,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "Here are the flashcards based on the provided text, formatted as **Front / Back**:\n\n**Flashcard 1**\n* **Front:** What is normalization?\n* **Back:** The process of organising a relational database to reduce redundancy and avoid update, insert, and delete anomalies.\n\n**Flashcard 2**\n* **Front:** What are the two main conditions for First Normal Form (1NF)?\n* **Back:** \n1. Every attribute holds atomic (indivisible) values.\n2. There are no repeating groups.\n\n**Flashcard 3**\n* **Front:** What defines Second Normal Form (2NF)?\n* **Back:** The table is in 1NF and every non-key attribute is fully functionally dependent on the whole primary key (no partial dependencies). \n*(Note: This matters only when the key is composite.)*\n\n**Flashcard 4**\n* **Front:** What defines Third Normal Form (3NF)?\n* **Back:** The table is in 2NF and there are no transitive dependencies (i.e., a non-key attribute must not depend on another non-key attribute).\n\n**Flashcard 5**\n* **Front:** What is Boyce-Codd Normal Form (BCNF)?\n* **Back:** A stronger form of 3NF where for every functional dependency X -> Y, X must be a super key.\n\n**Flashcard 6**\n* **Front:** What is denormalization and why is it done?\n* **Back:** It is the intentional introduction of redundancy to speed up read-heavy queries, at the cost of extra storage.",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 6.99,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 209,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "Here is a 5-question multiple-choice quiz based on the text provided:\n\n### Database Normalization Quiz\n\n**1. What is the primary purpose of normalization?**\nA) To speed up read-heavy queries  \nB) To reduce redundancy and avoid update, insert, and delete anomalies  \nC) To make the database use as much storage as possible  \nD) To create composite primary keys  \n\n**2. Which Normal Form requires that every attribute holds atomic (indivisible) values with no repeating groups?**\nA) 1NF  \nB) 2NF  \nC) 3NF  \nD) BCNF  \n\n**3. When does 2NF specifically matter most for a table?**\nA) When there are no primary keys  \nB) When there are transitive dependencies  \nC) When the key is composite  \nD) When the table is being denormalized  \n\n**4. A table is in 3NF if it is in 2NF and has NO:**\nA) Atomic values  \nB) Primary keys  \nC) Super keys  \nD) Transitive dependencies  \n\n**5. Why might someone choose to *denormalize* a database?**\nA) To eliminate all data redundancy  \nB) To fix insertion and deletion anomalies  \nC) To speed up read-heavy queries  \nD) To ensure every non-key attribute is fully functionally dependent  \n\n---\n\n### Answer Key:\n1. **B** (To reduce redundancy and avoid update, insert, and delete anomalies)\n2. **A** (1NF)\n3. **C** (When the key is composite)\n4. **D** (Transitive dependencies)\n5. **C** (To speed up read-heavy queries)",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 2.19,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 218,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 11,
+          "mock": false,
+          "raw": "Here are the flashcards based on the text provided:\n\n**Flashcard 1**\n* **Front:** What are the first letters?\n* **Back:** asdkjh\n\n**Flashcard 2**\n* **Front:** What follows \"asdkjh\"?\n* **Back:** qweoiu\n\n**Flashcard 3**\n* **Front:** What comes after \"qweoiu\"?\n* **Back:** zxmcnb\n\n**Flashcard 4**\n* **Front:** What is the middle section of letters?\n* **Back:** lkjhg poiuy mnbvc\n\n**Flashcard 5**\n* **Front:** What numbers are included in the text?\n* **Back:** 12345\n\n**Flashcard 6**\n* **Front:** What punctuation marks are used?\n* **Back:** !!! ,,,\n\n**Flashcard 7**\n* **Front:** What are the final characters?\n* **Back:** qwerty asdf",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 8.75,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 98,
+          "note": "gibberish",
+          "kind": "invalid"
+        },
+        {
+          "mode": "quiz",
+          "version": "v1",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 25,
+          "mock": false,
+          "raw": "Here is a 5-question quiz based on your shopping and to-do list:\n\n**1. How much milk needs to be bought?**\n* A) 1 litre\n* B) 2 litres\n* C) 5 litres\n* D) 12 litres\n\n**2. Which of the following items has a specific weight mentioned on the list?**\n* A) Bread\n* B) Tomatoes\n* C) Onions\n* D) Eggs\n\n**3. How many packs of Maggi are on the list?**\n* A) 2\n* B) 4\n* C) 12\n* D) Not specified\n\n**4. What time is the plumber scheduled to be called?**\n* A) 2:00\n* B) 4:00\n* C) 5:00\n* D) 12:00\n\n**5. Besides buying groceries and household items, what bill needs to be paid?**\n* A) Water bill\n* B) Gas bill\n* C) Electricity bill\n* D) Internet bill\n\n---\n*(Scroll down for answers)*\n\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n**Answer Key:**\n1. **B** (2 litres)\n2. **C** (1 kg onions)\n3. **B** (Maggi x4)\n4. **C** (at 5)\n5. **C** (Electricity bill)",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 6.88,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 174,
+          "note": "grocery",
+          "kind": "invalid"
+        }
+      ]
+    },
+    "v2": {
+      "metrics": {
+        "n_normal": 12,
+        "json_ok": 12,
+        "json_clean": 12,
+        "schema_ok": 12,
+        "n_counted": 6,
+        "count_ok": 6,
+        "n_invalid": 2,
+        "invalid_refused": 0,
+        "words_min": 86,
+        "words_max": 293,
+        "words_avg": 164,
+        "latency_avg": 4.07,
+        "models": [
+          "gemini-3.5-flash-lite"
+        ]
+      },
+      "runs": [
+        {
+          "mode": "explain",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\"explanation\": \"Photosynthesis is how green plants make food using light. This happens inside leaf cell chloroplasts, which have a green pigment called chlorophyll. The process has two main parts. First, light-dependent reactions happen in the thylakoid membranes. Here, light splits water to release oxygen, making ATP and NADPH. Second, light-independent reactions, also called the Calvin cycle, happen in the stroma. The enzyme RuBisCO fixes carbon dioxide. Then, using ATP and NADPH, it turns into glucose. Three things affect how fast this process happens: light intensity, carbon dioxide concentration, and temperature.\", \"analogy\": \"Photosynthesis is like baking a cake in a kitchen. The kitchen is the chloroplast, the ingredients are water, carbon dioxide, and light energy, and the final cake is glucose.\", \"key_terms\": [{\"term\": \"Chloroplasts\", \"meaning\": \"Parts of leaf cells where photosynthesis takes place.\"}, {\"term\": \"Chlorophyll\", \"meaning\": \"A green pigment found inside chloroplasts.\"}, {\"term\": \"Thylakoid membranes\", \"meaning\": \"Where the light-dependent reactions occur.\"}, {\"term\": \"Stroma\", \"meaning\": \"Where the light-independent reactions or Calvin cycle occur.\"}, {\"term\": \"RuBisCO\", \"meaning\": \"An enzyme that fixes carbon dioxide.\"}]}",
+          "parsed": {
+            "explanation": "Photosynthesis is how green plants make food using light. This happens inside leaf cell chloroplasts, which have a green pigment called chlorophyll. The process has two main parts. First, light-dependent reactions happen in the thylakoid membranes. Here, light splits water to release oxygen, making ATP and NADPH. Second, light-independent reactions, also called the Calvin cycle, happen in the stroma. The enzyme RuBisCO fixes carbon dioxide. Then, using ATP and NADPH, it turns into glucose. Three things affect how fast this process happens: light intensity, carbon dioxide concentration, and temperature.",
+            "analogy": "Photosynthesis is like baking a cake in a kitchen. The kitchen is the chloroplast, the ingredients are water, carbon dioxide, and light energy, and the final cake is glucose.",
+            "key_terms": [
+              {
+                "term": "Chloroplasts",
+                "meaning": "Parts of leaf cells where photosynthesis takes place."
+              },
+              {
+                "term": "Chlorophyll",
+                "meaning": "A green pigment found inside chloroplasts."
+              },
+              {
+                "term": "Thylakoid membranes",
+                "meaning": "Where the light-dependent reactions occur."
+              },
+              {
+                "term": "Stroma",
+                "meaning": "Where the light-independent reactions or Calvin cycle occur."
+              },
+              {
+                "term": "RuBisCO",
+                "meaning": "An enzyme that fixes carbon dioxide."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.51,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 170,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\"title\": \"Photosynthesis Revision\", \"summary_points\": [\"Green plants make food using light energy mainly within chloroplasts containing chlorophyll.\", \"The overall chemical equation is 6CO2 plus 6H2O plus light energy producing glucose and oxygen.\", \"Light-dependent reactions in thylakoid membranes split water, release oxygen, and create ATP and NADPH.\", \"The Calvin cycle in the stroma fixes carbon dioxide into glucose using ATP and NADPH.\", \"Light intensity, carbon dioxide concentration, and temperature affect the rate of photosynthesis.\"], \"one_line\": \"Photosynthesis converts light energy into glucose through light-dependent reactions and the Calvin cycle.\"}",
+          "parsed": {
+            "title": "Photosynthesis Revision",
+            "summary_points": [
+              "Green plants make food using light energy mainly within chloroplasts containing chlorophyll.",
+              "The overall chemical equation is 6CO2 plus 6H2O plus light energy producing glucose and oxygen.",
+              "Light-dependent reactions in thylakoid membranes split water, release oxygen, and create ATP and NADPH.",
+              "The Calvin cycle in the stroma fixes carbon dioxide into glucose using ATP and NADPH.",
+              "Light intensity, carbon dioxide concentration, and temperature affect the rate of photosynthesis."
+            ],
+            "one_line": "Photosynthesis converts light energy into glucose through light-dependent reactions and the Calvin cycle."
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 7.48,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 86,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\"flashcards\": [{\"front\": \"Where do light-dependent reactions occur?\", \"back\": \"They occur in the thylakoid membranes, where light splits water, oxygen is released, and ATP and NADPH are produced.\"}, {\"front\": \"What is the overall chemical equation for photosynthesis?\", \"back\": \"The equation is 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2.\"}, {\"front\": \"Where does the light-independent Calvin cycle take place?\", \"back\": \"It occurs in the stroma, where carbon dioxide is fixed by the enzyme RuBisCO and converted into glucose.\"}, {\"front\": \"Which green pigment is contained inside chloroplasts?\", \"back\": \"Chloroplasts contain the green pigment chlorophyll, and photosynthesis takes place mainly in these leaf cell structures.\"}, {\"front\": \"What three factors affect the rate of photosynthesis?\", \"back\": \"The rate is affected by light intensity, carbon dioxide concentration, and temperature.\"}]}",
+          "parsed": {
+            "flashcards": [
+              {
+                "front": "Where do light-dependent reactions occur?",
+                "back": "They occur in the thylakoid membranes, where light splits water, oxygen is released, and ATP and NADPH are produced."
+              },
+              {
+                "front": "What is the overall chemical equation for photosynthesis?",
+                "back": "The equation is 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2."
+              },
+              {
+                "front": "Where does the light-independent Calvin cycle take place?",
+                "back": "It occurs in the stroma, where carbon dioxide is fixed by the enzyme RuBisCO and converted into glucose."
+              },
+              {
+                "front": "Which green pigment is contained inside chloroplasts?",
+                "back": "Chloroplasts contain the green pigment chlorophyll, and photosynthesis takes place mainly in these leaf cell structures."
+              },
+              {
+                "front": "What three factors affect the rate of photosynthesis?",
+                "back": "The rate is affected by light intensity, carbon dioxide concentration, and temperature."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.39,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 125,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\"questions\": [{\"question\": \"Where do the light-independent reactions of photosynthesis take place?\", \"options\": {\"A\": \"Thylakoid membranes\", \"B\": \"Stroma\", \"C\": \"Chlorophyll\", \"D\": \"Cell wall\"}, \"answer\": \"B\", \"explanation\": \"The light-independent reactions, or Calvin cycle, occur in the stroma.\"}, {\"question\": \"What is the primary function of chlorophyll in photosynthesis?\", \"options\": {\"A\": \"Fix carbon dioxide\", \"B\": \"Produce glucose directly\", \"C\": \"Act as a green pigment in chloroplasts\", \"D\": \"Split water molecules\"}, \"answer\": \"C\", \"explanation\": \"Chlorophyll is the green pigment contained within the chloroplasts of leaf cells.\"}, {\"question\": \"Which enzyme is responsible for fixing carbon dioxide during the Calvin cycle?\", \"options\": {\"A\": \"ATP synthase\", \"B\": \"RuBisCO\", \"C\": \"Chlorophyllase\", \"D\": \"NADPH reductase\"}, \"answer\": \"B\", \"explanation\": \"Carbon dioxide is fixed by the enzyme RuBisCO during the light-independent reactions.\"}, {\"question\": \"What is produced alongside oxygen during the light-dependent reactions?\", \"options\": {\"A\": \"Glucose and water\", \"B\": \"Carbon dioxide and ATP\", \"C\": \"ATP and NADPH\", \"D\": \"RuBisCO and glucose\"}, \"answer\": \"C\", \"explanation\": \"The light-dependent reactions produce oxygen, ATP, and NADPH.\"}, {\"question\": \"Which of the following is NOT listed as a factor that affects the rate of photosynthesis?\", \"options\": {\"A\": \"Light intensity\", \"B\": \"Carbon dioxide concentration\", \"C\": \"Oxygen concentration\", \"D\": \"Temperature\"}, \"answer\": \"C\", \"explanation\": \"The listed factors are light intensity, carbon dioxide concentration, and temperature.\"}]}",
+          "parsed": {
+            "questions": [
+              {
+                "question": "Where do the light-independent reactions of photosynthesis take place?",
+                "options": {
+                  "A": "Thylakoid membranes",
+                  "B": "Stroma",
+                  "C": "Chlorophyll",
+                  "D": "Cell wall"
+                },
+                "answer": "B",
+                "explanation": "The light-independent reactions, or Calvin cycle, occur in the stroma."
+              },
+              {
+                "question": "What is the primary function of chlorophyll in photosynthesis?",
+                "options": {
+                  "A": "Fix carbon dioxide",
+                  "B": "Produce glucose directly",
+                  "C": "Act as a green pigment in chloroplasts",
+                  "D": "Split water molecules"
+                },
+                "answer": "C",
+                "explanation": "Chlorophyll is the green pigment contained within the chloroplasts of leaf cells."
+              },
+              {
+                "question": "Which enzyme is responsible for fixing carbon dioxide during the Calvin cycle?",
+                "options": {
+                  "A": "ATP synthase",
+                  "B": "RuBisCO",
+                  "C": "Chlorophyllase",
+                  "D": "NADPH reductase"
+                },
+                "answer": "B",
+                "explanation": "Carbon dioxide is fixed by the enzyme RuBisCO during the light-independent reactions."
+              },
+              {
+                "question": "What is produced alongside oxygen during the light-dependent reactions?",
+                "options": {
+                  "A": "Glucose and water",
+                  "B": "Carbon dioxide and ATP",
+                  "C": "ATP and NADPH",
+                  "D": "RuBisCO and glucose"
+                },
+                "answer": "C",
+                "explanation": "The light-dependent reactions produce oxygen, ATP, and NADPH."
+              },
+              {
+                "question": "Which of the following is NOT listed as a factor that affects the rate of photosynthesis?",
+                "options": {
+                  "A": "Light intensity",
+                  "B": "Carbon dioxide concentration",
+                  "C": "Oxygen concentration",
+                  "D": "Temperature"
+                },
+                "answer": "C",
+                "explanation": "The listed factors are light intensity, carbon dioxide concentration, and temperature."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 8.69,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 203,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "explain",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"explanation\": \"TCP and UDP are two ways computers send data. TCP is like a tracked package. It sets up a connection first, checks that everything arrives in the right order, and resends lost parts. It is used for web browsing, email, and file transfers. UDP is like shouting a message across a room. It has no setup and does not check if it arrived, but it is much faster. It is used for video streaming, online gaming, and voice calls where speed matters more than perfection.\", \"analogy\": \"TCP is like sending a registered letter that needs a signature, while UDP is like shouting a quick message out the window.\", \"key_terms\": [{\"term\": \"TCP\", \"meaning\": \"A connection-oriented protocol that guarantees reliable, in-order data delivery.\"}, {\"term\": \"UDP\", \"meaning\": \"A connectionless protocol that is faster with lower latency but does not guarantee delivery.\"}, {\"term\": \"Three-way handshake\", \"meaning\": \"The process TCP uses to set up a connection using SYN, SYN-ACK, and ACK.\"}, {\"term\": \"Flow control\", \"meaning\": \"A feature managed by TCP using a sliding window.\"}, {\"term\": \"Congestion control\", \"meaning\": \"A feature provided by TCP to manage network traffic.\"}]}",
+          "parsed": {
+            "explanation": "TCP and UDP are two ways computers send data. TCP is like a tracked package. It sets up a connection first, checks that everything arrives in the right order, and resends lost parts. It is used for web browsing, email, and file transfers. UDP is like shouting a message across a room. It has no setup and does not check if it arrived, but it is much faster. It is used for video streaming, online gaming, and voice calls where speed matters more than perfection.",
+            "analogy": "TCP is like sending a registered letter that needs a signature, while UDP is like shouting a quick message out the window.",
+            "key_terms": [
+              {
+                "term": "TCP",
+                "meaning": "A connection-oriented protocol that guarantees reliable, in-order data delivery."
+              },
+              {
+                "term": "UDP",
+                "meaning": "A connectionless protocol that is faster with lower latency but does not guarantee delivery."
+              },
+              {
+                "term": "Three-way handshake",
+                "meaning": "The process TCP uses to set up a connection using SYN, SYN-ACK, and ACK."
+              },
+              {
+                "term": "Flow control",
+                "meaning": "A feature managed by TCP using a sliding window."
+              },
+              {
+                "term": "Congestion control",
+                "meaning": "A feature provided by TCP to manage network traffic."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.67,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 183,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"title\": \"TCP and UDP Protocols\", \"summary_points\": [\"TCP is a connection-oriented protocol that uses a three-way handshake and guarantees reliable, in-order delivery.\", \"TCP provides flow control via sliding window and congestion control, and is used for HTTP, email, and FTP.\", \"UDP is connectionless, has no handshake, and offers no delivery or order guarantees.\", \"UDP features a small 8-byte header and lower latency, making it faster than TCP.\", \"UDP is used for DNS, video streaming, gaming, and VoIP where speed beats reliability.\"], \"one_line\": \"TCP prioritizes reliable, ordered delivery, whereas UDP prioritizes speed and lower latency.\"}",
+          "parsed": {
+            "title": "TCP and UDP Protocols",
+            "summary_points": [
+              "TCP is a connection-oriented protocol that uses a three-way handshake and guarantees reliable, in-order delivery.",
+              "TCP provides flow control via sliding window and congestion control, and is used for HTTP, email, and FTP.",
+              "UDP is connectionless, has no handshake, and offers no delivery or order guarantees.",
+              "UDP features a small 8-byte header and lower latency, making it faster than TCP.",
+              "UDP is used for DNS, video streaming, gaming, and VoIP where speed beats reliability."
+            ],
+            "one_line": "TCP prioritizes reliable, ordered delivery, whereas UDP prioritizes speed and lower latency."
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.46,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 93,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"flashcards\": [{\"front\": \"What type of connection setup does TCP use?\", \"back\": \"TCP is connection-oriented and sets up a connection with a three-way handshake involving SYN, SYN-ACK, and ACK.\"}, {\"front\": \"How does TCP guarantee reliable and in-order delivery?\", \"back\": \"TCP uses sequence numbers, acknowledgements, and retransmission to guarantee reliable, in-order delivery.\"}, {\"front\": \"What protocols use TCP?\", \"back\": \"TCP is used by HTTP/HTTPS, email via SMTP, and file transfer using FTP.\"}, {\"front\": \"What is the header size of UDP compared to TCP?\", \"back\": \"UDP has a small 8-byte header compared to TCP's minimum 20-byte header.\"}, {\"front\": \"Why is UDP used for applications like online gaming and VoIP?\", \"back\": \"UDP is faster and has lower latency because speed matters more than perfect reliability for these applications.\"}]}",
+          "parsed": {
+            "flashcards": [
+              {
+                "front": "What type of connection setup does TCP use?",
+                "back": "TCP is connection-oriented and sets up a connection with a three-way handshake involving SYN, SYN-ACK, and ACK."
+              },
+              {
+                "front": "How does TCP guarantee reliable and in-order delivery?",
+                "back": "TCP uses sequence numbers, acknowledgements, and retransmission to guarantee reliable, in-order delivery."
+              },
+              {
+                "front": "What protocols use TCP?",
+                "back": "TCP is used by HTTP/HTTPS, email via SMTP, and file transfer using FTP."
+              },
+              {
+                "front": "What is the header size of UDP compared to TCP?",
+                "back": "UDP has a small 8-byte header compared to TCP's minimum 20-byte header."
+              },
+              {
+                "front": "Why is UDP used for applications like online gaming and VoIP?",
+                "back": "UDP is faster and has lower latency because speed matters more than perfect reliability for these applications."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.36,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 123,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"questions\": [{\"question\": \"Which protocol uses a three-way handshake involving SYN, SYN-ACK, and ACK?\", \"options\": {\"A\": \"UDP\", \"B\": \"IP\", \"C\": \"TCP\", \"D\": \"FTP\"}, \"answer\": \"C\", \"explanation\": \"TCP is connection-oriented and sets up a connection using a three-way handshake.\"}, {\"question\": \"What is the minimum header size of a TCP segment?\", \"options\": {\"A\": \"8 bytes\", \"B\": \"20 bytes\", \"C\": \"32 bytes\", \"D\": \"64 bytes\"}, \"answer\": \"B\", \"explanation\": \"TCP has a minimum 20-byte header, compared to UDP's small 8-byte header.\"}, {\"question\": \"Which of the following applications uses UDP instead of TCP according to the notes?\", \"options\": {\"A\": \"HTTP\", \"B\": \"Email (SMTP)\", \"C\": \"File transfer (FTP)\", \"D\": \"DNS queries\"}, \"answer\": \"D\", \"explanation\": \"DNS queries use UDP because speed matters more than perfect reliability.\"}, {\"question\": \"How does TCP guarantee reliable, in-order delivery?\", \"options\": {\"A\": \"Using sequence numbers, acknowledgements and retransmission\", \"B\": \"Using a connectionless handshake and flow control\", \"C\": \"Using an 8-byte header and low latency\", \"D\": \"Using congestion control and no acknowledgements\"}, \"answer\": \"A\", \"explanation\": \"TCP guarantees reliable, in-order delivery using sequence numbers, acknowledgements, and retransmission.\"}, {\"question\": \"Why is UDP faster and lower in latency than TCP?\", \"options\": {\"A\": \"It uses a three-way handshake\", \"B\": \"It is connectionless with no handshake and a smaller header\", \"C\": \"It guarantees delivery and order using a sliding window\", \"D\": \"It uses congestion control for email and file transfers\"}, \"answer\": \"B\", \"explanation\": \"UDP is connectionless, lacks a handshake, has no delivery guarantees, and features a smaller 8-byte header.\"}]}",
+          "parsed": {
+            "questions": [
+              {
+                "question": "Which protocol uses a three-way handshake involving SYN, SYN-ACK, and ACK?",
+                "options": {
+                  "A": "UDP",
+                  "B": "IP",
+                  "C": "TCP",
+                  "D": "FTP"
+                },
+                "answer": "C",
+                "explanation": "TCP is connection-oriented and sets up a connection using a three-way handshake."
+              },
+              {
+                "question": "What is the minimum header size of a TCP segment?",
+                "options": {
+                  "A": "8 bytes",
+                  "B": "20 bytes",
+                  "C": "32 bytes",
+                  "D": "64 bytes"
+                },
+                "answer": "B",
+                "explanation": "TCP has a minimum 20-byte header, compared to UDP's small 8-byte header."
+              },
+              {
+                "question": "Which of the following applications uses UDP instead of TCP according to the notes?",
+                "options": {
+                  "A": "HTTP",
+                  "B": "Email (SMTP)",
+                  "C": "File transfer (FTP)",
+                  "D": "DNS queries"
+                },
+                "answer": "D",
+                "explanation": "DNS queries use UDP because speed matters more than perfect reliability."
+              },
+              {
+                "question": "How does TCP guarantee reliable, in-order delivery?",
+                "options": {
+                  "A": "Using sequence numbers, acknowledgements and retransmission",
+                  "B": "Using a connectionless handshake and flow control",
+                  "C": "Using an 8-byte header and low latency",
+                  "D": "Using congestion control and no acknowledgements"
+                },
+                "answer": "A",
+                "explanation": "TCP guarantees reliable, in-order delivery using sequence numbers, acknowledgements, and retransmission."
+              },
+              {
+                "question": "Why is UDP faster and lower in latency than TCP?",
+                "options": {
+                  "A": "It uses a three-way handshake",
+                  "B": "It is connectionless with no handshake and a smaller header",
+                  "C": "It guarantees delivery and order using a sliding window",
+                  "D": "It uses congestion control for email and file transfers"
+                },
+                "answer": "B",
+                "explanation": "UDP is connectionless, lacks a handshake, has no delivery guarantees, and features a smaller 8-byte header."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 5.78,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 239,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "explain",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\"explanation\": \"Normalization is how we organize a database to cut down on repeating data and prevent errors when adding, changing, or deleting information. It has steps called normal forms. First, 1NF means values cannot be split further and there are no repeating groups. Next, 2NF requires 1NF plus having every non-key attribute depend on the whole primary key, which matters for composite keys. Then, 3NF requires 2NF and removes transitive dependencies, meaning non-key attributes cannot depend on other non-key attributes. After that, BCNF is a stronger 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some redundancy and uses more storage, but it makes read-heavy queries faster.\", \"analogy\": \"Normalization is like organizing a messy filing cabinet into tidy folders so you never accidentally write the same address in three different places.\", \"key_terms\": [{\"term\": \"Normalization\", \"meaning\": \"Organizing a relational database to reduce redundancy and avoid anomalies.\"}, {\"term\": \"1NF\", \"meaning\": \"Ensures every attribute holds atomic values and has no repeating groups.\"}, {\"term\": \"2NF\", \"meaning\": \"In 1NF with no partial dependencies, meaning non-key attributes depend on the whole primary key.\"}, {\"term\": \"3NF\", \"meaning\": \"In 2NF with no transitive dependencies between non-key attributes.\"}, {\"term\": \"BCNF\", \"meaning\": \"A stronger form of 3NF where X must be a super key for every functional dependency X to Y.\"}, {\"term\": \"Denormalization\", \"meaning\": \"Adding redundancy on purpose to speed up read-heavy queries at the cost of extra storage.\"}]}",
+          "parsed": {
+            "explanation": "Normalization is how we organize a database to cut down on repeating data and prevent errors when adding, changing, or deleting information. It has steps called normal forms. First, 1NF means values cannot be split further and there are no repeating groups. Next, 2NF requires 1NF plus having every non-key attribute depend on the whole primary key, which matters for composite keys. Then, 3NF requires 2NF and removes transitive dependencies, meaning non-key attributes cannot depend on other non-key attributes. After that, BCNF is a stronger 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some redundancy and uses more storage, but it makes read-heavy queries faster.",
+            "analogy": "Normalization is like organizing a messy filing cabinet into tidy folders so you never accidentally write the same address in three different places.",
+            "key_terms": [
+              {
+                "term": "Normalization",
+                "meaning": "Organizing a relational database to reduce redundancy and avoid anomalies."
+              },
+              {
+                "term": "1NF",
+                "meaning": "Ensures every attribute holds atomic values and has no repeating groups."
+              },
+              {
+                "term": "2NF",
+                "meaning": "In 1NF with no partial dependencies, meaning non-key attributes depend on the whole primary key."
+              },
+              {
+                "term": "3NF",
+                "meaning": "In 2NF with no transitive dependencies between non-key attributes."
+              },
+              {
+                "term": "BCNF",
+                "meaning": "A stronger form of 3NF where X must be a super key for every functional dependency X to Y."
+              },
+              {
+                "term": "Denormalization",
+                "meaning": "Adding redundancy on purpose to speed up read-heavy queries at the cost of extra storage."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.97,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 238,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\n  \"title\": \"Database Normalization Revision\",\n  \"summary_points\": [\n    \"Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.\",\n    \"First normal form requires every attribute to hold atomic values with no repeating groups.\",\n    \"Second normal form requires first normal form and eliminates partial dependencies on composite primary keys.\",\n    \"Third normal form requires second normal form and removes all transitive dependencies between non-key attributes.\",\n    \"Boyce-Codd normal form is a stronger version where every determinant must be a super key.\",\n    \"Denormalization deliberately introduces redundancy and extra storage to speed up read-heavy queries.\"\n  ],\n  \"one_line\": \"Normalization removes database anomalies, while denormalization speeds up read queries.\"\n}",
+          "parsed": {
+            "title": "Database Normalization Revision",
+            "summary_points": [
+              "Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.",
+              "First normal form requires every attribute to hold atomic values with no repeating groups.",
+              "Second normal form requires first normal form and eliminates partial dependencies on composite primary keys.",
+              "Third normal form requires second normal form and removes all transitive dependencies between non-key attributes.",
+              "Boyce-Codd normal form is a stronger version where every determinant must be a super key.",
+              "Denormalization deliberately introduces redundancy and extra storage to speed up read-heavy queries."
+            ],
+            "one_line": "Normalization removes database anomalies, while denormalization speeds up read queries."
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.42,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 105,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\"flashcards\": [{\"front\": \"What is the purpose of database normalization?\", \"back\": \"To organise a relational database to reduce redundancy and avoid update, insert, and delete anomalies.\"}, {\"front\": \"What two conditions define 1NF?\", \"back\": \"Every attribute holds atomic (indivisible) values and there are no repeating groups.\"}, {\"front\": \"When does 2NF matter?\", \"back\": \"It matters only when the key is composite.\"}, {\"front\": \"What is prohibited in 3NF regarding dependencies?\", \"back\": \"There are no transitive dependencies, meaning a non-key attribute must not depend on another non-key attribute.\"}, {\"front\": \"Why is denormalization sometimes done on purpose?\", \"back\": \"To speed up read-heavy queries, at the cost of extra storage and redundancy.\"}]}",
+          "parsed": {
+            "flashcards": [
+              {
+                "front": "What is the purpose of database normalization?",
+                "back": "To organise a relational database to reduce redundancy and avoid update, insert, and delete anomalies."
+              },
+              {
+                "front": "What two conditions define 1NF?",
+                "back": "Every attribute holds atomic (indivisible) values and there are no repeating groups."
+              },
+              {
+                "front": "When does 2NF matter?",
+                "back": "It matters only when the key is composite."
+              },
+              {
+                "front": "What is prohibited in 3NF regarding dependencies?",
+                "back": "There are no transitive dependencies, meaning a non-key attribute must not depend on another non-key attribute."
+              },
+              {
+                "front": "Why is denormalization sometimes done on purpose?",
+                "back": "To speed up read-heavy queries, at the cost of extra storage and redundancy."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 6.48,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 105,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\"questions\": [{\"question\": \"What is the primary purpose of normalization in a relational database?\", \"options\": {\"A\": \"To speed up read-heavy queries\", \"B\": \"To reduce redundancy and avoid anomalies\", \"C\": \"To create transitive dependencies\", \"D\": \"To introduce repeating groups\"}, \"answer\": \"B\", \"explanation\": \"Normalization organizes databases to reduce redundancy and avoid update, insert, and delete anomalies.\"}, {\"question\": \"What is a core requirement for a relation to be in First Normal Form (1NF)?\", \"options\": {\"A\": \"No partial dependencies exist\", \"B\": \"Every attribute holds atomic values\", \"C\": \"X must be a super key for all dependencies\", \"D\": \"Non-key attributes depend on other non-key attributes\"}, \"answer\": \"B\", \"explanation\": \"In 1NF, every attribute must hold atomic (indivisible) values and there must be no repeating groups.\"}, {\"question\": \"When does Second Normal Form (2NF) specifically matter?\", \"options\": {\"A\": \"When the primary key is composite\", \"B\": \"When there are transitive dependencies\", \"C\": \"When the table is not in 1NF\", \"D\": \"When queries are read-heavy\"}, \"answer\": \"A\", \"explanation\": \"2NF requires no partial dependencies, which only matters when the primary key is composite.\"}, {\"question\": \"Which condition must be met for a table to satisfy Third Normal Form (3NF)?\", \"options\": {\"A\": \"It must be in BCNF\", \"B\": \"It must be in 2NF with no transitive dependencies\", \"C\": \"Every non-key attribute depends on a partial key\", \"D\": \"X -> Y must always be a super key\"}, \"answer\": \"B\", \"explanation\": \"3NF requires the table to be in 2NF and have no transitive dependencies between non-key attributes.\"}, {\"question\": \"Why might someone deliberately use denormalization?\", \"options\": {\"A\": \"To eliminate all database redundancy\", \"B\": \"To speed up read-heavy queries\", \"C\": \"To enforce Boyce-Codd Normal Form\", \"D\": \"To create partial dependencies\"}, \"answer\": \"B\", \"explanation\": \"Denormalization is done on purpose to speed up read-heavy queries at the cost of extra storage and redundancy.\"}]}",
+          "parsed": {
+            "questions": [
+              {
+                "question": "What is the primary purpose of normalization in a relational database?",
+                "options": {
+                  "A": "To speed up read-heavy queries",
+                  "B": "To reduce redundancy and avoid anomalies",
+                  "C": "To create transitive dependencies",
+                  "D": "To introduce repeating groups"
+                },
+                "answer": "B",
+                "explanation": "Normalization organizes databases to reduce redundancy and avoid update, insert, and delete anomalies."
+              },
+              {
+                "question": "What is a core requirement for a relation to be in First Normal Form (1NF)?",
+                "options": {
+                  "A": "No partial dependencies exist",
+                  "B": "Every attribute holds atomic values",
+                  "C": "X must be a super key for all dependencies",
+                  "D": "Non-key attributes depend on other non-key attributes"
+                },
+                "answer": "B",
+                "explanation": "In 1NF, every attribute must hold atomic (indivisible) values and there must be no repeating groups."
+              },
+              {
+                "question": "When does Second Normal Form (2NF) specifically matter?",
+                "options": {
+                  "A": "When the primary key is composite",
+                  "B": "When there are transitive dependencies",
+                  "C": "When the table is not in 1NF",
+                  "D": "When queries are read-heavy"
+                },
+                "answer": "A",
+                "explanation": "2NF requires no partial dependencies, which only matters when the primary key is composite."
+              },
+              {
+                "question": "Which condition must be met for a table to satisfy Third Normal Form (3NF)?",
+                "options": {
+                  "A": "It must be in BCNF",
+                  "B": "It must be in 2NF with no transitive dependencies",
+                  "C": "Every non-key attribute depends on a partial key",
+                  "D": "X -> Y must always be a super key"
+                },
+                "answer": "B",
+                "explanation": "3NF requires the table to be in 2NF and have no transitive dependencies between non-key attributes."
+              },
+              {
+                "question": "Why might someone deliberately use denormalization?",
+                "options": {
+                  "A": "To eliminate all database redundancy",
+                  "B": "To speed up read-heavy queries",
+                  "C": "To enforce Boyce-Codd Normal Form",
+                  "D": "To create partial dependencies"
+                },
+                "answer": "B",
+                "explanation": "Denormalization is done on purpose to speed up read-heavy queries at the cost of extra storage and redundancy."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 2.08,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 293,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 11,
+          "mock": false,
+          "raw": "{\"flashcards\": [{\"front\": \"What letters follow asdkjh?\", \"back\": \"The letters that follow are qweoiu.\"}, \"front\": \"What follows the sequence qweoiu?\", \"back\": \"The sequence that follows is zxmcnb.\"}, \"front\": \"What comes after zxmcnb in the notes?\", \"back\": \"What comes after is lkjhg.\"}, \"front\": \"What follows lkjhg in the text?\", \"back\": \"The letters that follow are poiuy.\"}, \"front\": \"What sequence follows poiuy?\", \"back\": \"The sequence that follows is mnbvc.\"}]}",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 7.53,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 66,
+          "note": "gibberish",
+          "kind": "invalid"
+        },
+        {
+          "mode": "quiz",
+          "version": "v2",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 25,
+          "mock": false,
+          "raw": "{\"questions\": [{\"question\": \"How many litres of milk are on the Sunday shopping list?\", \"options\": {\"A\": \"1 litre\", \"B\": \"2 litres\", \"C\": \"3 litres\", \"D\": \"4 litres\"}, \"answer\": \"B\", \"explanation\": \"The notes explicitly state to buy 2 litres of milk.\"}, {\"question\": \"What quantity of onions is required according to the notes?\", \"options\": {\"A\": \"1 kg\", \"B\": \"2 kg\", \"C\": \"500 grams\", \"D\": \"Not specified\"}, \"answer\": \"A\", \"explanation\": \"The shopping list specifies 1 kg of onions.\"}, {\"question\": \"Which of the following items has a specific count of 4 mentioned in the notes?\", \"options\": {\"A\": \"Eggs\", \"B\": \"Tomatoes\", \"C\": \"Maggi\", \"D\": \"Bread\"}, \"answer\": \"C\", \"explanation\": \"The notes list Maggi x4, indicating a quantity of four.\"}, {\"question\": \"At what time should the plumber be called based on the notes?\", \"options\": {\"A\": \"4\", \"B\": \"5\", \"C\": \"6\", \"D\": \"7\"}, \"answer\": \"B\", \"explanation\": \"The notes state to call the plumber at 5.\"}, {\"question\": \"Which task involves a utility payment on the list?\", \"options\": {\"A\": \"Pay water bill\", \"B\": \"Pay electricity bill\", \"C\": \"Pay gas bill\", \"D\": \"Pay internet bill\"}, \"answer\": \"B\", \"explanation\": \"The list includes the task to pay electricity bill.\"}]}",
+          "parsed": {
+            "questions": [
+              {
+                "question": "How many litres of milk are on the Sunday shopping list?",
+                "options": {
+                  "A": "1 litre",
+                  "B": "2 litres",
+                  "C": "3 litres",
+                  "D": "4 litres"
+                },
+                "answer": "B",
+                "explanation": "The notes explicitly state to buy 2 litres of milk."
+              },
+              {
+                "question": "What quantity of onions is required according to the notes?",
+                "options": {
+                  "A": "1 kg",
+                  "B": "2 kg",
+                  "C": "500 grams",
+                  "D": "Not specified"
+                },
+                "answer": "A",
+                "explanation": "The shopping list specifies 1 kg of onions."
+              },
+              {
+                "question": "Which of the following items has a specific count of 4 mentioned in the notes?",
+                "options": {
+                  "A": "Eggs",
+                  "B": "Tomatoes",
+                  "C": "Maggi",
+                  "D": "Bread"
+                },
+                "answer": "C",
+                "explanation": "The notes list Maggi x4, indicating a quantity of four."
+              },
+              {
+                "question": "At what time should the plumber be called based on the notes?",
+                "options": {
+                  "A": "4",
+                  "B": "5",
+                  "C": "6",
+                  "D": "7"
+                },
+                "answer": "B",
+                "explanation": "The notes state to call the plumber at 5."
+              },
+              {
+                "question": "Which task involves a utility payment on the list?",
+                "options": {
+                  "A": "Pay water bill",
+                  "B": "Pay electricity bill",
+                  "C": "Pay gas bill",
+                  "D": "Pay internet bill"
+                },
+                "answer": "B",
+                "explanation": "The list includes the task to pay electricity bill."
+              }
+            ]
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 8.14,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 185,
+          "note": "grocery",
+          "kind": "invalid"
+        }
+      ]
+    },
+    "v3": {
+      "metrics": {
+        "n_normal": 12,
+        "json_ok": 11,
+        "json_clean": 10,
+        "schema_ok": 11,
+        "n_counted": 6,
+        "count_ok": 5,
+        "n_invalid": 2,
+        "invalid_refused": 2,
+        "words_min": 68,
+        "words_max": 314,
+        "words_avg": 175,
+        "latency_avg": 2.07,
+        "models": [
+          "gemini-3.5-flash-lite"
+        ]
+      },
+      "runs": [
+        {
+          "mode": "explain",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\n  \"explanation\": \"Photosynthesis is how green plants make food using light. This happens inside the chloroplasts of leaf cells. These cells have a green pigment called chlorophyll. The process takes in carbon dioxide, water, and light energy, and turns them into glucose and oxygen. It happens in two stages. First, the light-dependent reactions happen in the thylakoid membranes. Here, light splits water, releases oxygen, and makes ATP and NADPH. Second, the light-independent reactions, or Calvin cycle, happen in the stroma. Here, carbon dioxide is fixed by the enzyme RuBisCO and changed into glucose with help from ATP and NADPH. The speed of photosynthesis depends on light intensity, carbon dioxide concentration, and temperature.\",\n  \"analogy\": \"Photosynthesis is like a kitchen where the chef (chloroplast) uses solar power (light energy) to turn raw groceries (carbon dioxide and water) into a finished meal (glucose) while venting steam (oxygen).\",\n  \"key_terms\": [\n    {\n      \"term\": \"Chloroplasts\",\n      \"meaning\": \"Parts of leaf cells where photosynthesis takes place.\"\n    },\n    {\n      \"term\": \"Chlorophyll\",\n      \"meaning\": \"The green pigment found in chloroplasts.\"\n    },\n    {\n      \"term\": \"Photolysis\",\n      \"meaning\": \"The splitting of water by light during the light-dependent reactions.\"\n    },\n    {\n      \"term\": \"Calvin cycle\",\n      \"meaning\": \"The light-independent reactions that happen in the stroma.\"\n    },\n    {\n      \"term\": \"RuBisCO\",\n      \"meaning\": \"The enzyme that fixes carbon dioxide during the Calvin cycle.\"\n    }\n  ],\n  \"warnings\": []\n}",
+          "parsed": {
+            "explanation": "Photosynthesis is how green plants make food using light. This happens inside the chloroplasts of leaf cells. These cells have a green pigment called chlorophyll. The process takes in carbon dioxide, water, and light energy, and turns them into glucose and oxygen. It happens in two stages. First, the light-dependent reactions happen in the thylakoid membranes. Here, light splits water, releases oxygen, and makes ATP and NADPH. Second, the light-independent reactions, or Calvin cycle, happen in the stroma. Here, carbon dioxide is fixed by the enzyme RuBisCO and changed into glucose with help from ATP and NADPH. The speed of photosynthesis depends on light intensity, carbon dioxide concentration, and temperature.",
+            "analogy": "Photosynthesis is like a kitchen where the chef (chloroplast) uses solar power (light energy) to turn raw groceries (carbon dioxide and water) into a finished meal (glucose) while venting steam (oxygen).",
+            "key_terms": [
+              {
+                "term": "Chloroplasts",
+                "meaning": "Parts of leaf cells where photosynthesis takes place."
+              },
+              {
+                "term": "Chlorophyll",
+                "meaning": "The green pigment found in chloroplasts."
+              },
+              {
+                "term": "Photolysis",
+                "meaning": "The splitting of water by light during the light-dependent reactions."
+              },
+              {
+                "term": "Calvin cycle",
+                "meaning": "The light-independent reactions that happen in the stroma."
+              },
+              {
+                "term": "RuBisCO",
+                "meaning": "The enzyme that fixes carbon dioxide during the Calvin cycle."
+              }
+            ],
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 2.52,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 218,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\"title\": \"Photosynthesis\", \"summary_points\": [\"Photosynthesis is how green plants make food using light energy in chloroplasts.\", \"Light-dependent reactions occur in thylakoid membranes, releasing oxygen and making ATP and NADPH.\", \"The Calvin cycle occurs in the stroma and converts carbon dioxide into glucose.\", \"Light intensity, carbon dioxide concentration and temperature affect the rate of photosynthesis.\"], \"one_line\": \"Plants use light, water and carbon dioxide to produce glucose and oxygen.\", \"warnings\": []}",
+          "parsed": {
+            "title": "Photosynthesis",
+            "summary_points": [
+              "Photosynthesis is how green plants make food using light energy in chloroplasts.",
+              "Light-dependent reactions occur in thylakoid membranes, releasing oxygen and making ATP and NADPH.",
+              "The Calvin cycle occurs in the stroma and converts carbon dioxide into glucose.",
+              "Light intensity, carbon dioxide concentration and temperature affect the rate of photosynthesis."
+            ],
+            "one_line": "Plants use light, water and carbon dioxide to produce glucose and oxygen.",
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.13,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 68,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\n  \"flashcards\": [\n    {\n      \"front\": \"Where does photosynthesis mainly take place in leaf cells?\",\n      \"back\": \"In the chloroplasts, which contain the green pigment chlorophyll.\"\n    },\n    {\n      \"front\": \"What is the overall chemical equation for photosynthesis?\",\n      \"back\": \"6CO2 + 6H2O + light energy -> C6H12O6 + 6O2.\"\n    },\n    {\n      \"front\": \"Where do the light-dependent reactions occur?\",\n      \"back\": \"In the thylakoid membranes, where light splits water and produces ATP and NADPH.\"\n    },\n    {\n      \"front\": \"Where does the Calvin cycle take place?\",\n      \"back\": \"In the stroma, where carbon dioxide is fixed by RuBisCO and converted into glucose.\"\n    },\n    {\n      \"front\": \"What three factors affect the rate of photosynthesis?\",\n      \"back\": \"Light intensity, carbon dioxide concentration, and temperature.\"\n    }\n  ],\n  \"warnings\": []\n}",
+          "parsed": {
+            "flashcards": [
+              {
+                "front": "Where does photosynthesis mainly take place in leaf cells?",
+                "back": "In the chloroplasts, which contain the green pigment chlorophyll."
+              },
+              {
+                "front": "What is the overall chemical equation for photosynthesis?",
+                "back": "6CO2 + 6H2O + light energy -> C6H12O6 + 6O2."
+              },
+              {
+                "front": "Where do the light-dependent reactions occur?",
+                "back": "In the thylakoid membranes, where light splits water and produces ATP and NADPH."
+              },
+              {
+                "front": "Where does the Calvin cycle take place?",
+                "back": "In the stroma, where carbon dioxide is fixed by RuBisCO and converted into glucose."
+              },
+              {
+                "front": "What three factors affect the rate of photosynthesis?",
+                "back": "Light intensity, carbon dioxide concentration, and temperature."
+              }
+            ],
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.39,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 118,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 111,
+          "mock": false,
+          "raw": "{\"questions\": [{\"question\": \"Where does photosynthesis mainly take place in leaf cells?\", \"options\": {\"A\": \"Mitochondria\", \"B\": \"Chloroplasts\", \"C\": \"Nucleus\", \"D\": \"Ribosomes\"}, \"answer\": \"B\", \"explanation\": \"Photosynthesis takes place mainly in the chloroplasts of leaf cells, which contain chlorophyll.\"}, {\"question\": \"What is produced during the light-dependent reactions of photosynthesis?\", \"options\": {\"A\": \"Glucose and oxygen\", \"B\": \"Carbon dioxide and water\", \"C\": \"ATP and NADPH\", \"D\": \"RuBisCO and starch\"}, \"answer\": \"C\", \"explanation\": \"The light-dependent reactions produce ATP and NADPH along with releasing oxygen.\"}, {\"question\": \"In which part of the chloroplast do the light-independent reactions (Calvin cycle) occur?\", \"options\": {\"A\": \"Stroma\", \"B\": \"Thylakoid membranes\", \"C\": \"Outer membrane\", \"D\": \"Inner membrane\"}, \"answer\": \"A\", \"explanation\": \"The light-independent reactions occur in the stroma of the chloroplast.\"}, {\"question\": \"Which enzyme fixes carbon dioxide during the Calvin cycle?\", \"options\": {\"A\": \"Amylase\", \"B\": \"ATP synthase\", \"C\": \"RNA polymerase\", \"D\": \"RuBisCO\"}, \"answer\": \"D\", \"explanation\": \"Carbon dioxide is fixed by the enzyme RuBisCO during the light-independent reactions.\"}, {\"question\": \"Which of the following factors affects the rate of photosynthesis?\", \"options\": {\"A\": \"Nitrogen concentration\", \"B\": \"Light intensity\", \"C\": \"Oxygen concentration\", \"D\": \"Soil pH\"}, \"answer\": \"B\", \"explanation\": \"Light intensity is listed as a factor that affects the rate of photosynthesis along with carbon dioxide and temperature.\"}, \"warnings\": []}",
+          "parsed": null,
+          "json_how": null,
+          "issues": [
+            "no parseable JSON"
+          ],
+          "error_msg": null,
+          "latency": 1.7,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 201,
+          "note": "photosynthesis",
+          "kind": "normal"
+        },
+        {
+          "mode": "explain",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"explanation\": \"Data traveling across a network can use one of two main protocols: TCP or UDP. TCP is like a certified mail service. It sets up a connection first using a three-way handshake. It makes sure every single piece of data arrives safely and in the right order. It also controls the speed to avoid overloading the network. We use TCP for web browsing, email, and file transfers where accuracy is vital. UDP is more like dropping a postcard in the mail. It is connectionless, meaning it sends data straight away without checking if the receiver is ready. It does not promise that data will arrive or stay in order. However, it has a smaller header and is much faster with lower latency. This makes UDP ideal for video streaming, online gaming, and voice calls, where speed is more important than a lost packet.\", \"analogy\": \"TCP is like a phone call where you say hello and wait for a reply before talking, while UDP is like shouting a message across a room hoping the other person hears it.\", \"key_terms\": [{\"term\": \"TCP\", \"meaning\": \"A connection-oriented protocol that guarantees reliable and in-order delivery of data.\"}, {\"term\": \"Three-way handshake\", \"meaning\": \"The process of SYN, SYN-ACK, and ACK used by TCP to set up a connection.\"}, {\"term\": \"UDP\", \"meaning\": \"A connectionless, fast protocol that does not guarantee delivery or order.\"}, {\"term\": \"Flow control\", \"meaning\": \"Mechanisms like a sliding window used to manage the rate of data transmission.\"}], \"warnings\": []}",
+          "parsed": {
+            "explanation": "Data traveling across a network can use one of two main protocols: TCP or UDP. TCP is like a certified mail service. It sets up a connection first using a three-way handshake. It makes sure every single piece of data arrives safely and in the right order. It also controls the speed to avoid overloading the network. We use TCP for web browsing, email, and file transfers where accuracy is vital. UDP is more like dropping a postcard in the mail. It is connectionless, meaning it sends data straight away without checking if the receiver is ready. It does not promise that data will arrive or stay in order. However, it has a smaller header and is much faster with lower latency. This makes UDP ideal for video streaming, online gaming, and voice calls, where speed is more important than a lost packet.",
+            "analogy": "TCP is like a phone call where you say hello and wait for a reply before talking, while UDP is like shouting a message across a room hoping the other person hears it.",
+            "key_terms": [
+              {
+                "term": "TCP",
+                "meaning": "A connection-oriented protocol that guarantees reliable and in-order delivery of data."
+              },
+              {
+                "term": "Three-way handshake",
+                "meaning": "The process of SYN, SYN-ACK, and ACK used by TCP to set up a connection."
+              },
+              {
+                "term": "UDP",
+                "meaning": "A connectionless, fast protocol that does not guarantee delivery or order."
+              },
+              {
+                "term": "Flow control",
+                "meaning": "Mechanisms like a sliding window used to manage the rate of data transmission."
+              }
+            ],
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 2.12,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 245,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"title\": \"TCP and UDP\", \"summary_points\": [\"TCP is connection-oriented, uses a three-way handshake, and guarantees reliable, in-order delivery.\", \"TCP provides flow control, congestion control, and is used for HTTP, email, and FTP.\", \"UDP is connectionless with no handshake, no delivery guarantees, and a small 8-byte header.\", \"UDP is faster and has lower latency, making it ideal for DNS, streaming, gaming, and VoIP.\"], \"one_line\": \"TCP offers reliable and ordered delivery, while UDP prioritizes speed and low latency.\", \"warnings\": []}",
+          "parsed": {
+            "title": "TCP and UDP",
+            "summary_points": [
+              "TCP is connection-oriented, uses a three-way handshake, and guarantees reliable, in-order delivery.",
+              "TCP provides flow control, congestion control, and is used for HTTP, email, and FTP.",
+              "UDP is connectionless with no handshake, no delivery guarantees, and a small 8-byte header.",
+              "UDP is faster and has lower latency, making it ideal for DNS, streaming, gaming, and VoIP."
+            ],
+            "one_line": "TCP offers reliable and ordered delivery, while UDP prioritizes speed and low latency.",
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 3.66,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 77,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"flashcards\": [{\"front\": \"What type of connection is used by TCP?\", \"back\": \"TCP is connection-oriented and sets up a connection using a three-way handshake.\"}, {\"front\": \"How does TCP guarantee reliable and in-order delivery?\", \"back\": \"It uses sequence numbers, acknowledgements, and retransmission.\"}, {\"front\": \"Which protocols use TCP according to the notes?\", \"back\": \"HTTP/HTTPS, email (SMTP), and file transfer (FTP) use TCP.\"}, {\"front\": \"Why is UDP faster and lower in latency than TCP?\", \"back\": \"UDP is connectionless, has no handshake, and uses a small 8-byte header.\"}, {\"front\": \"What types of applications use UDP?\", \"back\": \"Applications where speed matters more than reliability, such as DNS, video streaming, gaming, and VoIP.\"}], \"warnings\": []}",
+          "parsed": {
+            "flashcards": [
+              {
+                "front": "What type of connection is used by TCP?",
+                "back": "TCP is connection-oriented and sets up a connection using a three-way handshake."
+              },
+              {
+                "front": "How does TCP guarantee reliable and in-order delivery?",
+                "back": "It uses sequence numbers, acknowledgements, and retransmission."
+              },
+              {
+                "front": "Which protocols use TCP according to the notes?",
+                "back": "HTTP/HTTPS, email (SMTP), and file transfer (FTP) use TCP."
+              },
+              {
+                "front": "Why is UDP faster and lower in latency than TCP?",
+                "back": "UDP is connectionless, has no handshake, and uses a small 8-byte header."
+              },
+              {
+                "front": "What types of applications use UDP?",
+                "back": "Applications where speed matters more than reliability, such as DNS, video streaming, gaming, and VoIP."
+              }
+            ],
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.36,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 108,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 98,
+          "mock": false,
+          "raw": "{\"questions\": [{\"question\": \"Which protocol establishes a connection using a three-way handshake?\", \"options\": {\"A\": \"UDP\", \"B\": \"TCP\", \"C\": \"FTP\", \"D\": \"HTTP\"}, \"answer\": \"B\", \"explanation\": \"TCP is connection-oriented and uses a three-way handshake (SYN, SYN-ACK, ACK) to set up a connection.\"}, {\"question\": \"Why is UDP faster and lower in latency than TCP?\", \"options\": {\"A\": \"It has no handshake, no delivery guarantees, and a smaller 8-byte header.\", \"B\": \"It uses a sliding window mechanism for flow control.\", \"C\": \"It guarantees reliable and in-order delivery of data.\", \"D\": \"It requires sequence numbers and acknowledgements for every packet.\"}, \"answer\": \"A\", \"explanation\": \"UDP is connectionless with no handshake, lacks delivery guarantees, and has a smaller header size.\"}, {\"question\": \"Which application layer service typically uses UDP because speed matters more than reliability?\", \"options\": {\"A\": \"File transfer (FTP)\", \"B\": \"Email (SMTP)\", \"C\": \"Video streaming\", \"D\": \"HTTPS browsing\"}, \"answer\": \"C\", \"explanation\": \"Video streaming uses UDP because speed and lower latency are prioritized over perfect reliability.\"}, {\"question\": \"How does TCP ensure reliable, in-order delivery of data?\", \"options\": {\"A\": \"By using an 8-byte header and avoiding handshakes\", \"B\": \"By utilizing sequence numbers, acknowledgements, and retransmission\", \"C\": \"By dropping packets when congestion occurs without notifying the sender\", \"D\": \"By treating every packet as independent and connectionless\"}, \"answer\": \"B\", \"explanation\": \"TCP guarantees delivery and order using sequence numbers, acknowledgements, and retransmission.\"}, {\"question\": \"What is the minimum header size of TCP compared to UDP?\", \"options\": {\"A\": \"TCP has a minimum 20-byte header, while UDP has an 8-byte header.\", \"B\": \"TCP has an 8-byte header, while UDP has a 20-byte header.\", \"C\": \"Both protocols share the exact same header size of 20 bytes.\", \"D\": \"Both protocols have a fixed 8-byte header.\"}, \"answer\": \"A\", \"explanation\": \"TCP has a minimum 20-byte header, whereas UDP has a small 8-byte header.\"}], \"warnings\": []}",
+          "parsed": {
+            "questions": [
+              {
+                "question": "Which protocol establishes a connection using a three-way handshake?",
+                "options": {
+                  "A": "UDP",
+                  "B": "TCP",
+                  "C": "FTP",
+                  "D": "HTTP"
+                },
+                "answer": "B",
+                "explanation": "TCP is connection-oriented and uses a three-way handshake (SYN, SYN-ACK, ACK) to set up a connection."
+              },
+              {
+                "question": "Why is UDP faster and lower in latency than TCP?",
+                "options": {
+                  "A": "It has no handshake, no delivery guarantees, and a smaller 8-byte header.",
+                  "B": "It uses a sliding window mechanism for flow control.",
+                  "C": "It guarantees reliable and in-order delivery of data.",
+                  "D": "It requires sequence numbers and acknowledgements for every packet."
+                },
+                "answer": "A",
+                "explanation": "UDP is connectionless with no handshake, lacks delivery guarantees, and has a smaller header size."
+              },
+              {
+                "question": "Which application layer service typically uses UDP because speed matters more than reliability?",
+                "options": {
+                  "A": "File transfer (FTP)",
+                  "B": "Email (SMTP)",
+                  "C": "Video streaming",
+                  "D": "HTTPS browsing"
+                },
+                "answer": "C",
+                "explanation": "Video streaming uses UDP because speed and lower latency are prioritized over perfect reliability."
+              },
+              {
+                "question": "How does TCP ensure reliable, in-order delivery of data?",
+                "options": {
+                  "A": "By using an 8-byte header and avoiding handshakes",
+                  "B": "By utilizing sequence numbers, acknowledgements, and retransmission",
+                  "C": "By dropping packets when congestion occurs without notifying the sender",
+                  "D": "By treating every packet as independent and connectionless"
+                },
+                "answer": "B",
+                "explanation": "TCP guarantees delivery and order using sequence numbers, acknowledgements, and retransmission."
+              },
+              {
+                "question": "What is the minimum header size of TCP compared to UDP?",
+                "options": {
+                  "A": "TCP has a minimum 20-byte header, while UDP has an 8-byte header.",
+                  "B": "TCP has an 8-byte header, while UDP has a 20-byte header.",
+                  "C": "Both protocols share the exact same header size of 20 bytes.",
+                  "D": "Both protocols have a fixed 8-byte header."
+                },
+                "answer": "A",
+                "explanation": "TCP has a minimum 20-byte header, whereas UDP has a small 8-byte header."
+              }
+            ],
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 4.81,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 294,
+          "note": "tcp_udp",
+          "kind": "normal"
+        },
+        {
+          "mode": "explain",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\"explanation\": \"Normalization helps you organize a database. It reduces duplicate data and stops errors when you add, update, or delete records. First Normal Form (1NF) means each table cell holds only one indivisible value. Second Normal Form (2NF) builds on 1NF by removing partial dependencies, which only matters if your primary key has multiple columns. Third Normal Form (3NF) removes transitive dependencies so non-key attributes do not depend on other non-key attributes. Boyce-Codd Normal Form (BCNF) is a stricter version of 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some duplicate data to make read operations faster, even though it uses more storage.\", \"analogy\": \"Organizing a messy filing cabinet into tidy folders so that you never have to write the same address on five different papers.\", \"key_terms\": [{\"term\": \"Normalization\", \"meaning\": \"Organizing a database to reduce redundancy and anomalies.\"}, {\"term\": \"1NF\", \"meaning\": \"Ensures every attribute holds atomic values with no repeating groups.\"}, {\"term\": \"2NF\", \"meaning\": \"Ensures the table is in 1NF and has no partial dependencies.\"}, {\"term\": \"3NF\", \"meaning\": \"Ensures the table is in 2NF and has no transitive dependencies.\"}, {\"term\": \"BCNF\", \"meaning\": \"A stricter version of 3NF where every determinant must be a super key.\"}, {\"term\": \"Denormalization\", \"meaning\": \"Adding redundancy on purpose to speed up read-heavy queries.\"}], \"warnings\": []}",
+          "parsed": {
+            "explanation": "Normalization helps you organize a database. It reduces duplicate data and stops errors when you add, update, or delete records. First Normal Form (1NF) means each table cell holds only one indivisible value. Second Normal Form (2NF) builds on 1NF by removing partial dependencies, which only matters if your primary key has multiple columns. Third Normal Form (3NF) removes transitive dependencies so non-key attributes do not depend on other non-key attributes. Boyce-Codd Normal Form (BCNF) is a stricter version of 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some duplicate data to make read operations faster, even though it uses more storage.",
+            "analogy": "Organizing a messy filing cabinet into tidy folders so that you never have to write the same address on five different papers.",
+            "key_terms": [
+              {
+                "term": "Normalization",
+                "meaning": "Organizing a database to reduce redundancy and anomalies."
+              },
+              {
+                "term": "1NF",
+                "meaning": "Ensures every attribute holds atomic values with no repeating groups."
+              },
+              {
+                "term": "2NF",
+                "meaning": "Ensures the table is in 1NF and has no partial dependencies."
+              },
+              {
+                "term": "3NF",
+                "meaning": "Ensures the table is in 2NF and has no transitive dependencies."
+              },
+              {
+                "term": "BCNF",
+                "meaning": "A stricter version of 3NF where every determinant must be a super key."
+              },
+              {
+                "term": "Denormalization",
+                "meaning": "Adding redundancy on purpose to speed up read-heavy queries."
+              }
+            ],
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.8,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 219,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "summarize",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\"title\": \"Database Normalization\", \"summary_points\": [\"Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.\", \"First normal form requires atomic values and no repeating groups in every attribute.\", \"Second normal form requires 1NF and no partial dependencies on a composite primary key.\", \"Third normal form requires 2NF and the removal of all transitive dependencies between non-key attributes.\", \"Boyce-Codd normal form is a stronger 3NF where X must be a super key for every functional dependency.\", \"Denormalization speeds up read-heavy queries by adding redundancy and requiring extra storage.\"], \"one_line\": \"Normalization organizes databases to remove redundancy and anomalies through progressive normal forms.\", \"warnings\": []}",
+          "parsed": {
+            "title": "Database Normalization",
+            "summary_points": [
+              "Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.",
+              "First normal form requires atomic values and no repeating groups in every attribute.",
+              "Second normal form requires 1NF and no partial dependencies on a composite primary key.",
+              "Third normal form requires 2NF and the removal of all transitive dependencies between non-key attributes.",
+              "Boyce-Codd normal form is a stronger 3NF where X must be a super key for every functional dependency.",
+              "Denormalization speeds up read-heavy queries by adding redundancy and requiring extra storage."
+            ],
+            "one_line": "Normalization organizes databases to remove redundancy and anomalies through progressive normal forms.",
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 1.52,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 105,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\n  \"flashcards\": [\n    {\n      \"front\": \"What is the main goal of database normalization?\",\n      \"back\": \"To reduce redundancy and avoid update, insert, and delete anomalies in a relational database.\"\n    },\n    {\n      \"front\": \"What does First Normal Form (1NF) require?\",\n      \"back\": \"Every attribute must hold atomic, indivisible values, and there must be no repeating groups.\"\n    },\n    {\n      \"front\": \"When does Second Normal Form (2NF) matter most?\",\n      \"back\": \"It matters only when the primary key is composite, ensuring no partial dependencies exist.\"\n    },\n    {\n      \"front\": \"What condition must be met to satisfy Third Normal Form (3NF)?\",\n      \"back\": \"The table must be in 2NF with no transitive dependencies between non-key attributes.\"\n    },\n    {\n      \"front\": \"Why might someone deliberately use denormalization?\",\n      \"back\": \"To speed up read-heavy queries, accepting the cost of extra storage and data redundancy.\"\n    }\n  ],\n  \"warnings\": []\n}",
+          "parsed": {
+            "flashcards": [
+              {
+                "front": "What is the main goal of database normalization?",
+                "back": "To reduce redundancy and avoid update, insert, and delete anomalies in a relational database."
+              },
+              {
+                "front": "What does First Normal Form (1NF) require?",
+                "back": "Every attribute must hold atomic, indivisible values, and there must be no repeating groups."
+              },
+              {
+                "front": "When does Second Normal Form (2NF) matter most?",
+                "back": "It matters only when the primary key is composite, ensuring no partial dependencies exist."
+              },
+              {
+                "front": "What condition must be met to satisfy Third Normal Form (3NF)?",
+                "back": "The table must be in 2NF with no transitive dependencies between non-key attributes."
+              },
+              {
+                "front": "Why might someone deliberately use denormalization?",
+                "back": "To speed up read-heavy queries, accepting the cost of extra storage and data redundancy."
+              }
+            ],
+            "warnings": []
+          },
+          "json_how": "clean",
+          "issues": [],
+          "error_msg": null,
+          "latency": 3.11,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 136,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "quiz",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 126,
+          "mock": false,
+          "raw": "{\"questions\": [{\"question\": \"What is the primary goal of database normalization?\", \"options\": {\"A\": \"To speed up read-heavy queries\", \"B\": \"To reduce redundancy and avoid anomalies\", \"C\": \"To increase data storage requirements\", \"D\": \"To eliminate the need for primary keys\"}, \"answer\": \"B\", \"explanation\": \"Normalization organizes the database specifically to minimize redundancy and prevent update, insert, and delete anomalies.\"}, {\"question\": \"Which normal form requires every attribute to hold atomic values and removes repeating groups?\", \"options\": {\"A\": \"First Normal Form (1NF)\", \"B\": \"Second Normal Form (2NF)\", \"C\": \"Third Normal Form (3NF)\", \"D\": \"Boyce-Codd Normal Form (BCNF)\"}, \"answer\": \"A\", \"explanation\": \"1NF focuses on ensuring that every attribute holds atomic, indivisible values with no repeating groups.\"}, {\"question\": \"When does Second Normal Form (2NF) specifically become relevant for a table?\", \"options\": {\"A\": \"When the table has no primary key\", \"B\": \"When the primary key is composite\", \"C\": \"When there are transitive dependencies\", \"D\": \"When read-heavy queries need to be faster\"}, \"answer\": \"B\", \"explanation\": \"2NF matters only when the primary key is composite, ensuring no non-key attributes have partial dependencies.\"}, {\"question\": \"What condition must be met for a table to satisfy Third Normal Form (3NF)?\", \"options\": {\"A\": \"It must be in 1NF and have no composite keys\", \"B\": \"It must be in 2NF and have no transitive dependencies\", \"C\": \"Every functional dependency X to Y must have X as a super key\", \"D\": \"It must allow non-key attributes to depend on other non-key attributes\"}, \"answer\": \"B\", \"explanation\": \"3NF requires the table to be in 2NF and strictly forbids any transitive dependencies among non-key attributes.\"}, {\"question\": \"Why might a database designer choose to use denormalization?\", \"options\": {\"A\": \"To eliminate all database redundancy\", \"B\": \"To strictly enforce Boyce-Codd Normal Form\", \"C\": \"To speed up read-heavy queries\", \"D\": \"To prevent insert and delete anomalies\"}, \"answer\": \"C\", \"explanation\": \"Denormalization is intentionally used to speed up read-heavy queries, accepting extra storage and redundancy as trade-offs.\"}, \"warnings\": []}]}",
+          "parsed": {
+            "questions": [
+              {
+                "question": "What is the primary goal of database normalization?",
+                "options": {
+                  "A": "To speed up read-heavy queries",
+                  "B": "To reduce redundancy and avoid anomalies",
+                  "C": "To increase data storage requirements",
+                  "D": "To eliminate the need for primary keys"
+                },
+                "answer": "B",
+                "explanation": "Normalization organizes the database specifically to minimize redundancy and prevent update, insert, and delete anomalies."
+              },
+              {
+                "question": "Which normal form requires every attribute to hold atomic values and removes repeating groups?",
+                "options": {
+                  "A": "First Normal Form (1NF)",
+                  "B": "Second Normal Form (2NF)",
+                  "C": "Third Normal Form (3NF)",
+                  "D": "Boyce-Codd Normal Form (BCNF)"
+                },
+                "answer": "A",
+                "explanation": "1NF focuses on ensuring that every attribute holds atomic, indivisible values with no repeating groups."
+              },
+              {
+                "question": "When does Second Normal Form (2NF) specifically become relevant for a table?",
+                "options": {
+                  "A": "When the table has no primary key",
+                  "B": "When the primary key is composite",
+                  "C": "When there are transitive dependencies",
+                  "D": "When read-heavy queries need to be faster"
+                },
+                "answer": "B",
+                "explanation": "2NF matters only when the primary key is composite, ensuring no non-key attributes have partial dependencies."
+              },
+              {
+                "question": "What condition must be met for a table to satisfy Third Normal Form (3NF)?",
+                "options": {
+                  "A": "It must be in 1NF and have no composite keys",
+                  "B": "It must be in 2NF and have no transitive dependencies",
+                  "C": "Every functional dependency X to Y must have X as a super key",
+                  "D": "It must allow non-key attributes to depend on other non-key attributes"
+                },
+                "answer": "B",
+                "explanation": "3NF requires the table to be in 2NF and strictly forbids any transitive dependencies among non-key attributes."
+              },
+              {
+                "question": "Why might a database designer choose to use denormalization?",
+                "options": {
+                  "A": "To eliminate all database redundancy",
+                  "B": "To strictly enforce Boyce-Codd Normal Form",
+                  "C": "To speed up read-heavy queries",
+                  "D": "To prevent insert and delete anomalies"
+                },
+                "answer": "C",
+                "explanation": "Denormalization is intentionally used to speed up read-heavy queries, accepting extra storage and redundancy as trade-offs."
+              }
+            ]
+          },
+          "json_how": "repaired",
+          "issues": [],
+          "error_msg": null,
+          "latency": 2.16,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 314,
+          "note": "normalization",
+          "kind": "normal"
+        },
+        {
+          "mode": "flashcards",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 11,
+          "mock": false,
+          "raw": "{\"error\": \"Please paste actual study notes instead of random characters.\"}",
+          "parsed": {
+            "error": "Please paste actual study notes instead of random characters."
+          },
+          "json_how": "clean",
+          "issues": [
+            "error_returned"
+          ],
+          "error_msg": "Please paste actual study notes instead of random characters.",
+          "latency": 0.78,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 10,
+          "note": "gibberish",
+          "kind": "invalid"
+        },
+        {
+          "mode": "quiz",
+          "version": "v3",
+          "level": "undergraduate",
+          "count": 5,
+          "input_words": 25,
+          "mock": false,
+          "raw": "{\"error\": \"Please paste valid study material instead of a shopping list.\"}",
+          "parsed": {
+            "error": "Please paste valid study material instead of a shopping list."
+          },
+          "json_how": "clean",
+          "issues": [
+            "error_returned"
+          ],
+          "error_msg": "Please paste valid study material instead of a shopping list.",
+          "latency": 0.93,
+          "model": "gemini-3.5-flash-lite",
+          "truncated": false,
+          "output_words": 11,
+          "note": "grocery",
+          "kind": "invalid"
+        }
+      ]
+    }
+  }
+}

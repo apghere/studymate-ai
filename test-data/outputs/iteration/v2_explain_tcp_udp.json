@@ -1,0 +1,44 @@
+{
+  "mode": "explain",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "{\"explanation\": \"TCP and UDP are two ways computers send data. TCP is like a tracked package. It sets up a connection first, checks that everything arrives in the right order, and resends lost parts. It is used for web browsing, email, and file transfers. UDP is like shouting a message across a room. It has no setup and does not check if it arrived, but it is much faster. It is used for video streaming, online gaming, and voice calls where speed matters more than perfection.\", \"analogy\": \"TCP is like sending a registered letter that needs a signature, while UDP is like shouting a quick message out the window.\", \"key_terms\": [{\"term\": \"TCP\", \"meaning\": \"A connection-oriented protocol that guarantees reliable, in-order data delivery.\"}, {\"term\": \"UDP\", \"meaning\": \"A connectionless protocol that is faster with lower latency but does not guarantee delivery.\"}, {\"term\": \"Three-way handshake\", \"meaning\": \"The process TCP uses to set up a connection using SYN, SYN-ACK, and ACK.\"}, {\"term\": \"Flow control\", \"meaning\": \"A feature managed by TCP using a sliding window.\"}, {\"term\": \"Congestion control\", \"meaning\": \"A feature provided by TCP to manage network traffic.\"}]}",
+  "parsed": {
+    "explanation": "TCP and UDP are two ways computers send data. TCP is like a tracked package. It sets up a connection first, checks that everything arrives in the right order, and resends lost parts. It is used for web browsing, email, and file transfers. UDP is like shouting a message across a room. It has no setup and does not check if it arrived, but it is much faster. It is used for video streaming, online gaming, and voice calls where speed matters more than perfection.",
+    "analogy": "TCP is like sending a registered letter that needs a signature, while UDP is like shouting a quick message out the window.",
+    "key_terms": [
+      {
+        "term": "TCP",
+        "meaning": "A connection-oriented protocol that guarantees reliable, in-order data delivery."
+      },
+      {
+        "term": "UDP",
+        "meaning": "A connectionless protocol that is faster with lower latency but does not guarantee delivery."
+      },
+      {
+        "term": "Three-way handshake",
+        "meaning": "The process TCP uses to set up a connection using SYN, SYN-ACK, and ACK."
+      },
+      {
+        "term": "Flow control",
+        "meaning": "A feature managed by TCP using a sliding window."
+      },
+      {
+        "term": "Congestion control",
+        "meaning": "A feature provided by TCP to manage network traffic."
+      }
+    ]
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.67,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 183,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

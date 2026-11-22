@@ -1,0 +1,31 @@
+{
+  "mode": "summarize",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "{\"title\": \"Database Normalization\", \"summary_points\": [\"Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.\", \"First normal form requires atomic values and no repeating groups in every attribute.\", \"Second normal form requires 1NF and no partial dependencies on a composite primary key.\", \"Third normal form requires 2NF and the removal of all transitive dependencies between non-key attributes.\", \"Boyce-Codd normal form is a stronger 3NF where X must be a super key for every functional dependency.\", \"Denormalization speeds up read-heavy queries by adding redundancy and requiring extra storage.\"], \"one_line\": \"Normalization organizes databases to remove redundancy and anomalies through progressive normal forms.\", \"warnings\": []}",
+  "parsed": {
+    "title": "Database Normalization",
+    "summary_points": [
+      "Normalization organizes relational databases to reduce redundancy and prevent update, insert, and delete anomalies.",
+      "First normal form requires atomic values and no repeating groups in every attribute.",
+      "Second normal form requires 1NF and no partial dependencies on a composite primary key.",
+      "Third normal form requires 2NF and the removal of all transitive dependencies between non-key attributes.",
+      "Boyce-Codd normal form is a stronger 3NF where X must be a super key for every functional dependency.",
+      "Denormalization speeds up read-heavy queries by adding redundancy and requiring extra storage."
+    ],
+    "one_line": "Normalization organizes databases to remove redundancy and anomalies through progressive normal forms.",
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.52,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 105,
+  "note": "normalization",
+  "kind": "normal"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "T02",
+  "type": "Normal",
+  "mode": "summarize",
+  "notes": "cpu_scheduling",
+  "count": 5,
+  "short": "Summarize: CPU scheduling notes (OS)",
+  "expected": "3-6 points, each <=25 words, covering FCFS/SJF/Round Robin",
+  "checks": {
+    "expect": "valid",
+    "min_points": 3,
+    "keywords_any": [
+      "round robin",
+      "fcfs",
+      "sjf",
+      "first come"
+    ]
+  },
+  "result": {
+    "mode": "summarize",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 163,
+    "mock": false,
+    "raw": "{\n  \"title\": \"CPU Scheduling\",\n  \"summary_points\": [\n    \"CPU scheduling aims to maximise utilisation and throughput while minimising waiting and response times.\",\n    \"FCFS is simple and non-preemptive, but suffers from the convoy effect.\",\n    \"SJF picks the smallest burst time for minimum waiting time, but can cause starvation.\",\n    \"Priority scheduling assigns priorities, and aging prevents the starvation of waiting processes.\",\n    \"Round Robin uses a time quantum to ensure good response time in time-sharing systems.\",\n    \"Multilevel queue systems separate foreground and background processes into different queues.\"\n  ],\n  \"one_line\": \"CPU scheduling algorithms manage ready processes to optimise performance metrics like throughput and waiting time.\",\n  \"warnings\": []\n}",
+    "parsed": {
+      "title": "CPU Scheduling",
+      "summary_points": [
+        "CPU scheduling aims to maximise utilisation and throughput while minimising waiting and response times.",
+        "FCFS is simple and non-preemptive, but suffers from the convoy effect.",
+        "SJF picks the smallest burst time for minimum waiting time, but can cause starvation.",
+        "Priority scheduling assigns priorities, and aging prevents the starvation of waiting processes.",
+        "Round Robin uses a time quantum to ensure good response time in time-sharing systems.",
+        "Multilevel queue systems separate foreground and background processes into different queues."
+      ],
+      "one_line": "CPU scheduling algorithms manage ready processes to optimise performance metrics like throughput and waiting time.",
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 1.76,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 102
+  },
+  "actual": "6 points (longest 14 words)",
+  "pass": true,
+  "fail_reasons": []
+}

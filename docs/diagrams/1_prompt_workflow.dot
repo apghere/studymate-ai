@@ -1,0 +1,15 @@
+digraph G { rankdir=LR; graph [fontname="Helvetica", fontsize=11, bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.4];
+node [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", fillcolor="#EEF2FF", color="#4F46E5"];
+edge [fontname="Helvetica", fontsize=9, color="#475569"];
+
+  notes [label="Student notes\n(paste / .txt / .pdf)", fillcolor="#F1F5F9", color="#64748B"];
+  check [label="Input check\n(empty? too long?)"];
+  pick [label="Mode chosen\nby student", shape=diamond, style=filled, fillcolor="#FEF3C7", color="#D97706"];
+  p1 [label="P1 Explain"]; p2 [label="P2 Summarize"]; p3 [label="P3 Flashcards"]; p4 [label="P4 Quiz"];
+  llm [label="Gemini\ntemp 0.2, JSON mode", fillcolor="#DCFCE7", color="#16A34A"];
+  val [label="Parse JSON +\nschema check"];
+  err [label="{error} -> show\nwhat to paste", fillcolor="#FEE2E2", color="#DC2626"];
+  ui [label="Study view +\ndownloads", fillcolor="#F1F5F9", color="#64748B"];
+  notes -> check -> pick; pick -> p1; pick -> p2; pick -> p3; pick -> p4;
+  p1 -> llm; p2 -> llm; p3 -> llm; p4 -> llm; llm -> val; val -> ui [label="valid"]; val -> err [label="error / invalid"];
+}

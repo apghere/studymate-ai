@@ -1,0 +1,57 @@
+{
+  "id": "T09",
+  "type": "Edge",
+  "mode": "flashcards",
+  "notes": "hinglish",
+  "count": 5,
+  "short": "Flashcards (5): notes written in Hinglish",
+  "expected": "5 valid cards written in English",
+  "checks": {
+    "expect": "valid",
+    "english": true
+  },
+  "result": {
+    "mode": "flashcards",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 97,
+    "mock": false,
+    "raw": "{\"flashcards\": [{\"front\": \"What type of data structure is a linked list?\", \"back\": \"A linear data structure where each node contains data and a pointer to the next node.\"}, {\"front\": \"Why is insertion at the beginning of a linked list fast?\", \"back\": \"Memory is not contiguous like an array, so insertion at the beginning takes O(1) time.\"}, {\"front\": \"What is the time complexity to access any element in a linked list?\", \"back\": \"O(n) time, because you must traverse from the beginning to reach the element.\"}, {\"front\": \"What extra pointers does a doubly linked list node have?\", \"back\": \"It has both previous (prev) and next pointers, allowing traversal in both directions.\"}, {\"front\": \"How are the ends connected in a circular linked list?\", \"back\": \"The last node points back to the first node.\"}], \"warnings\": []}",
+    "parsed": {
+      "flashcards": [
+        {
+          "front": "What type of data structure is a linked list?",
+          "back": "A linear data structure where each node contains data and a pointer to the next node."
+        },
+        {
+          "front": "Why is insertion at the beginning of a linked list fast?",
+          "back": "Memory is not contiguous like an array, so insertion at the beginning takes O(1) time."
+        },
+        {
+          "front": "What is the time complexity to access any element in a linked list?",
+          "back": "O(n) time, because you must traverse from the beginning to reach the element."
+        },
+        {
+          "front": "What extra pointers does a doubly linked list node have?",
+          "back": "It has both previous (prev) and next pointers, allowing traversal in both directions."
+        },
+        {
+          "front": "How are the ends connected in a circular linked list?",
+          "back": "The last node points back to the first node."
+        }
+      ],
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 1.95,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 132
+  },
+  "actual": "5 cards",
+  "pass": true,
+  "fail_reasons": []
+}

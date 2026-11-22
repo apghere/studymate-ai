@@ -1,0 +1,42 @@
+{
+  "mode": "flashcards",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "{\"flashcards\": [{\"front\": \"What type of connection setup does TCP use?\", \"back\": \"TCP is connection-oriented and sets up a connection with a three-way handshake involving SYN, SYN-ACK, and ACK.\"}, {\"front\": \"How does TCP guarantee reliable and in-order delivery?\", \"back\": \"TCP uses sequence numbers, acknowledgements, and retransmission to guarantee reliable, in-order delivery.\"}, {\"front\": \"What protocols use TCP?\", \"back\": \"TCP is used by HTTP/HTTPS, email via SMTP, and file transfer using FTP.\"}, {\"front\": \"What is the header size of UDP compared to TCP?\", \"back\": \"UDP has a small 8-byte header compared to TCP's minimum 20-byte header.\"}, {\"front\": \"Why is UDP used for applications like online gaming and VoIP?\", \"back\": \"UDP is faster and has lower latency because speed matters more than perfect reliability for these applications.\"}]}",
+  "parsed": {
+    "flashcards": [
+      {
+        "front": "What type of connection setup does TCP use?",
+        "back": "TCP is connection-oriented and sets up a connection with a three-way handshake involving SYN, SYN-ACK, and ACK."
+      },
+      {
+        "front": "How does TCP guarantee reliable and in-order delivery?",
+        "back": "TCP uses sequence numbers, acknowledgements, and retransmission to guarantee reliable, in-order delivery."
+      },
+      {
+        "front": "What protocols use TCP?",
+        "back": "TCP is used by HTTP/HTTPS, email via SMTP, and file transfer using FTP."
+      },
+      {
+        "front": "What is the header size of UDP compared to TCP?",
+        "back": "UDP has a small 8-byte header compared to TCP's minimum 20-byte header."
+      },
+      {
+        "front": "Why is UDP used for applications like online gaming and VoIP?",
+        "back": "UDP is faster and has lower latency because speed matters more than perfect reliability for these applications."
+      }
+    ]
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.36,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 123,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

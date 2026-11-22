@@ -1,0 +1,77 @@
+{
+  "mode": "quiz",
+  "version": "v2",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 25,
+  "mock": false,
+  "raw": "{\"questions\": [{\"question\": \"How many litres of milk are on the Sunday shopping list?\", \"options\": {\"A\": \"1 litre\", \"B\": \"2 litres\", \"C\": \"3 litres\", \"D\": \"4 litres\"}, \"answer\": \"B\", \"explanation\": \"The notes explicitly state to buy 2 litres of milk.\"}, {\"question\": \"What quantity of onions is required according to the notes?\", \"options\": {\"A\": \"1 kg\", \"B\": \"2 kg\", \"C\": \"500 grams\", \"D\": \"Not specified\"}, \"answer\": \"A\", \"explanation\": \"The shopping list specifies 1 kg of onions.\"}, {\"question\": \"Which of the following items has a specific count of 4 mentioned in the notes?\", \"options\": {\"A\": \"Eggs\", \"B\": \"Tomatoes\", \"C\": \"Maggi\", \"D\": \"Bread\"}, \"answer\": \"C\", \"explanation\": \"The notes list Maggi x4, indicating a quantity of four.\"}, {\"question\": \"At what time should the plumber be called based on the notes?\", \"options\": {\"A\": \"4\", \"B\": \"5\", \"C\": \"6\", \"D\": \"7\"}, \"answer\": \"B\", \"explanation\": \"The notes state to call the plumber at 5.\"}, {\"question\": \"Which task involves a utility payment on the list?\", \"options\": {\"A\": \"Pay water bill\", \"B\": \"Pay electricity bill\", \"C\": \"Pay gas bill\", \"D\": \"Pay internet bill\"}, \"answer\": \"B\", \"explanation\": \"The list includes the task to pay electricity bill.\"}]}",
+  "parsed": {
+    "questions": [
+      {
+        "question": "How many litres of milk are on the Sunday shopping list?",
+        "options": {
+          "A": "1 litre",
+          "B": "2 litres",
+          "C": "3 litres",
+          "D": "4 litres"
+        },
+        "answer": "B",
+        "explanation": "The notes explicitly state to buy 2 litres of milk."
+      },
+      {
+        "question": "What quantity of onions is required according to the notes?",
+        "options": {
+          "A": "1 kg",
+          "B": "2 kg",
+          "C": "500 grams",
+          "D": "Not specified"
+        },
+        "answer": "A",
+        "explanation": "The shopping list specifies 1 kg of onions."
+      },
+      {
+        "question": "Which of the following items has a specific count of 4 mentioned in the notes?",
+        "options": {
+          "A": "Eggs",
+          "B": "Tomatoes",
+          "C": "Maggi",
+          "D": "Bread"
+        },
+        "answer": "C",
+        "explanation": "The notes list Maggi x4, indicating a quantity of four."
+      },
+      {
+        "question": "At what time should the plumber be called based on the notes?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "answer": "B",
+        "explanation": "The notes state to call the plumber at 5."
+      },
+      {
+        "question": "Which task involves a utility payment on the list?",
+        "options": {
+          "A": "Pay water bill",
+          "B": "Pay electricity bill",
+          "C": "Pay gas bill",
+          "D": "Pay internet bill"
+        },
+        "answer": "B",
+        "explanation": "The list includes the task to pay electricity bill."
+      }
+    ]
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 8.14,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 185,
+  "note": "grocery",
+  "kind": "invalid"
+}

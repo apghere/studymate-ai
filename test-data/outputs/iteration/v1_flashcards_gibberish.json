@@ -1,0 +1,21 @@
+{
+  "mode": "flashcards",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 11,
+  "mock": false,
+  "raw": "Here are the flashcards based on the text provided:\n\n**Flashcard 1**\n* **Front:** What are the first letters?\n* **Back:** asdkjh\n\n**Flashcard 2**\n* **Front:** What follows \"asdkjh\"?\n* **Back:** qweoiu\n\n**Flashcard 3**\n* **Front:** What comes after \"qweoiu\"?\n* **Back:** zxmcnb\n\n**Flashcard 4**\n* **Front:** What is the middle section of letters?\n* **Back:** lkjhg poiuy mnbvc\n\n**Flashcard 5**\n* **Front:** What numbers are included in the text?\n* **Back:** 12345\n\n**Flashcard 6**\n* **Front:** What punctuation marks are used?\n* **Back:** !!! ,,,\n\n**Flashcard 7**\n* **Front:** What are the final characters?\n* **Back:** qwerty asdf",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 8.75,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 98,
+  "note": "gibberish",
+  "kind": "invalid"
+}

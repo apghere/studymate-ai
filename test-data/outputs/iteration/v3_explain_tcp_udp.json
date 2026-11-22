@@ -1,0 +1,41 @@
+{
+  "mode": "explain",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 98,
+  "mock": false,
+  "raw": "{\"explanation\": \"Data traveling across a network can use one of two main protocols: TCP or UDP. TCP is like a certified mail service. It sets up a connection first using a three-way handshake. It makes sure every single piece of data arrives safely and in the right order. It also controls the speed to avoid overloading the network. We use TCP for web browsing, email, and file transfers where accuracy is vital. UDP is more like dropping a postcard in the mail. It is connectionless, meaning it sends data straight away without checking if the receiver is ready. It does not promise that data will arrive or stay in order. However, it has a smaller header and is much faster with lower latency. This makes UDP ideal for video streaming, online gaming, and voice calls, where speed is more important than a lost packet.\", \"analogy\": \"TCP is like a phone call where you say hello and wait for a reply before talking, while UDP is like shouting a message across a room hoping the other person hears it.\", \"key_terms\": [{\"term\": \"TCP\", \"meaning\": \"A connection-oriented protocol that guarantees reliable and in-order delivery of data.\"}, {\"term\": \"Three-way handshake\", \"meaning\": \"The process of SYN, SYN-ACK, and ACK used by TCP to set up a connection.\"}, {\"term\": \"UDP\", \"meaning\": \"A connectionless, fast protocol that does not guarantee delivery or order.\"}, {\"term\": \"Flow control\", \"meaning\": \"Mechanisms like a sliding window used to manage the rate of data transmission.\"}], \"warnings\": []}",
+  "parsed": {
+    "explanation": "Data traveling across a network can use one of two main protocols: TCP or UDP. TCP is like a certified mail service. It sets up a connection first using a three-way handshake. It makes sure every single piece of data arrives safely and in the right order. It also controls the speed to avoid overloading the network. We use TCP for web browsing, email, and file transfers where accuracy is vital. UDP is more like dropping a postcard in the mail. It is connectionless, meaning it sends data straight away without checking if the receiver is ready. It does not promise that data will arrive or stay in order. However, it has a smaller header and is much faster with lower latency. This makes UDP ideal for video streaming, online gaming, and voice calls, where speed is more important than a lost packet.",
+    "analogy": "TCP is like a phone call where you say hello and wait for a reply before talking, while UDP is like shouting a message across a room hoping the other person hears it.",
+    "key_terms": [
+      {
+        "term": "TCP",
+        "meaning": "A connection-oriented protocol that guarantees reliable and in-order delivery of data."
+      },
+      {
+        "term": "Three-way handshake",
+        "meaning": "The process of SYN, SYN-ACK, and ACK used by TCP to set up a connection."
+      },
+      {
+        "term": "UDP",
+        "meaning": "A connectionless, fast protocol that does not guarantee delivery or order."
+      },
+      {
+        "term": "Flow control",
+        "meaning": "Mechanisms like a sliding window used to manage the rate of data transmission."
+      }
+    ],
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 2.12,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 245,
+  "note": "tcp_udp",
+  "kind": "normal"
+}

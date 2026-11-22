@@ -1,0 +1,21 @@
+{
+  "mode": "quiz",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "{\"questions\": [{\"question\": \"Where does photosynthesis mainly take place in leaf cells?\", \"options\": {\"A\": \"Mitochondria\", \"B\": \"Chloroplasts\", \"C\": \"Nucleus\", \"D\": \"Ribosomes\"}, \"answer\": \"B\", \"explanation\": \"Photosynthesis takes place mainly in the chloroplasts of leaf cells, which contain chlorophyll.\"}, {\"question\": \"What is produced during the light-dependent reactions of photosynthesis?\", \"options\": {\"A\": \"Glucose and oxygen\", \"B\": \"Carbon dioxide and water\", \"C\": \"ATP and NADPH\", \"D\": \"RuBisCO and starch\"}, \"answer\": \"C\", \"explanation\": \"The light-dependent reactions produce ATP and NADPH along with releasing oxygen.\"}, {\"question\": \"In which part of the chloroplast do the light-independent reactions (Calvin cycle) occur?\", \"options\": {\"A\": \"Stroma\", \"B\": \"Thylakoid membranes\", \"C\": \"Outer membrane\", \"D\": \"Inner membrane\"}, \"answer\": \"A\", \"explanation\": \"The light-independent reactions occur in the stroma of the chloroplast.\"}, {\"question\": \"Which enzyme fixes carbon dioxide during the Calvin cycle?\", \"options\": {\"A\": \"Amylase\", \"B\": \"ATP synthase\", \"C\": \"RNA polymerase\", \"D\": \"RuBisCO\"}, \"answer\": \"D\", \"explanation\": \"Carbon dioxide is fixed by the enzyme RuBisCO during the light-independent reactions.\"}, {\"question\": \"Which of the following factors affects the rate of photosynthesis?\", \"options\": {\"A\": \"Nitrogen concentration\", \"B\": \"Light intensity\", \"C\": \"Oxygen concentration\", \"D\": \"Soil pH\"}, \"answer\": \"B\", \"explanation\": \"Light intensity is listed as a factor that affects the rate of photosynthesis along with carbon dioxide and temperature.\"}, \"warnings\": []}",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 1.7,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 201,
+  "note": "photosynthesis",
+  "kind": "normal"
+}

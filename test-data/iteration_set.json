@@ -1,0 +1,24 @@
+{
+  "notes": [
+    "photosynthesis",
+    "tcp_udp",
+    "normalization"
+  ],
+  "modes": [
+    "explain",
+    "summarize",
+    "flashcards",
+    "quiz"
+  ],
+  "count": 5,
+  "invalid_probes": [
+    {
+      "mode": "flashcards",
+      "notes": "gibberish"
+    },
+    {
+      "mode": "quiz",
+      "notes": "grocery"
+    }
+  ]
+}

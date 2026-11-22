@@ -1,0 +1,49 @@
+{
+  "mode": "explain",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "{\"explanation\": \"Normalization helps you organize a database. It reduces duplicate data and stops errors when you add, update, or delete records. First Normal Form (1NF) means each table cell holds only one indivisible value. Second Normal Form (2NF) builds on 1NF by removing partial dependencies, which only matters if your primary key has multiple columns. Third Normal Form (3NF) removes transitive dependencies so non-key attributes do not depend on other non-key attributes. Boyce-Codd Normal Form (BCNF) is a stricter version of 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some duplicate data to make read operations faster, even though it uses more storage.\", \"analogy\": \"Organizing a messy filing cabinet into tidy folders so that you never have to write the same address on five different papers.\", \"key_terms\": [{\"term\": \"Normalization\", \"meaning\": \"Organizing a database to reduce redundancy and anomalies.\"}, {\"term\": \"1NF\", \"meaning\": \"Ensures every attribute holds atomic values with no repeating groups.\"}, {\"term\": \"2NF\", \"meaning\": \"Ensures the table is in 1NF and has no partial dependencies.\"}, {\"term\": \"3NF\", \"meaning\": \"Ensures the table is in 2NF and has no transitive dependencies.\"}, {\"term\": \"BCNF\", \"meaning\": \"A stricter version of 3NF where every determinant must be a super key.\"}, {\"term\": \"Denormalization\", \"meaning\": \"Adding redundancy on purpose to speed up read-heavy queries.\"}], \"warnings\": []}",
+  "parsed": {
+    "explanation": "Normalization helps you organize a database. It reduces duplicate data and stops errors when you add, update, or delete records. First Normal Form (1NF) means each table cell holds only one indivisible value. Second Normal Form (2NF) builds on 1NF by removing partial dependencies, which only matters if your primary key has multiple columns. Third Normal Form (3NF) removes transitive dependencies so non-key attributes do not depend on other non-key attributes. Boyce-Codd Normal Form (BCNF) is a stricter version of 3NF where every determinant must be a super key. Sometimes, people use denormalization on purpose. This adds back some duplicate data to make read operations faster, even though it uses more storage.",
+    "analogy": "Organizing a messy filing cabinet into tidy folders so that you never have to write the same address on five different papers.",
+    "key_terms": [
+      {
+        "term": "Normalization",
+        "meaning": "Organizing a database to reduce redundancy and anomalies."
+      },
+      {
+        "term": "1NF",
+        "meaning": "Ensures every attribute holds atomic values with no repeating groups."
+      },
+      {
+        "term": "2NF",
+        "meaning": "Ensures the table is in 1NF and has no partial dependencies."
+      },
+      {
+        "term": "3NF",
+        "meaning": "Ensures the table is in 2NF and has no transitive dependencies."
+      },
+      {
+        "term": "BCNF",
+        "meaning": "A stricter version of 3NF where every determinant must be a super key."
+      },
+      {
+        "term": "Denormalization",
+        "meaning": "Adding redundancy on purpose to speed up read-heavy queries."
+      }
+    ],
+    "warnings": []
+  },
+  "json_how": "clean",
+  "issues": [],
+  "error_msg": null,
+  "latency": 1.8,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 219,
+  "note": "normalization",
+  "kind": "normal"
+}

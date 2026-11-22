@@ -1,0 +1,6 @@
+CPU scheduling decides which process in the ready queue gets the CPU next. Goals: maximise CPU utilisation and throughput, minimise turnaround time, waiting time and response time.
+FCFS (First Come First Served): non-preemptive, simple queue. Problem: convoy effect, short jobs wait behind a long job.
+SJF (Shortest Job First): picks the process with the smallest burst time. Gives minimum average waiting time but needs burst time in advance; can cause starvation of long jobs. Preemptive version is SRTF (Shortest Remaining Time First).
+Priority scheduling: each process has a priority; lowest number = highest priority in many systems. Starvation is solved by aging (slowly increasing priority of waiting processes).
+Round Robin: each process gets a fixed time quantum, then goes to the back of the queue. Good response time for time-sharing systems. If quantum is too large it behaves like FCFS; too small causes too many context switches.
+Multilevel queue: separate queues for foreground (interactive) and background (batch) processes, each with its own algorithm.

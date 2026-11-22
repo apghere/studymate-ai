@@ -1,0 +1,73 @@
+{
+  "id": "T06",
+  "type": "Normal",
+  "mode": "quiz",
+  "notes": "tcp_udp",
+  "count": 3,
+  "short": "Quiz (3): TCP vs UDP (networks)",
+  "expected": "Exactly 3 MCQs on TCP/UDP with valid answer key",
+  "checks": {
+    "expect": "valid",
+    "keywords_any": [
+      "tcp",
+      "udp"
+    ]
+  },
+  "result": {
+    "mode": "quiz",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 3,
+    "input_words": 98,
+    "mock": false,
+    "raw": "{\"questions\": [{\"question\": \"Which protocol establishes a connection using a three-way handshake?\", \"options\": {\"A\": \"UDP\", \"B\": \"TCP\", \"C\": \"IP\", \"D\": \"FTP\"}, \"answer\": \"B\", \"explanation\": \"TCP is connection-oriented and sets up a connection using a three-way handshake: SYN, SYN-ACK, ACK.\"}, {\"question\": \"Why is UDP faster than TCP for applications like video streaming?\", \"options\": {\"A\": \"It is connectionless with no handshake and has lower latency\", \"B\": \"It uses a larger 20-byte header\", \"C\": \"It guarantees in-order delivery of packets\", \"D\": \"It provides built-in congestion control\"}, \"answer\": \"A\", \"explanation\": \"UDP is connectionless, has no handshake, no delivery guarantees, and a small header, making it faster.\"}, {\"question\": \"What is the minimum header size of a TCP segment?\", \"options\": {\"A\": \"8 bytes\", \"B\": \"16 bytes\", \"C\": \"20 bytes\", \"D\": \"32 bytes\"}, \"answer\": \"C\", \"explanation\": \"TCP has a minimum 20-byte header compared to UDP's small 8-byte header.\"}], \"warnings\": []}",
+    "parsed": {
+      "questions": [
+        {
+          "question": "Which protocol establishes a connection using a three-way handshake?",
+          "options": {
+            "A": "UDP",
+            "B": "TCP",
+            "C": "IP",
+            "D": "FTP"
+          },
+          "answer": "B",
+          "explanation": "TCP is connection-oriented and sets up a connection using a three-way handshake: SYN, SYN-ACK, ACK."
+        },
+        {
+          "question": "Why is UDP faster than TCP for applications like video streaming?",
+          "options": {
+            "A": "It is connectionless with no handshake and has lower latency",
+            "B": "It uses a larger 20-byte header",
+            "C": "It guarantees in-order delivery of packets",
+            "D": "It provides built-in congestion control"
+          },
+          "answer": "A",
+          "explanation": "UDP is connectionless, has no handshake, no delivery guarantees, and a small header, making it faster."
+        },
+        {
+          "question": "What is the minimum header size of a TCP segment?",
+          "options": {
+            "A": "8 bytes",
+            "B": "16 bytes",
+            "C": "20 bytes",
+            "D": "32 bytes"
+          },
+          "answer": "C",
+          "explanation": "TCP has a minimum 20-byte header compared to UDP's small 8-byte header."
+        }
+      ],
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 2.2,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 142
+  },
+  "actual": "3 MCQs, answer key BAC",
+  "pass": true,
+  "fail_reasons": []
+}

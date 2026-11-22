@@ -1,0 +1,23 @@
+{
+  "mode": "flashcards",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 11,
+  "mock": false,
+  "raw": "{\"error\": \"Please paste actual study notes instead of random characters.\"}",
+  "parsed": {
+    "error": "Please paste actual study notes instead of random characters."
+  },
+  "json_how": "clean",
+  "issues": [
+    "error_returned"
+  ],
+  "error_msg": "Please paste actual study notes instead of random characters.",
+  "latency": 0.78,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 10,
+  "note": "gibberish",
+  "kind": "invalid"
+}

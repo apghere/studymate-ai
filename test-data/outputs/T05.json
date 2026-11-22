@@ -1,0 +1,60 @@
+{
+  "id": "T05",
+  "type": "Normal",
+  "mode": "explain",
+  "notes": "recursion",
+  "count": 5,
+  "short": "Explain: recursion notes (CS)",
+  "expected": "Valid explanation mentioning base case and call stack",
+  "checks": {
+    "expect": "valid",
+    "keywords_all": [
+      "base case"
+    ],
+    "keywords_any": [
+      "stack"
+    ]
+  },
+  "result": {
+    "mode": "explain",
+    "version": "final",
+    "level": "undergraduate",
+    "count": 5,
+    "input_words": 117,
+    "mock": false,
+    "raw": "{\n  \"explanation\": \"Recursion happens when a function calls itself. This helps solve smaller parts of the same problem. A recursive function must have two main parts. The base case stops the recursion. The recursive case moves the function closer to the base case. For example, finding a factorial uses this method. Each call goes onto the call stack. Without a base case, the stack grows until it causes a stack overflow error. Recursion works well for trees, divide and conquer methods like merge sort and quick sort, and backtracking. You can also rewrite any recursive solution using iteration and an explicit stack. Tail recursion is when the recursive call is the very last step. Some compilers optimize tail recursion to use constant stack space.\",\n  \"analogy\": \"Matryoshka nesting dolls: to find the smallest doll, you open each doll one by one until you reach the solid innermost doll, which acts as the base case.\",\n  \"key_terms\": [\n    {\n      \"term\": \"Recursion\",\n      \"meaning\": \"A process where a function calls itself to solve a smaller problem.\"\n    },\n    {\n      \"term\": \"Base case\",\n      \"meaning\": \"The condition that stops the recursion.\"\n    },\n    {\n      \"term\": \"Call stack\",\n      \"meaning\": \"The memory structure that tracks active function calls.\"\n    },\n    {\n      \"term\": \"Tail recursion\",\n      \"meaning\": \"When the recursive call is the final operation in the function.\"\n    }\n  ],\n  \"warnings\": []\n}",
+    "parsed": {
+      "explanation": "Recursion happens when a function calls itself. This helps solve smaller parts of the same problem. A recursive function must have two main parts. The base case stops the recursion. The recursive case moves the function closer to the base case. For example, finding a factorial uses this method. Each call goes onto the call stack. Without a base case, the stack grows until it causes a stack overflow error. Recursion works well for trees, divide and conquer methods like merge sort and quick sort, and backtracking. You can also rewrite any recursive solution using iteration and an explicit stack. Tail recursion is when the recursive call is the very last step. Some compilers optimize tail recursion to use constant stack space.",
+      "analogy": "Matryoshka nesting dolls: to find the smallest doll, you open each doll one by one until you reach the solid innermost doll, which acts as the base case.",
+      "key_terms": [
+        {
+          "term": "Recursion",
+          "meaning": "A process where a function calls itself to solve a smaller problem."
+        },
+        {
+          "term": "Base case",
+          "meaning": "The condition that stops the recursion."
+        },
+        {
+          "term": "Call stack",
+          "meaning": "The memory structure that tracks active function calls."
+        },
+        {
+          "term": "Tail recursion",
+          "meaning": "When the recursive call is the final operation in the function."
+        }
+      ],
+      "warnings": []
+    },
+    "json_how": "clean",
+    "issues": [],
+    "error_msg": null,
+    "latency": 6.2,
+    "model": "gemini-3.5-flash-lite",
+    "truncated": false,
+    "output_words": 219
+  },
+  "actual": "122-word explanation, 4 key terms",
+  "pass": true,
+  "fail_reasons": []
+}

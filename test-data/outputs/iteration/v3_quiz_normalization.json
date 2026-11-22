@@ -1,0 +1,77 @@
+{
+  "mode": "quiz",
+  "version": "v3",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 126,
+  "mock": false,
+  "raw": "{\"questions\": [{\"question\": \"What is the primary goal of database normalization?\", \"options\": {\"A\": \"To speed up read-heavy queries\", \"B\": \"To reduce redundancy and avoid anomalies\", \"C\": \"To increase data storage requirements\", \"D\": \"To eliminate the need for primary keys\"}, \"answer\": \"B\", \"explanation\": \"Normalization organizes the database specifically to minimize redundancy and prevent update, insert, and delete anomalies.\"}, {\"question\": \"Which normal form requires every attribute to hold atomic values and removes repeating groups?\", \"options\": {\"A\": \"First Normal Form (1NF)\", \"B\": \"Second Normal Form (2NF)\", \"C\": \"Third Normal Form (3NF)\", \"D\": \"Boyce-Codd Normal Form (BCNF)\"}, \"answer\": \"A\", \"explanation\": \"1NF focuses on ensuring that every attribute holds atomic, indivisible values with no repeating groups.\"}, {\"question\": \"When does Second Normal Form (2NF) specifically become relevant for a table?\", \"options\": {\"A\": \"When the table has no primary key\", \"B\": \"When the primary key is composite\", \"C\": \"When there are transitive dependencies\", \"D\": \"When read-heavy queries need to be faster\"}, \"answer\": \"B\", \"explanation\": \"2NF matters only when the primary key is composite, ensuring no non-key attributes have partial dependencies.\"}, {\"question\": \"What condition must be met for a table to satisfy Third Normal Form (3NF)?\", \"options\": {\"A\": \"It must be in 1NF and have no composite keys\", \"B\": \"It must be in 2NF and have no transitive dependencies\", \"C\": \"Every functional dependency X to Y must have X as a super key\", \"D\": \"It must allow non-key attributes to depend on other non-key attributes\"}, \"answer\": \"B\", \"explanation\": \"3NF requires the table to be in 2NF and strictly forbids any transitive dependencies among non-key attributes.\"}, {\"question\": \"Why might a database designer choose to use denormalization?\", \"options\": {\"A\": \"To eliminate all database redundancy\", \"B\": \"To strictly enforce Boyce-Codd Normal Form\", \"C\": \"To speed up read-heavy queries\", \"D\": \"To prevent insert and delete anomalies\"}, \"answer\": \"C\", \"explanation\": \"Denormalization is intentionally used to speed up read-heavy queries, accepting extra storage and redundancy as trade-offs.\"}, \"warnings\": []}]}",
+  "parsed": {
+    "questions": [
+      {
+        "question": "What is the primary goal of database normalization?",
+        "options": {
+          "A": "To speed up read-heavy queries",
+          "B": "To reduce redundancy and avoid anomalies",
+          "C": "To increase data storage requirements",
+          "D": "To eliminate the need for primary keys"
+        },
+        "answer": "B",
+        "explanation": "Normalization organizes the database specifically to minimize redundancy and prevent update, insert, and delete anomalies."
+      },
+      {
+        "question": "Which normal form requires every attribute to hold atomic values and removes repeating groups?",
+        "options": {
+          "A": "First Normal Form (1NF)",
+          "B": "Second Normal Form (2NF)",
+          "C": "Third Normal Form (3NF)",
+          "D": "Boyce-Codd Normal Form (BCNF)"
+        },
+        "answer": "A",
+        "explanation": "1NF focuses on ensuring that every attribute holds atomic, indivisible values with no repeating groups."
+      },
+      {
+        "question": "When does Second Normal Form (2NF) specifically become relevant for a table?",
+        "options": {
+          "A": "When the table has no primary key",
+          "B": "When the primary key is composite",
+          "C": "When there are transitive dependencies",
+          "D": "When read-heavy queries need to be faster"
+        },
+        "answer": "B",
+        "explanation": "2NF matters only when the primary key is composite, ensuring no non-key attributes have partial dependencies."
+      },
+      {
+        "question": "What condition must be met for a table to satisfy Third Normal Form (3NF)?",
+        "options": {
+          "A": "It must be in 1NF and have no composite keys",
+          "B": "It must be in 2NF and have no transitive dependencies",
+          "C": "Every functional dependency X to Y must have X as a super key",
+          "D": "It must allow non-key attributes to depend on other non-key attributes"
+        },
+        "answer": "B",
+        "explanation": "3NF requires the table to be in 2NF and strictly forbids any transitive dependencies among non-key attributes."
+      },
+      {
+        "question": "Why might a database designer choose to use denormalization?",
+        "options": {
+          "A": "To eliminate all database redundancy",
+          "B": "To strictly enforce Boyce-Codd Normal Form",
+          "C": "To speed up read-heavy queries",
+          "D": "To prevent insert and delete anomalies"
+        },
+        "answer": "C",
+        "explanation": "Denormalization is intentionally used to speed up read-heavy queries, accepting extra storage and redundancy as trade-offs."
+      }
+    ]
+  },
+  "json_how": "repaired",
+  "issues": [],
+  "error_msg": null,
+  "latency": 2.16,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 314,
+  "note": "normalization",
+  "kind": "normal"
+}

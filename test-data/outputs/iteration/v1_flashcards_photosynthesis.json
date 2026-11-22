@@ -1,0 +1,21 @@
+{
+  "mode": "flashcards",
+  "version": "v1",
+  "level": "undergraduate",
+  "count": 5,
+  "input_words": 111,
+  "mock": false,
+  "raw": "Here are the flashcards based on the text provided, formatted as **Front / Back**:\n\n**Flashcard 1**\n* **Front:** What is photosynthesis?\n* **Back:** The process by which green plants make their own food using light energy.\n\n**Flashcard 2**\n* **Front:** Where does photosynthesis mainly take place?\n* **Back:** In the chloroplasts of leaf cells.\n\n**Flashcard 3**\n* **Front:** What is the green pigment found in chloroplasts called?\n* **Back:** Chlorophyll\n\n**Flashcard 4**\n* **Front:** What is the overall chemical equation for photosynthesis?\n* **Back:** $6CO_2 + 6H_2O + \\text{light energy} \\rightarrow C_6H_{12}O_6 + 6O_2$\n\n**Flashcard 5**\n* **Front:** What are the two main stages of photosynthesis?\n* **Back:** \n1. Light-dependent reactions\n2. Light-independent reactions (Calvin cycle)\n\n**Flashcard 6**\n* **Front:** Where do the light-dependent reactions occur?\n* **Back:** In the thylakoid membranes\n\n**Flashcard 7**\n* **Front:** What happens during the light-dependent reactions?\n* **Back:** Light splits water (photolysis), oxygen is released, and ATP and NADPH are produced.\n\n**Flashcard 8**\n* **Front:** What is photolysis?\n* **Back:** The splitting of water using light energy (which occurs during the light-dependent reactions).\n\n**Flashcard 9**\n* **Front:** Where do the light-independent reactions (Calvin cycle) occur?\n* **Back:** In the stroma\n\n**Flashcard 10**\n* **Front:** What happens during the light-independent reactions (Calvin cycle)?\n* **Back:** Carbon dioxide is fixed by the enzyme RuBisCO and, using ATP and NADPH, converted into glucose.\n\n**Flashcard 11**\n* **Front:** Which enzyme is responsible for fixing carbon dioxide in the Calvin cycle?\n* **Back:** RuBisCO\n\n**Flashcard 12**\n* **Front:** What are the three main factors that affect the rate of photosynthesis?\n* **Back:** \n1. Light intensity\n2. Carbon dioxide concentration\n3. Temperature",
+  "parsed": null,
+  "json_how": null,
+  "issues": [
+    "no parseable JSON"
+  ],
+  "error_msg": null,
+  "latency": 10.99,
+  "model": "gemini-3.5-flash-lite",
+  "truncated": false,
+  "output_words": 272,
+  "note": "photosynthesis",
+  "kind": "normal"
+}
